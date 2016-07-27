@@ -1,0 +1,35 @@
+
+Production 6840 has the following parameters:
+    Type               : MCReconstruction_Overlay
+    LongDescription    : ILD_o1_v05, Overlay, _4f_sze_l_20160710_01__ildconfig-v01-16-p05_500
+    TransformationGroup: ILD-DBD_4f_singleZee_leptonic_500.0
+    Status             : Stopped
+    Plugin             : Standard
+    TransformationName : 250035_500.0_ild_rec_overlay_4f_sze_l_20160710_01__ildconfig-v01-16-p05_500
+    AuthorDN           : /C=JP/O=KEK/OU=CRC/CN=Akiya Miyamoto
+    InputDataQuery     : {'Datatype': 'SIM', 'Energy': '500', 'MachineParams': 'TDR_ws', 'Machine': 'ilc', 'DetectorModel': 'ILD_o1_v05', 'ProdID': 6836}
+    GGtoHadInt      : 1.7
+    BXOverlay       : 1
+    ILDConfigVersion: v01-16-p05_500
+    SoftwareTag     : OverlayInput.1;marlin.v01-16-02
+    detectorModel   : ILD_o1_v05
+
+The files created by this production have the following metadata:
+    Machine       : ilc
+    Energy        : 500 GeV
+    MachineParams : TDR_ws
+    EvtClass      : 4f_singleZee_leptonic
+    ProcessID     : 250035
+    GenProcessID  : 250035
+    EvtType       : 4f_singleZee_leptonic
+    BeamParticle1 : e1
+    BeamParticle2 : E1
+    Datatype      : Reconstructed Sample
+    SoftwareTag   : v01-14-01-p00
+    ILDConfig     : v01-16-p05_500
+    DetectorModel : ILD_o1_v05
+    NumberOfEvents: 1001
+    CrossSection  : 6985.0 fb+/-27.5fb
+Remaining file metadata: {'GenProcessName': '4f_sze_l', 'GenProcessType': '4f_singleZee_leptonic', 'PolarizationB1': 'R', 'PolarizationB2': 'R'}
+It's possible that some meta data was not brought back,
+in particular file level metadata, so check some individual files 

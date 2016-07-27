@@ -1,0 +1,660 @@
+{'Failed': {},
+ 'Successful': {'/ilc/prod/ilc/mc-dbd/ild/sim/500-TDR_ws/4f_singleZee_leptonic/ILD_o1_v05/v01-14-01-p00/00006835/001/sv01-14-01-p00.mILD_o1_v05.E500-TDR_ws.I250034.P4f_sze_l.eL.pR_sim_6835_1000.slcio': {'register': 1.7020468711853027,
+                                                                                                                                                                                                           'replicate': 55.980170011520386}}}
+{'Failed': {},
+ 'Successful': {'/ilc/prod/ilc/mc-dbd/ild/sim/500-TDR_ws/4f_singleZee_leptonic/ILD_o1_v05/v01-14-01-p00/00006835/001/sv01-14-01-p00.mILD_o1_v05.E500-TDR_ws.I250034.P4f_sze_l.eL.pR_sim_6835_1001.slcio': {'register': 1.3747360706329346,
+                                                                                                                                                                                                           'replicate': 30.639361143112183}}}
+{'Failed': {},
+ 'Successful': {'/ilc/prod/ilc/mc-dbd/ild/sim/500-TDR_ws/4f_singleZee_leptonic/ILD_o1_v05/v01-14-01-p00/00006835/001/sv01-14-01-p00.mILD_o1_v05.E500-TDR_ws.I250034.P4f_sze_l.eL.pR_sim_6835_1002.slcio': {'register': 1.4124610424041748,
+                                                                                                                                                                                                           'replicate': 28.854041814804077}}}
+{'Failed': {},
+ 'Successful': {'/ilc/prod/ilc/mc-dbd/ild/sim/500-TDR_ws/4f_singleZee_leptonic/ILD_o1_v05/v01-14-01-p00/00006835/001/sv01-14-01-p00.mILD_o1_v05.E500-TDR_ws.I250034.P4f_sze_l.eL.pR_sim_6835_1003.slcio': {'register': 1.3238651752471924,
+                                                                                                                                                                                                           'replicate': 28.654155015945435}}}
+{'Failed': {},
+ 'Successful': {'/ilc/prod/ilc/mc-dbd/ild/sim/500-TDR_ws/4f_singleZee_leptonic/ILD_o1_v05/v01-14-01-p00/00006835/001/sv01-14-01-p00.mILD_o1_v05.E500-TDR_ws.I250034.P4f_sze_l.eL.pR_sim_6835_1004.slcio': {'register': 1.3315520286560059,
+                                                                                                                                                                                                           'replicate': 41.483306884765625}}}
+{'Failed': {},
+ 'Successful': {'/ilc/prod/ilc/mc-dbd/ild/sim/500-TDR_ws/4f_singleZee_leptonic/ILD_o1_v05/v01-14-01-p00/00006835/001/sv01-14-01-p00.mILD_o1_v05.E500-TDR_ws.I250034.P4f_sze_l.eL.pR_sim_6835_1005.slcio': {'register': 1.4602489471435547,
+                                                                                                                                                                                                           'replicate': 28.940628051757812}}}
+{'Failed': {},
+ 'Successful': {'/ilc/prod/ilc/mc-dbd/ild/sim/500-TDR_ws/4f_singleZee_leptonic/ILD_o1_v05/v01-14-01-p00/00006835/001/sv01-14-01-p00.mILD_o1_v05.E500-TDR_ws.I250034.P4f_sze_l.eL.pR_sim_6835_1006.slcio': {'register': 1.922942876815796,
+                                                                                                                                                                                                           'replicate': 27.50050711631775}}}
+{'Failed': {},
+ 'Successful': {'/ilc/prod/ilc/mc-dbd/ild/sim/500-TDR_ws/4f_singleZee_leptonic/ILD_o1_v05/v01-14-01-p00/00006835/001/sv01-14-01-p00.mILD_o1_v05.E500-TDR_ws.I250034.P4f_sze_l.eL.pR_sim_6835_1007.slcio': {'register': 1.3244590759277344,
+                                                                                                                                                                                                           'replicate': 29.26897692680359}}}
+{'Failed': {},
+ 'Successful': {'/ilc/prod/ilc/mc-dbd/ild/sim/500-TDR_ws/4f_singleZee_leptonic/ILD_o1_v05/v01-14-01-p00/00006835/001/sv01-14-01-p00.mILD_o1_v05.E500-TDR_ws.I250034.P4f_sze_l.eL.pR_sim_6835_1008.slcio': {'register': 1.3676738739013672,
+                                                                                                                                                                                                           'replicate': 50.50782299041748}}}
+{'Failed': {},
+ 'Successful': {'/ilc/prod/ilc/mc-dbd/ild/sim/500-TDR_ws/4f_singleZee_leptonic/ILD_o1_v05/v01-14-01-p00/00006835/001/sv01-14-01-p00.mILD_o1_v05.E500-TDR_ws.I250034.P4f_sze_l.eL.pR_sim_6835_1009.slcio': {'register': 1.357560157775879,
+                                                                                                                                                                                                           'replicate': 59.70720291137695}}}
+{'Failed': {},
+ 'Successful': {'/ilc/prod/ilc/mc-dbd/ild/sim/500-TDR_ws/4f_singleZee_leptonic/ILD_o1_v05/v01-14-01-p00/00006835/001/sv01-14-01-p00.mILD_o1_v05.E500-TDR_ws.I250034.P4f_sze_l.eL.pR_sim_6835_1010.slcio': {'register': 1.3466038703918457,
+                                                                                                                                                                                                           'replicate': 33.30216884613037}}}
+{'Failed': {},
+ 'Successful': {'/ilc/prod/ilc/mc-dbd/ild/sim/500-TDR_ws/4f_singleZee_leptonic/ILD_o1_v05/v01-14-01-p00/00006835/001/sv01-14-01-p00.mILD_o1_v05.E500-TDR_ws.I250034.P4f_sze_l.eL.pR_sim_6835_1011.slcio': {'register': 1.3730080127716064,
+                                                                                                                                                                                                           'replicate': 36.68181800842285}}}
+{'Failed': {},
+ 'Successful': {'/ilc/prod/ilc/mc-dbd/ild/sim/500-TDR_ws/4f_singleZee_leptonic/ILD_o1_v05/v01-14-01-p00/00006835/001/sv01-14-01-p00.mILD_o1_v05.E500-TDR_ws.I250034.P4f_sze_l.eL.pR_sim_6835_1012.slcio': {'register': 1.3635540008544922,
+                                                                                                                                                                                                           'replicate': 31.967396020889282}}}
+{'Failed': {},
+ 'Successful': {'/ilc/prod/ilc/mc-dbd/ild/sim/500-TDR_ws/4f_singleZee_leptonic/ILD_o1_v05/v01-14-01-p00/00006835/001/sv01-14-01-p00.mILD_o1_v05.E500-TDR_ws.I250034.P4f_sze_l.eL.pR_sim_6835_1013.slcio': {'register': 1.373081922531128,
+                                                                                                                                                                                                           'replicate': 30.261295080184937}}}
+{'Failed': {},
+ 'Successful': {'/ilc/prod/ilc/mc-dbd/ild/sim/500-TDR_ws/4f_singleZee_leptonic/ILD_o1_v05/v01-14-01-p00/00006835/001/sv01-14-01-p00.mILD_o1_v05.E500-TDR_ws.I250034.P4f_sze_l.eL.pR_sim_6835_1014.slcio': {'register': 1.3636760711669922,
+                                                                                                                                                                                                           'replicate': 27.759166955947876}}}
+{'Failed': {},
+ 'Successful': {'/ilc/prod/ilc/mc-dbd/ild/sim/500-TDR_ws/4f_singleZee_leptonic/ILD_o1_v05/v01-14-01-p00/00006835/001/sv01-14-01-p00.mILD_o1_v05.E500-TDR_ws.I250034.P4f_sze_l.eL.pR_sim_6835_1015.slcio': {'register': 1.3355929851531982,
+                                                                                                                                                                                                           'replicate': 29.772852897644043}}}
+{'Failed': {},
+ 'Successful': {'/ilc/prod/ilc/mc-dbd/ild/sim/500-TDR_ws/4f_singleZee_leptonic/ILD_o1_v05/v01-14-01-p00/00006835/001/sv01-14-01-p00.mILD_o1_v05.E500-TDR_ws.I250034.P4f_sze_l.eL.pR_sim_6835_1016.slcio': {'register': 1.5203089714050293,
+                                                                                                                                                                                                           'replicate': 41.66392707824707}}}
+{'Failed': {},
+ 'Successful': {'/ilc/prod/ilc/mc-dbd/ild/sim/500-TDR_ws/4f_singleZee_leptonic/ILD_o1_v05/v01-14-01-p00/00006835/001/sv01-14-01-p00.mILD_o1_v05.E500-TDR_ws.I250034.P4f_sze_l.eL.pR_sim_6835_1017.slcio': {'register': 1.5269811153411865,
+                                                                                                                                                                                                           'replicate': 50.43597602844238}}}
+{'Failed': {},
+ 'Successful': {'/ilc/prod/ilc/mc-dbd/ild/sim/500-TDR_ws/4f_singleZee_leptonic/ILD_o1_v05/v01-14-01-p00/00006835/001/sv01-14-01-p00.mILD_o1_v05.E500-TDR_ws.I250034.P4f_sze_l.eL.pR_sim_6835_1018.slcio': {'register': 1.4842438697814941,
+                                                                                                                                                                                                           'replicate': 36.986523151397705}}}
+{'Failed': {},
+ 'Successful': {'/ilc/prod/ilc/mc-dbd/ild/sim/500-TDR_ws/4f_singleZee_leptonic/ILD_o1_v05/v01-14-01-p00/00006835/001/sv01-14-01-p00.mILD_o1_v05.E500-TDR_ws.I250034.P4f_sze_l.eL.pR_sim_6835_1019.slcio': {'register': 1.352895975112915,
+                                                                                                                                                                                                           'replicate': 77.5376889705658}}}
+{'Failed': {},
+ 'Successful': {'/ilc/prod/ilc/mc-dbd/ild/sim/500-TDR_ws/4f_singleZee_leptonic/ILD_o1_v05/v01-14-01-p00/00006835/001/sv01-14-01-p00.mILD_o1_v05.E500-TDR_ws.I250034.P4f_sze_l.eL.pR_sim_6835_1020.slcio': {'register': 1.3277459144592285,
+                                                                                                                                                                                                           'replicate': 71.88173913955688}}}
+{'Failed': {},
+ 'Successful': {'/ilc/prod/ilc/mc-dbd/ild/sim/500-TDR_ws/4f_singleZee_leptonic/ILD_o1_v05/v01-14-01-p00/00006835/001/sv01-14-01-p00.mILD_o1_v05.E500-TDR_ws.I250034.P4f_sze_l.eL.pR_sim_6835_1021.slcio': {'register': 1.3242769241333008,
+                                                                                                                                                                                                           'replicate': 35.6085410118103}}}
+{'Failed': {},
+ 'Successful': {'/ilc/prod/ilc/mc-dbd/ild/sim/500-TDR_ws/4f_singleZee_leptonic/ILD_o1_v05/v01-14-01-p00/00006835/001/sv01-14-01-p00.mILD_o1_v05.E500-TDR_ws.I250034.P4f_sze_l.eL.pR_sim_6835_1022.slcio': {'register': 1.3341729640960693,
+                                                                                                                                                                                                           'replicate': 62.85626697540283}}}
+{'Failed': {},
+ 'Successful': {'/ilc/prod/ilc/mc-dbd/ild/sim/500-TDR_ws/4f_singleZee_leptonic/ILD_o1_v05/v01-14-01-p00/00006835/001/sv01-14-01-p00.mILD_o1_v05.E500-TDR_ws.I250034.P4f_sze_l.eL.pR_sim_6835_1023.slcio': {'register': 1.3609199523925781,
+                                                                                                                                                                                                           'replicate': 28.575634002685547}}}
+{'Failed': {},
+ 'Successful': {'/ilc/prod/ilc/mc-dbd/ild/sim/500-TDR_ws/4f_singleZee_leptonic/ILD_o1_v05/v01-14-01-p00/00006835/001/sv01-14-01-p00.mILD_o1_v05.E500-TDR_ws.I250034.P4f_sze_l.eL.pR_sim_6835_1041.slcio': {'register': 1.3698980808258057,
+                                                                                                                                                                                                           'replicate': 28.67884111404419}}}
+{'Failed': {},
+ 'Successful': {'/ilc/prod/ilc/mc-dbd/ild/sim/500-TDR_ws/4f_singleZee_leptonic/ILD_o1_v05/v01-14-01-p00/00006835/001/sv01-14-01-p00.mILD_o1_v05.E500-TDR_ws.I250034.P4f_sze_l.eL.pR_sim_6835_1043.slcio': {'register': 1.359471082687378,
+                                                                                                                                                                                                           'replicate': 27.58643889427185}}}
+{'Failed': {},
+ 'Successful': {'/ilc/prod/ilc/mc-dbd/ild/sim/500-TDR_ws/4f_singleZee_leptonic/ILD_o1_v05/v01-14-01-p00/00006835/001/sv01-14-01-p00.mILD_o1_v05.E500-TDR_ws.I250034.P4f_sze_l.eL.pR_sim_6835_1044.slcio': {'register': 1.5937409400939941,
+                                                                                                                                                                                                           'replicate': 39.17167091369629}}}
+{'Failed': {},
+ 'Successful': {'/ilc/prod/ilc/mc-dbd/ild/sim/500-TDR_ws/4f_singleZee_leptonic/ILD_o1_v05/v01-14-01-p00/00006835/001/sv01-14-01-p00.mILD_o1_v05.E500-TDR_ws.I250034.P4f_sze_l.eL.pR_sim_6835_1045.slcio': {'register': 1.3920109272003174,
+                                                                                                                                                                                                           'replicate': 30.612322092056274}}}
+{'Failed': {},
+ 'Successful': {'/ilc/prod/ilc/mc-dbd/ild/sim/500-TDR_ws/4f_singleZee_leptonic/ILD_o1_v05/v01-14-01-p00/00006835/001/sv01-14-01-p00.mILD_o1_v05.E500-TDR_ws.I250034.P4f_sze_l.eL.pR_sim_6835_1046.slcio': {'register': 1.3282458782196045,
+                                                                                                                                                                                                           'replicate': 30.71189308166504}}}
+{'Failed': {},
+ 'Successful': {'/ilc/prod/ilc/mc-dbd/ild/sim/500-TDR_ws/4f_singleZee_leptonic/ILD_o1_v05/v01-14-01-p00/00006835/001/sv01-14-01-p00.mILD_o1_v05.E500-TDR_ws.I250034.P4f_sze_l.eL.pR_sim_6835_1048.slcio': {'register': 1.3661398887634277,
+                                                                                                                                                                                                           'replicate': 86.17726993560791}}}
+{'Failed': {},
+ 'Successful': {'/ilc/prod/ilc/mc-dbd/ild/sim/500-TDR_ws/4f_singleZee_leptonic/ILD_o1_v05/v01-14-01-p00/00006835/001/sv01-14-01-p00.mILD_o1_v05.E500-TDR_ws.I250034.P4f_sze_l.eL.pR_sim_6835_1049.slcio': {'register': 1.4185738563537598,
+                                                                                                                                                                                                           'replicate': 45.440755128860474}}}
+{'Failed': {},
+ 'Successful': {'/ilc/prod/ilc/mc-dbd/ild/sim/500-TDR_ws/4f_singleZee_leptonic/ILD_o1_v05/v01-14-01-p00/00006835/001/sv01-14-01-p00.mILD_o1_v05.E500-TDR_ws.I250034.P4f_sze_l.eL.pR_sim_6835_1050.slcio': {'register': 1.336672067642212,
+                                                                                                                                                                                                           'replicate': 49.66416096687317}}}
+{'Failed': {},
+ 'Successful': {'/ilc/prod/ilc/mc-dbd/ild/sim/500-TDR_ws/4f_singleZee_leptonic/ILD_o1_v05/v01-14-01-p00/00006835/001/sv01-14-01-p00.mILD_o1_v05.E500-TDR_ws.I250034.P4f_sze_l.eL.pR_sim_6835_1052.slcio': {'register': 1.330129861831665,
+                                                                                                                                                                                                           'replicate': 40.69058418273926}}}
+{'Failed': {},
+ 'Successful': {'/ilc/prod/ilc/mc-dbd/ild/sim/500-TDR_ws/4f_singleZee_leptonic/ILD_o1_v05/v01-14-01-p00/00006835/001/sv01-14-01-p00.mILD_o1_v05.E500-TDR_ws.I250034.P4f_sze_l.eL.pR_sim_6835_1058.slcio': {'register': 1.3463659286499023,
+                                                                                                                                                                                                           'replicate': 26.722408056259155}}}
+{'Failed': {},
+ 'Successful': {'/ilc/prod/ilc/mc-dbd/ild/sim/500-TDR_ws/4f_singleZee_leptonic/ILD_o1_v05/v01-14-01-p00/00006835/001/sv01-14-01-p00.mILD_o1_v05.E500-TDR_ws.I250034.P4f_sze_l.eL.pR_sim_6835_1060.slcio': {'register': 1.33278489112854,
+                                                                                                                                                                                                           'replicate': 28.569057941436768}}}
+{'Failed': {},
+ 'Successful': {'/ilc/prod/ilc/mc-dbd/ild/sim/500-TDR_ws/4f_singleZee_leptonic/ILD_o1_v05/v01-14-01-p00/00006835/001/sv01-14-01-p00.mILD_o1_v05.E500-TDR_ws.I250034.P4f_sze_l.eL.pR_sim_6835_1061.slcio': {'register': 1.3302710056304932,
+                                                                                                                                                                                                           'replicate': 28.47059202194214}}}
+{'Failed': {},
+ 'Successful': {'/ilc/prod/ilc/mc-dbd/ild/sim/500-TDR_ws/4f_singleZee_leptonic/ILD_o1_v05/v01-14-01-p00/00006835/001/sv01-14-01-p00.mILD_o1_v05.E500-TDR_ws.I250034.P4f_sze_l.eL.pR_sim_6835_1062.slcio': {'register': 1.3289101123809814,
+                                                                                                                                                                                                           'replicate': 28.543605089187622}}}
+{'Failed': {},
+ 'Successful': {'/ilc/prod/ilc/mc-dbd/ild/sim/500-TDR_ws/4f_singleZee_leptonic/ILD_o1_v05/v01-14-01-p00/00006835/001/sv01-14-01-p00.mILD_o1_v05.E500-TDR_ws.I250034.P4f_sze_l.eL.pR_sim_6835_1063.slcio': {'register': 1.8105080127716064,
+                                                                                                                                                                                                           'replicate': 43.344446897506714}}}
+{'Failed': {},
+ 'Successful': {'/ilc/prod/ilc/mc-dbd/ild/sim/500-TDR_ws/4f_singleZee_leptonic/ILD_o1_v05/v01-14-01-p00/00006835/001/sv01-14-01-p00.mILD_o1_v05.E500-TDR_ws.I250034.P4f_sze_l.eL.pR_sim_6835_1064.slcio': {'register': 1.3678631782531738,
+                                                                                                                                                                                                           'replicate': 57.322328090667725}}}
+{'Failed': {},
+ 'Successful': {'/ilc/prod/ilc/mc-dbd/ild/sim/500-TDR_ws/4f_singleZee_leptonic/ILD_o1_v05/v01-14-01-p00/00006835/001/sv01-14-01-p00.mILD_o1_v05.E500-TDR_ws.I250034.P4f_sze_l.eL.pR_sim_6835_1065.slcio': {'register': 1.7256581783294678,
+                                                                                                                                                                                                           'replicate': 61.81510591506958}}}
+{'Failed': {},
+ 'Successful': {'/ilc/prod/ilc/mc-dbd/ild/sim/500-TDR_ws/4f_singleZee_leptonic/ILD_o1_v05/v01-14-01-p00/00006835/001/sv01-14-01-p00.mILD_o1_v05.E500-TDR_ws.I250034.P4f_sze_l.eL.pR_sim_6835_1066.slcio': {'register': 1.3260841369628906,
+                                                                                                                                                                                                           'replicate': 60.96616196632385}}}
+{'Failed': {},
+ 'Successful': {'/ilc/prod/ilc/mc-dbd/ild/sim/500-TDR_ws/4f_singleZee_leptonic/ILD_o1_v05/v01-14-01-p00/00006835/001/sv01-14-01-p00.mILD_o1_v05.E500-TDR_ws.I250034.P4f_sze_l.eL.pR_sim_6835_1068.slcio': {'register': 1.359760046005249,
+                                                                                                                                                                                                           'replicate': 78.40063309669495}}}
+{'Failed': {},
+ 'Successful': {'/ilc/prod/ilc/mc-dbd/ild/sim/500-TDR_ws/4f_singleZee_leptonic/ILD_o1_v05/v01-14-01-p00/00006835/001/sv01-14-01-p00.mILD_o1_v05.E500-TDR_ws.I250034.P4f_sze_l.eL.pR_sim_6835_1069.slcio': {'register': 1.3381750583648682,
+                                                                                                                                                                                                           'replicate': 32.7927131652832}}}
+{'Failed': {},
+ 'Successful': {'/ilc/prod/ilc/mc-dbd/ild/sim/500-TDR_ws/4f_singleZee_leptonic/ILD_o1_v05/v01-14-01-p00/00006835/001/sv01-14-01-p00.mILD_o1_v05.E500-TDR_ws.I250034.P4f_sze_l.eL.pR_sim_6835_1070.slcio': {'register': 1.3693320751190186,
+                                                                                                                                                                                                           'replicate': 29.605048894882202}}}
+{'Failed': {},
+ 'Successful': {'/ilc/prod/ilc/mc-dbd/ild/sim/500-TDR_ws/4f_singleZee_leptonic/ILD_o1_v05/v01-14-01-p00/00006835/001/sv01-14-01-p00.mILD_o1_v05.E500-TDR_ws.I250034.P4f_sze_l.eL.pR_sim_6835_1071.slcio': {'register': 1.8975749015808105,
+                                                                                                                                                                                                           'replicate': 28.418884992599487}}}
+{'Failed': {},
+ 'Successful': {'/ilc/prod/ilc/mc-dbd/ild/sim/500-TDR_ws/4f_singleZee_leptonic/ILD_o1_v05/v01-14-01-p00/00006835/001/sv01-14-01-p00.mILD_o1_v05.E500-TDR_ws.I250034.P4f_sze_l.eL.pR_sim_6835_1072.slcio': {'register': 1.7086207866668701,
+                                                                                                                                                                                                           'replicate': 39.48827385902405}}}
+{'Failed': {},
+ 'Successful': {'/ilc/prod/ilc/mc-dbd/ild/sim/500-TDR_ws/4f_singleZee_leptonic/ILD_o1_v05/v01-14-01-p00/00006835/001/sv01-14-01-p00.mILD_o1_v05.E500-TDR_ws.I250034.P4f_sze_l.eL.pR_sim_6835_1073.slcio': {'register': 1.3705730438232422,
+                                                                                                                                                                                                           'replicate': 30.603071928024292}}}
+{'Failed': {},
+ 'Successful': {'/ilc/prod/ilc/mc-dbd/ild/sim/500-TDR_ws/4f_singleZee_leptonic/ILD_o1_v05/v01-14-01-p00/00006835/001/sv01-14-01-p00.mILD_o1_v05.E500-TDR_ws.I250034.P4f_sze_l.eL.pR_sim_6835_1074.slcio': {'register': 1.3278350830078125,
+                                                                                                                                                                                                           'replicate': 28.619282007217407}}}
+{'Failed': {},
+ 'Successful': {'/ilc/prod/ilc/mc-dbd/ild/sim/500-TDR_ws/4f_singleZee_leptonic/ILD_o1_v05/v01-14-01-p00/00006835/001/sv01-14-01-p00.mILD_o1_v05.E500-TDR_ws.I250034.P4f_sze_l.eL.pR_sim_6835_1075.slcio': {'register': 1.475386142730713,
+                                                                                                                                                                                                           'replicate': 31.03382396697998}}}
+{'Failed': {},
+ 'Successful': {'/ilc/prod/ilc/mc-dbd/ild/sim/500-TDR_ws/4f_singleZee_leptonic/ILD_o1_v05/v01-14-01-p00/00006835/001/sv01-14-01-p00.mILD_o1_v05.E500-TDR_ws.I250034.P4f_sze_l.eL.pR_sim_6835_1077.slcio': {'register': 1.8608570098876953,
+                                                                                                                                                                                                           'replicate': 35.44371700286865}}}
+{'Failed': {},
+ 'Successful': {'/ilc/prod/ilc/mc-dbd/ild/sim/500-TDR_ws/4f_singleZee_leptonic/ILD_o1_v05/v01-14-01-p00/00006835/001/sv01-14-01-p00.mILD_o1_v05.E500-TDR_ws.I250034.P4f_sze_l.eL.pR_sim_6835_1078.slcio': {'register': 1.426961898803711,
+                                                                                                                                                                                                           'replicate': 31.67227602005005}}}
+{'Failed': {},
+ 'Successful': {'/ilc/prod/ilc/mc-dbd/ild/sim/500-TDR_ws/4f_singleZee_leptonic/ILD_o1_v05/v01-14-01-p00/00006835/001/sv01-14-01-p00.mILD_o1_v05.E500-TDR_ws.I250034.P4f_sze_l.eL.pR_sim_6835_1079.slcio': {'register': 1.373734951019287,
+                                                                                                                                                                                                           'replicate': 29.55728793144226}}}
+{'Failed': {},
+ 'Successful': {'/ilc/prod/ilc/mc-dbd/ild/sim/500-TDR_ws/4f_singleZee_leptonic/ILD_o1_v05/v01-14-01-p00/00006835/001/sv01-14-01-p00.mILD_o1_v05.E500-TDR_ws.I250034.P4f_sze_l.eL.pR_sim_6835_1081.slcio': {'register': 1.33697509765625,
+                                                                                                                                                                                                           'replicate': 40.59197211265564}}}
+{'Failed': {},
+ 'Successful': {'/ilc/prod/ilc/mc-dbd/ild/sim/500-TDR_ws/4f_singleZee_leptonic/ILD_o1_v05/v01-14-01-p00/00006835/001/sv01-14-01-p00.mILD_o1_v05.E500-TDR_ws.I250034.P4f_sze_l.eL.pR_sim_6835_1082.slcio': {'register': 1.6771669387817383,
+                                                                                                                                                                                                           'replicate': 30.176265954971313}}}
+{'Failed': {},
+ 'Successful': {'/ilc/prod/ilc/mc-dbd/ild/sim/500-TDR_ws/4f_singleZee_leptonic/ILD_o1_v05/v01-14-01-p00/00006835/001/sv01-14-01-p00.mILD_o1_v05.E500-TDR_ws.I250034.P4f_sze_l.eL.pR_sim_6835_1083.slcio': {'register': 1.374903917312622,
+                                                                                                                                                                                                           'replicate': 27.996090173721313}}}
+{'Failed': {},
+ 'Successful': {'/ilc/prod/ilc/mc-dbd/ild/sim/500-TDR_ws/4f_singleZee_leptonic/ILD_o1_v05/v01-14-01-p00/00006835/001/sv01-14-01-p00.mILD_o1_v05.E500-TDR_ws.I250034.P4f_sze_l.eL.pR_sim_6835_1084.slcio': {'register': 1.364311933517456,
+                                                                                                                                                                                                           'replicate': 30.527159214019775}}}
+{'Failed': {},
+ 'Successful': {'/ilc/prod/ilc/mc-dbd/ild/sim/500-TDR_ws/4f_singleZee_leptonic/ILD_o1_v05/v01-14-01-p00/00006835/001/sv01-14-01-p00.mILD_o1_v05.E500-TDR_ws.I250034.P4f_sze_l.eL.pR_sim_6835_1085.slcio': {'register': 1.5967011451721191,
+                                                                                                                                                                                                           'replicate': 40.68273997306824}}}
+{'Failed': {},
+ 'Successful': {'/ilc/prod/ilc/mc-dbd/ild/sim/500-TDR_ws/4f_singleZee_leptonic/ILD_o1_v05/v01-14-01-p00/00006835/001/sv01-14-01-p00.mILD_o1_v05.E500-TDR_ws.I250034.P4f_sze_l.eL.pR_sim_6835_1086.slcio': {'register': 1.6520168781280518,
+                                                                                                                                                                                                           'replicate': 27.74729609489441}}}
+{'Failed': {},
+ 'Successful': {'/ilc/prod/ilc/mc-dbd/ild/sim/500-TDR_ws/4f_singleZee_leptonic/ILD_o1_v05/v01-14-01-p00/00006835/001/sv01-14-01-p00.mILD_o1_v05.E500-TDR_ws.I250034.P4f_sze_l.eL.pR_sim_6835_1087.slcio': {'register': 1.393700122833252,
+                                                                                                                                                                                                           'replicate': 27.568726062774658}}}
+{'Failed': {},
+ 'Successful': {'/ilc/prod/ilc/mc-dbd/ild/sim/500-TDR_ws/4f_singleZee_leptonic/ILD_o1_v05/v01-14-01-p00/00006835/001/sv01-14-01-p00.mILD_o1_v05.E500-TDR_ws.I250034.P4f_sze_l.eL.pR_sim_6835_1089.slcio': {'register': 1.3655719757080078,
+                                                                                                                                                                                                           'replicate': 28.479137182235718}}}
+{'Failed': {},
+ 'Successful': {'/ilc/prod/ilc/mc-dbd/ild/sim/500-TDR_ws/4f_singleZee_leptonic/ILD_o1_v05/v01-14-01-p00/00006835/001/sv01-14-01-p00.mILD_o1_v05.E500-TDR_ws.I250034.P4f_sze_l.eL.pR_sim_6835_1090.slcio': {'register': 1.35024094581604,
+                                                                                                                                                                                                           'replicate': 30.44272804260254}}}
+{'Failed': {},
+ 'Successful': {'/ilc/prod/ilc/mc-dbd/ild/sim/500-TDR_ws/4f_singleZee_leptonic/ILD_o1_v05/v01-14-01-p00/00006835/001/sv01-14-01-p00.mILD_o1_v05.E500-TDR_ws.I250034.P4f_sze_l.eL.pR_sim_6835_1091.slcio': {'register': 1.3382699489593506,
+                                                                                                                                                                                                           'replicate': 27.507896184921265}}}
+{'Failed': {},
+ 'Successful': {'/ilc/prod/ilc/mc-dbd/ild/sim/500-TDR_ws/4f_singleZee_leptonic/ILD_o1_v05/v01-14-01-p00/00006835/001/sv01-14-01-p00.mILD_o1_v05.E500-TDR_ws.I250034.P4f_sze_l.eL.pR_sim_6835_1092.slcio': {'register': 1.377263069152832,
+                                                                                                                                                                                                           'replicate': 38.09056806564331}}}
+{'Failed': {},
+ 'Successful': {'/ilc/prod/ilc/mc-dbd/ild/sim/500-TDR_ws/4f_singleZee_leptonic/ILD_o1_v05/v01-14-01-p00/00006835/001/sv01-14-01-p00.mILD_o1_v05.E500-TDR_ws.I250034.P4f_sze_l.eL.pR_sim_6835_1093.slcio': {'register': 1.327138900756836,
+                                                                                                                                                                                                           'replicate': 29.55448317527771}}}
+{'Failed': {},
+ 'Successful': {'/ilc/prod/ilc/mc-dbd/ild/sim/500-TDR_ws/4f_singleZee_leptonic/ILD_o1_v05/v01-14-01-p00/00006835/001/sv01-14-01-p00.mILD_o1_v05.E500-TDR_ws.I250034.P4f_sze_l.eL.pR_sim_6835_1094.slcio': {'register': 1.3856370449066162,
+                                                                                                                                                                                                           'replicate': 28.917316913604736}}}
+{'Failed': {},
+ 'Successful': {'/ilc/prod/ilc/mc-dbd/ild/sim/500-TDR_ws/4f_singleZee_leptonic/ILD_o1_v05/v01-14-01-p00/00006835/001/sv01-14-01-p00.mILD_o1_v05.E500-TDR_ws.I250034.P4f_sze_l.eL.pR_sim_6835_1095.slcio': {'register': 1.443138837814331,
+                                                                                                                                                                                                           'replicate': 31.60833501815796}}}
+{'Failed': {},
+ 'Successful': {'/ilc/prod/ilc/mc-dbd/ild/sim/500-TDR_ws/4f_singleZee_leptonic/ILD_o1_v05/v01-14-01-p00/00006835/001/sv01-14-01-p00.mILD_o1_v05.E500-TDR_ws.I250034.P4f_sze_l.eL.pR_sim_6835_1096.slcio': {'register': 1.328841209411621,
+                                                                                                                                                                                                           'replicate': 32.63366484642029}}}
+{'Failed': {},
+ 'Successful': {'/ilc/prod/ilc/mc-dbd/ild/sim/500-TDR_ws/4f_singleZee_leptonic/ILD_o1_v05/v01-14-01-p00/00006835/001/sv01-14-01-p00.mILD_o1_v05.E500-TDR_ws.I250034.P4f_sze_l.eL.pR_sim_6835_1097.slcio': {'register': 1.3959400653839111,
+                                                                                                                                                                                                           'replicate': 28.755403995513916}}}
+{'Failed': {},
+ 'Successful': {'/ilc/prod/ilc/mc-dbd/ild/sim/500-TDR_ws/4f_singleZee_leptonic/ILD_o1_v05/v01-14-01-p00/00006835/001/sv01-14-01-p00.mILD_o1_v05.E500-TDR_ws.I250034.P4f_sze_l.eL.pR_sim_6835_1098.slcio': {'register': 1.3884539604187012,
+                                                                                                                                                                                                           'replicate': 66.5254271030426}}}
+{'Failed': {},
+ 'Successful': {'/ilc/prod/ilc/mc-dbd/ild/sim/500-TDR_ws/4f_singleZee_leptonic/ILD_o1_v05/v01-14-01-p00/00006835/001/sv01-14-01-p00.mILD_o1_v05.E500-TDR_ws.I250034.P4f_sze_l.eL.pR_sim_6835_1100.slcio': {'register': 1.37398099899292,
+                                                                                                                                                                                                           'replicate': 32.399348974227905}}}
+{'Failed': {},
+ 'Successful': {'/ilc/prod/ilc/mc-dbd/ild/sim/500-TDR_ws/4f_singleZee_leptonic/ILD_o1_v05/v01-14-01-p00/00006835/001/sv01-14-01-p00.mILD_o1_v05.E500-TDR_ws.I250034.P4f_sze_l.eL.pR_sim_6835_1101.slcio': {'register': 1.3704891204833984,
+                                                                                                                                                                                                           'replicate': 55.01280999183655}}}
+{'Failed': {},
+ 'Successful': {'/ilc/prod/ilc/mc-dbd/ild/sim/500-TDR_ws/4f_singleZee_leptonic/ILD_o1_v05/v01-14-01-p00/00006835/001/sv01-14-01-p00.mILD_o1_v05.E500-TDR_ws.I250034.P4f_sze_l.eL.pR_sim_6835_1102.slcio': {'register': 1.8441810607910156,
+                                                                                                                                                                                                           'replicate': 29.923907995224}}}
+{'Failed': {},
+ 'Successful': {'/ilc/prod/ilc/mc-dbd/ild/sim/500-TDR_ws/4f_singleZee_leptonic/ILD_o1_v05/v01-14-01-p00/00006835/001/sv01-14-01-p00.mILD_o1_v05.E500-TDR_ws.I250034.P4f_sze_l.eL.pR_sim_6835_1103.slcio': {'register': 1.3398480415344238,
+                                                                                                                                                                                                           'replicate': 45.64323592185974}}}
+{'Failed': {},
+ 'Successful': {'/ilc/prod/ilc/mc-dbd/ild/sim/500-TDR_ws/4f_singleZee_leptonic/ILD_o1_v05/v01-14-01-p00/00006835/001/sv01-14-01-p00.mILD_o1_v05.E500-TDR_ws.I250034.P4f_sze_l.eL.pR_sim_6835_1105.slcio': {'register': 1.325815200805664,
+                                                                                                                                                                                                           'replicate': 36.46893382072449}}}
+{'Failed': {},
+ 'Successful': {'/ilc/prod/ilc/mc-dbd/ild/sim/500-TDR_ws/4f_singleZee_leptonic/ILD_o1_v05/v01-14-01-p00/00006835/001/sv01-14-01-p00.mILD_o1_v05.E500-TDR_ws.I250034.P4f_sze_l.eL.pR_sim_6835_1106.slcio': {'register': 1.365380048751831,
+                                                                                                                                                                                                           'replicate': 69.74131798744202}}}
+{'Failed': {},
+ 'Successful': {'/ilc/prod/ilc/mc-dbd/ild/sim/500-TDR_ws/4f_singleZee_leptonic/ILD_o1_v05/v01-14-01-p00/00006835/001/sv01-14-01-p00.mILD_o1_v05.E500-TDR_ws.I250034.P4f_sze_l.eL.pR_sim_6835_1107.slcio': {'register': 1.380392074584961,
+                                                                                                                                                                                                           'replicate': 36.63612914085388}}}
+{'Failed': {},
+ 'Successful': {'/ilc/prod/ilc/mc-dbd/ild/sim/500-TDR_ws/4f_singleZee_leptonic/ILD_o1_v05/v01-14-01-p00/00006835/001/sv01-14-01-p00.mILD_o1_v05.E500-TDR_ws.I250034.P4f_sze_l.eL.pR_sim_6835_1108.slcio': {'register': 1.3732240200042725,
+                                                                                                                                                                                                           'replicate': 53.98304986953735}}}
+{'Failed': {},
+ 'Successful': {'/ilc/prod/ilc/mc-dbd/ild/sim/500-TDR_ws/4f_singleZee_leptonic/ILD_o1_v05/v01-14-01-p00/00006835/001/sv01-14-01-p00.mILD_o1_v05.E500-TDR_ws.I250034.P4f_sze_l.eL.pR_sim_6835_1109.slcio': {'register': 1.3953018188476562,
+                                                                                                                                                                                                           'replicate': 28.521116971969604}}}
+{'Failed': {},
+ 'Successful': {'/ilc/prod/ilc/mc-dbd/ild/sim/500-TDR_ws/4f_singleZee_leptonic/ILD_o1_v05/v01-14-01-p00/00006835/001/sv01-14-01-p00.mILD_o1_v05.E500-TDR_ws.I250034.P4f_sze_l.eL.pR_sim_6835_1110.slcio': {'register': 1.3830180168151855,
+                                                                                                                                                                                                           'replicate': 29.938150882720947}}}
+{'Failed': {},
+ 'Successful': {'/ilc/prod/ilc/mc-dbd/ild/sim/500-TDR_ws/4f_singleZee_leptonic/ILD_o1_v05/v01-14-01-p00/00006835/001/sv01-14-01-p00.mILD_o1_v05.E500-TDR_ws.I250034.P4f_sze_l.eL.pR_sim_6835_1113.slcio': {'register': 1.3688631057739258,
+                                                                                                                                                                                                           'replicate': 34.546830892562866}}}
+{'Failed': {},
+ 'Successful': {'/ilc/prod/ilc/mc-dbd/ild/sim/500-TDR_ws/4f_singleZee_leptonic/ILD_o1_v05/v01-14-01-p00/00006835/001/sv01-14-01-p00.mILD_o1_v05.E500-TDR_ws.I250034.P4f_sze_l.eL.pR_sim_6835_1114.slcio': {'register': 1.3789169788360596,
+                                                                                                                                                                                                           'replicate': 29.334097862243652}}}
+{'Failed': {},
+ 'Successful': {'/ilc/prod/ilc/mc-dbd/ild/sim/500-TDR_ws/4f_singleZee_leptonic/ILD_o1_v05/v01-14-01-p00/00006835/001/sv01-14-01-p00.mILD_o1_v05.E500-TDR_ws.I250034.P4f_sze_l.eL.pR_sim_6835_1115.slcio': {'register': 1.6055858135223389,
+                                                                                                                                                                                                           'replicate': 78.96338391304016}}}
+{'Failed': {},
+ 'Successful': {'/ilc/prod/ilc/mc-dbd/ild/sim/500-TDR_ws/4f_singleZee_leptonic/ILD_o1_v05/v01-14-01-p00/00006835/001/sv01-14-01-p00.mILD_o1_v05.E500-TDR_ws.I250034.P4f_sze_l.eL.pR_sim_6835_1116.slcio': {'register': 1.5806539058685303,
+                                                                                                                                                                                                           'replicate': 64.75822901725769}}}
+{'Failed': {},
+ 'Successful': {'/ilc/prod/ilc/mc-dbd/ild/sim/500-TDR_ws/4f_singleZee_leptonic/ILD_o1_v05/v01-14-01-p00/00006835/001/sv01-14-01-p00.mILD_o1_v05.E500-TDR_ws.I250034.P4f_sze_l.eL.pR_sim_6835_1117.slcio': {'register': 1.3536458015441895,
+                                                                                                                                                                                                           'replicate': 29.768508911132812}}}
+{'Failed': {},
+ 'Successful': {'/ilc/prod/ilc/mc-dbd/ild/sim/500-TDR_ws/4f_singleZee_leptonic/ILD_o1_v05/v01-14-01-p00/00006835/001/sv01-14-01-p00.mILD_o1_v05.E500-TDR_ws.I250034.P4f_sze_l.eL.pR_sim_6835_1118.slcio': {'register': 1.4116899967193604,
+                                                                                                                                                                                                           'replicate': 76.24282193183899}}}
+{'Failed': {},
+ 'Successful': {'/ilc/prod/ilc/mc-dbd/ild/sim/500-TDR_ws/4f_singleZee_leptonic/ILD_o1_v05/v01-14-01-p00/00006835/001/sv01-14-01-p00.mILD_o1_v05.E500-TDR_ws.I250034.P4f_sze_l.eL.pR_sim_6835_1119.slcio': {'register': 1.3705899715423584,
+                                                                                                                                                                                                           'replicate': 29.53547692298889}}}
+{'Failed': {},
+ 'Successful': {'/ilc/prod/ilc/mc-dbd/ild/sim/500-TDR_ws/4f_singleZee_leptonic/ILD_o1_v05/v01-14-01-p00/00006835/001/sv01-14-01-p00.mILD_o1_v05.E500-TDR_ws.I250034.P4f_sze_l.eL.pR_sim_6835_1121.slcio': {'register': 1.3762030601501465,
+                                                                                                                                                                                                           'replicate': 27.584208965301514}}}
+{'Failed': {},
+ 'Successful': {'/ilc/prod/ilc/mc-dbd/ild/sim/500-TDR_ws/4f_singleZee_leptonic/ILD_o1_v05/v01-14-01-p00/00006835/001/sv01-14-01-p00.mILD_o1_v05.E500-TDR_ws.I250034.P4f_sze_l.eL.pR_sim_6835_1122.slcio': {'register': 1.3381049633026123,
+                                                                                                                                                                                                           'replicate': 35.53247618675232}}}
+{'Failed': {},
+ 'Successful': {'/ilc/prod/ilc/mc-dbd/ild/sim/500-TDR_ws/4f_singleZee_leptonic/ILD_o1_v05/v01-14-01-p00/00006835/001/sv01-14-01-p00.mILD_o1_v05.E500-TDR_ws.I250034.P4f_sze_l.eL.pR_sim_6835_1124.slcio': {'register': 1.3775320053100586,
+                                                                                                                                                                                                           'replicate': 29.53927493095398}}}
+{'Failed': {},
+ 'Successful': {'/ilc/prod/ilc/mc-dbd/ild/sim/500-TDR_ws/4f_singleZee_leptonic/ILD_o1_v05/v01-14-01-p00/00006835/001/sv01-14-01-p00.mILD_o1_v05.E500-TDR_ws.I250034.P4f_sze_l.eL.pR_sim_6835_1125.slcio': {'register': 1.3724889755249023,
+                                                                                                                                                                                                           'replicate': 50.82680296897888}}}
+{'Failed': {},
+ 'Successful': {'/ilc/prod/ilc/mc-dbd/ild/sim/500-TDR_ws/4f_singleZee_leptonic/ILD_o1_v05/v01-14-01-p00/00006835/001/sv01-14-01-p00.mILD_o1_v05.E500-TDR_ws.I250034.P4f_sze_l.eL.pR_sim_6835_1126.slcio': {'register': 1.3835899829864502,
+                                                                                                                                                                                                           'replicate': 41.14218091964722}}}
+{'Failed': {},
+ 'Successful': {'/ilc/prod/ilc/mc-dbd/ild/sim/500-TDR_ws/4f_singleZee_leptonic/ILD_o1_v05/v01-14-01-p00/00006835/001/sv01-14-01-p00.mILD_o1_v05.E500-TDR_ws.I250034.P4f_sze_l.eL.pR_sim_6835_1128.slcio': {'register': 1.5900850296020508,
+                                                                                                                                                                                                           'replicate': 71.6155149936676}}}
+{'Failed': {},
+ 'Successful': {'/ilc/prod/ilc/mc-dbd/ild/sim/500-TDR_ws/4f_singleZee_leptonic/ILD_o1_v05/v01-14-01-p00/00006835/001/sv01-14-01-p00.mILD_o1_v05.E500-TDR_ws.I250034.P4f_sze_l.eL.pR_sim_6835_1130.slcio': {'register': 1.3422410488128662,
+                                                                                                                                                                                                           'replicate': 30.006807804107666}}}
+{'Failed': {},
+ 'Successful': {'/ilc/prod/ilc/mc-dbd/ild/sim/500-TDR_ws/4f_singleZee_leptonic/ILD_o1_v05/v01-14-01-p00/00006835/001/sv01-14-01-p00.mILD_o1_v05.E500-TDR_ws.I250034.P4f_sze_l.eL.pR_sim_6835_1131.slcio': {'register': 1.3837890625,
+                                                                                                                                                                                                           'replicate': 30.862004041671753}}}
+{'Failed': {},
+ 'Successful': {'/ilc/prod/ilc/mc-dbd/ild/sim/500-TDR_ws/4f_singleZee_leptonic/ILD_o1_v05/v01-14-01-p00/00006835/001/sv01-14-01-p00.mILD_o1_v05.E500-TDR_ws.I250034.P4f_sze_l.eL.pR_sim_6835_1132.slcio': {'register': 1.9119799137115479,
+                                                                                                                                                                                                           'replicate': 44.89880990982056}}}
+{'Failed': {},
+ 'Successful': {'/ilc/prod/ilc/mc-dbd/ild/sim/500-TDR_ws/4f_singleZee_leptonic/ILD_o1_v05/v01-14-01-p00/00006835/001/sv01-14-01-p00.mILD_o1_v05.E500-TDR_ws.I250034.P4f_sze_l.eL.pR_sim_6835_1133.slcio': {'register': 1.3677709102630615,
+                                                                                                                                                                                                           'replicate': 40.59437298774719}}}
+{'Failed': {},
+ 'Successful': {'/ilc/prod/ilc/mc-dbd/ild/sim/500-TDR_ws/4f_singleZee_leptonic/ILD_o1_v05/v01-14-01-p00/00006835/001/sv01-14-01-p00.mILD_o1_v05.E500-TDR_ws.I250034.P4f_sze_l.eL.pR_sim_6835_1134.slcio': {'register': 1.88043212890625,
+                                                                                                                                                                                                           'replicate': 46.94564509391785}}}
+{'Failed': {},
+ 'Successful': {'/ilc/prod/ilc/mc-dbd/ild/sim/500-TDR_ws/4f_singleZee_leptonic/ILD_o1_v05/v01-14-01-p00/00006835/001/sv01-14-01-p00.mILD_o1_v05.E500-TDR_ws.I250034.P4f_sze_l.eL.pR_sim_6835_1135.slcio': {'register': 1.3739430904388428,
+                                                                                                                                                                                                           'replicate': 42.798470973968506}}}
+{'Failed': {},
+ 'Successful': {'/ilc/prod/ilc/mc-dbd/ild/sim/500-TDR_ws/4f_singleZee_leptonic/ILD_o1_v05/v01-14-01-p00/00006835/001/sv01-14-01-p00.mILD_o1_v05.E500-TDR_ws.I250034.P4f_sze_l.eL.pR_sim_6835_1137.slcio': {'register': 1.5253639221191406,
+                                                                                                                                                                                                           'replicate': 33.75637888908386}}}
+{'Failed': {},
+ 'Successful': {'/ilc/prod/ilc/mc-dbd/ild/sim/500-TDR_ws/4f_singleZee_leptonic/ILD_o1_v05/v01-14-01-p00/00006835/001/sv01-14-01-p00.mILD_o1_v05.E500-TDR_ws.I250034.P4f_sze_l.eL.pR_sim_6835_1138.slcio': {'register': 1.33343505859375,
+                                                                                                                                                                                                           'replicate': 39.25682210922241}}}
+{'Failed': {},
+ 'Successful': {'/ilc/prod/ilc/mc-dbd/ild/sim/500-TDR_ws/4f_singleZee_leptonic/ILD_o1_v05/v01-14-01-p00/00006835/001/sv01-14-01-p00.mILD_o1_v05.E500-TDR_ws.I250034.P4f_sze_l.eL.pR_sim_6835_1139.slcio': {'register': 1.3759498596191406,
+                                                                                                                                                                                                           'replicate': 42.17966294288635}}}
+{'Failed': {},
+ 'Successful': {'/ilc/prod/ilc/mc-dbd/ild/sim/500-TDR_ws/4f_singleZee_leptonic/ILD_o1_v05/v01-14-01-p00/00006835/001/sv01-14-01-p00.mILD_o1_v05.E500-TDR_ws.I250034.P4f_sze_l.eL.pR_sim_6835_1141.slcio': {'register': 1.3800239562988281,
+                                                                                                                                                                                                           'replicate': 35.47256803512573}}}
+{'Failed': {},
+ 'Successful': {'/ilc/prod/ilc/mc-dbd/ild/sim/500-TDR_ws/4f_singleZee_leptonic/ILD_o1_v05/v01-14-01-p00/00006835/001/sv01-14-01-p00.mILD_o1_v05.E500-TDR_ws.I250034.P4f_sze_l.eL.pR_sim_6835_1142.slcio': {'register': 1.393712043762207,
+                                                                                                                                                                                                           'replicate': 75.15034222602844}}}
+{'Failed': {},
+ 'Successful': {'/ilc/prod/ilc/mc-dbd/ild/sim/500-TDR_ws/4f_singleZee_leptonic/ILD_o1_v05/v01-14-01-p00/00006835/001/sv01-14-01-p00.mILD_o1_v05.E500-TDR_ws.I250034.P4f_sze_l.eL.pR_sim_6835_1143.slcio': {'register': 1.3573219776153564,
+                                                                                                                                                                                                           'replicate': 44.71083402633667}}}
+{'Failed': {},
+ 'Successful': {'/ilc/prod/ilc/mc-dbd/ild/sim/500-TDR_ws/4f_singleZee_leptonic/ILD_o1_v05/v01-14-01-p00/00006835/001/sv01-14-01-p00.mILD_o1_v05.E500-TDR_ws.I250034.P4f_sze_l.eL.pR_sim_6835_1144.slcio': {'register': 1.7050409317016602,
+                                                                                                                                                                                                           'replicate': 45.7728807926178}}}
+{'Failed': {},
+ 'Successful': {'/ilc/prod/ilc/mc-dbd/ild/sim/500-TDR_ws/4f_singleZee_leptonic/ILD_o1_v05/v01-14-01-p00/00006835/001/sv01-14-01-p00.mILD_o1_v05.E500-TDR_ws.I250034.P4f_sze_l.eL.pR_sim_6835_1145.slcio': {'register': 1.4742250442504883,
+                                                                                                                                                                                                           'replicate': 29.847640991210938}}}
+{'Failed': {},
+ 'Successful': {'/ilc/prod/ilc/mc-dbd/ild/sim/500-TDR_ws/4f_singleZee_leptonic/ILD_o1_v05/v01-14-01-p00/00006835/001/sv01-14-01-p00.mILD_o1_v05.E500-TDR_ws.I250034.P4f_sze_l.eL.pR_sim_6835_1146.slcio': {'register': 1.780055046081543,
+                                                                                                                                                                                                           'replicate': 37.60992383956909}}}
+{'Failed': {},
+ 'Successful': {'/ilc/prod/ilc/mc-dbd/ild/sim/500-TDR_ws/4f_singleZee_leptonic/ILD_o1_v05/v01-14-01-p00/00006835/001/sv01-14-01-p00.mILD_o1_v05.E500-TDR_ws.I250034.P4f_sze_l.eL.pR_sim_6835_1147.slcio': {'register': 1.3862380981445312,
+                                                                                                                                                                                                           'replicate': 31.533607006072998}}}
+{'Failed': {},
+ 'Successful': {'/ilc/prod/ilc/mc-dbd/ild/sim/500-TDR_ws/4f_singleZee_leptonic/ILD_o1_v05/v01-14-01-p00/00006835/001/sv01-14-01-p00.mILD_o1_v05.E500-TDR_ws.I250034.P4f_sze_l.eL.pR_sim_6835_1148.slcio': {'register': 1.3506019115447998,
+                                                                                                                                                                                                           'replicate': 36.52485799789429}}}
+{'Failed': {},
+ 'Successful': {'/ilc/prod/ilc/mc-dbd/ild/sim/500-TDR_ws/4f_singleZee_leptonic/ILD_o1_v05/v01-14-01-p00/00006835/001/sv01-14-01-p00.mILD_o1_v05.E500-TDR_ws.I250034.P4f_sze_l.eL.pR_sim_6835_1151.slcio': {'register': 1.4378790855407715,
+                                                                                                                                                                                                           'replicate': 29.028405904769897}}}
+{'Failed': {},
+ 'Successful': {'/ilc/prod/ilc/mc-dbd/ild/sim/500-TDR_ws/4f_singleZee_leptonic/ILD_o1_v05/v01-14-01-p00/00006835/001/sv01-14-01-p00.mILD_o1_v05.E500-TDR_ws.I250034.P4f_sze_l.eL.pR_sim_6835_1152.slcio': {'register': 1.4053280353546143,
+                                                                                                                                                                                                           'replicate': 27.589030981063843}}}
+{'Failed': {},
+ 'Successful': {'/ilc/prod/ilc/mc-dbd/ild/sim/500-TDR_ws/4f_singleZee_leptonic/ILD_o1_v05/v01-14-01-p00/00006835/001/sv01-14-01-p00.mILD_o1_v05.E500-TDR_ws.I250034.P4f_sze_l.eL.pR_sim_6835_1153.slcio': {'register': 1.3694589138031006,
+                                                                                                                                                                                                           'replicate': 61.129602909088135}}}
+{'Failed': {},
+ 'Successful': {'/ilc/prod/ilc/mc-dbd/ild/sim/500-TDR_ws/4f_singleZee_leptonic/ILD_o1_v05/v01-14-01-p00/00006835/001/sv01-14-01-p00.mILD_o1_v05.E500-TDR_ws.I250034.P4f_sze_l.eL.pR_sim_6835_1154.slcio': {'register': 1.3800499439239502,
+                                                                                                                                                                                                           'replicate': 33.081961154937744}}}
+{'Failed': {},
+ 'Successful': {'/ilc/prod/ilc/mc-dbd/ild/sim/500-TDR_ws/4f_singleZee_leptonic/ILD_o1_v05/v01-14-01-p00/00006835/001/sv01-14-01-p00.mILD_o1_v05.E500-TDR_ws.I250034.P4f_sze_l.eL.pR_sim_6835_1155.slcio': {'register': 1.3466830253601074,
+                                                                                                                                                                                                           'replicate': 37.99623918533325}}}
+{'Failed': {},
+ 'Successful': {'/ilc/prod/ilc/mc-dbd/ild/sim/500-TDR_ws/4f_singleZee_leptonic/ILD_o1_v05/v01-14-01-p00/00006835/001/sv01-14-01-p00.mILD_o1_v05.E500-TDR_ws.I250034.P4f_sze_l.eL.pR_sim_6835_1156.slcio': {'register': 1.4764540195465088,
+                                                                                                                                                                                                           'replicate': 31.410556077957153}}}
+{'Failed': {},
+ 'Successful': {'/ilc/prod/ilc/mc-dbd/ild/sim/500-TDR_ws/4f_singleZee_leptonic/ILD_o1_v05/v01-14-01-p00/00006835/001/sv01-14-01-p00.mILD_o1_v05.E500-TDR_ws.I250034.P4f_sze_l.eL.pR_sim_6835_1157.slcio': {'register': 1.3975028991699219,
+                                                                                                                                                                                                           'replicate': 43.1514151096344}}}
+{'Failed': {},
+ 'Successful': {'/ilc/prod/ilc/mc-dbd/ild/sim/500-TDR_ws/4f_singleZee_leptonic/ILD_o1_v05/v01-14-01-p00/00006835/001/sv01-14-01-p00.mILD_o1_v05.E500-TDR_ws.I250034.P4f_sze_l.eL.pR_sim_6835_1159.slcio': {'register': 1.3938407897949219,
+                                                                                                                                                                                                           'replicate': 35.475226163864136}}}
+{'Failed': {},
+ 'Successful': {'/ilc/prod/ilc/mc-dbd/ild/sim/500-TDR_ws/4f_singleZee_leptonic/ILD_o1_v05/v01-14-01-p00/00006835/001/sv01-14-01-p00.mILD_o1_v05.E500-TDR_ws.I250034.P4f_sze_l.eL.pR_sim_6835_1160.slcio': {'register': 1.3820250034332275,
+                                                                                                                                                                                                           'replicate': 39.74290108680725}}}
+{'Failed': {},
+ 'Successful': {'/ilc/prod/ilc/mc-dbd/ild/sim/500-TDR_ws/4f_singleZee_leptonic/ILD_o1_v05/v01-14-01-p00/00006835/001/sv01-14-01-p00.mILD_o1_v05.E500-TDR_ws.I250034.P4f_sze_l.eL.pR_sim_6835_1161.slcio': {'register': 1.3988478183746338,
+                                                                                                                                                                                                           'replicate': 37.47448492050171}}}
+{'Failed': {},
+ 'Successful': {'/ilc/prod/ilc/mc-dbd/ild/sim/500-TDR_ws/4f_singleZee_leptonic/ILD_o1_v05/v01-14-01-p00/00006835/001/sv01-14-01-p00.mILD_o1_v05.E500-TDR_ws.I250034.P4f_sze_l.eL.pR_sim_6835_1162.slcio': {'register': 1.3796281814575195,
+                                                                                                                                                                                                           'replicate': 32.825583934783936}}}
+{'Failed': {},
+ 'Successful': {'/ilc/prod/ilc/mc-dbd/ild/sim/500-TDR_ws/4f_singleZee_leptonic/ILD_o1_v05/v01-14-01-p00/00006835/001/sv01-14-01-p00.mILD_o1_v05.E500-TDR_ws.I250034.P4f_sze_l.eL.pR_sim_6835_1163.slcio': {'register': 1.9515039920806885,
+                                                                                                                                                                                                           'replicate': 30.688755989074707}}}
+{'Failed': {},
+ 'Successful': {'/ilc/prod/ilc/mc-dbd/ild/sim/500-TDR_ws/4f_singleZee_leptonic/ILD_o1_v05/v01-14-01-p00/00006835/001/sv01-14-01-p00.mILD_o1_v05.E500-TDR_ws.I250034.P4f_sze_l.eL.pR_sim_6835_1166.slcio': {'register': 1.3354828357696533,
+                                                                                                                                                                                                           'replicate': 40.736299991607666}}}
+{'Failed': {},
+ 'Successful': {'/ilc/prod/ilc/mc-dbd/ild/sim/500-TDR_ws/4f_singleZee_leptonic/ILD_o1_v05/v01-14-01-p00/00006835/001/sv01-14-01-p00.mILD_o1_v05.E500-TDR_ws.I250034.P4f_sze_l.eL.pR_sim_6835_1167.slcio': {'register': 1.339888095855713,
+                                                                                                                                                                                                           'replicate': 39.12335515022278}}}
+{'Failed': {},
+ 'Successful': {'/ilc/prod/ilc/mc-dbd/ild/sim/500-TDR_ws/4f_singleZee_leptonic/ILD_o1_v05/v01-14-01-p00/00006835/001/sv01-14-01-p00.mILD_o1_v05.E500-TDR_ws.I250034.P4f_sze_l.eL.pR_sim_6835_1169.slcio': {'register': 1.6294260025024414,
+                                                                                                                                                                                                           'replicate': 44.760239124298096}}}
+{'Failed': {},
+ 'Successful': {'/ilc/prod/ilc/mc-dbd/ild/sim/500-TDR_ws/4f_singleZee_leptonic/ILD_o1_v05/v01-14-01-p00/00006835/001/sv01-14-01-p00.mILD_o1_v05.E500-TDR_ws.I250034.P4f_sze_l.eL.pR_sim_6835_1171.slcio': {'register': 1.4078938961029053,
+                                                                                                                                                                                                           'replicate': 29.55358600616455}}}
+{'Failed': {},
+ 'Successful': {'/ilc/prod/ilc/mc-dbd/ild/sim/500-TDR_ws/4f_singleZee_leptonic/ILD_o1_v05/v01-14-01-p00/00006835/001/sv01-14-01-p00.mILD_o1_v05.E500-TDR_ws.I250034.P4f_sze_l.eL.pR_sim_6835_1172.slcio': {'register': 1.3914449214935303,
+                                                                                                                                                                                                           'replicate': 40.578803062438965}}}
+{'Failed': {},
+ 'Successful': {'/ilc/prod/ilc/mc-dbd/ild/sim/500-TDR_ws/4f_singleZee_leptonic/ILD_o1_v05/v01-14-01-p00/00006835/001/sv01-14-01-p00.mILD_o1_v05.E500-TDR_ws.I250034.P4f_sze_l.eL.pR_sim_6835_1173.slcio': {'register': 1.532588005065918,
+                                                                                                                                                                                                           'replicate': 33.72368502616882}}}
+{'Failed': {},
+ 'Successful': {'/ilc/prod/ilc/mc-dbd/ild/sim/500-TDR_ws/4f_singleZee_leptonic/ILD_o1_v05/v01-14-01-p00/00006835/001/sv01-14-01-p00.mILD_o1_v05.E500-TDR_ws.I250034.P4f_sze_l.eL.pR_sim_6835_1174.slcio': {'register': 1.9274389743804932,
+                                                                                                                                                                                                           'replicate': 58.687357902526855}}}
+{'Failed': {},
+ 'Successful': {'/ilc/prod/ilc/mc-dbd/ild/sim/500-TDR_ws/4f_singleZee_leptonic/ILD_o1_v05/v01-14-01-p00/00006835/001/sv01-14-01-p00.mILD_o1_v05.E500-TDR_ws.I250034.P4f_sze_l.eL.pR_sim_6835_1175.slcio': {'register': 1.4044849872589111,
+                                                                                                                                                                                                           'replicate': 30.06213688850403}}}
+{'Failed': {},
+ 'Successful': {'/ilc/prod/ilc/mc-dbd/ild/sim/500-TDR_ws/4f_singleZee_leptonic/ILD_o1_v05/v01-14-01-p00/00006835/001/sv01-14-01-p00.mILD_o1_v05.E500-TDR_ws.I250034.P4f_sze_l.eL.pR_sim_6835_1177.slcio': {'register': 1.454477071762085,
+                                                                                                                                                                                                           'replicate': 30.615867137908936}}}
+{'Failed': {},
+ 'Successful': {'/ilc/prod/ilc/mc-dbd/ild/sim/500-TDR_ws/4f_singleZee_leptonic/ILD_o1_v05/v01-14-01-p00/00006835/001/sv01-14-01-p00.mILD_o1_v05.E500-TDR_ws.I250034.P4f_sze_l.eL.pR_sim_6835_1178.slcio': {'register': 2.083988904953003,
+                                                                                                                                                                                                           'replicate': 33.67322897911072}}}
+{'Failed': {},
+ 'Successful': {'/ilc/prod/ilc/mc-dbd/ild/sim/500-TDR_ws/4f_singleZee_leptonic/ILD_o1_v05/v01-14-01-p00/00006835/001/sv01-14-01-p00.mILD_o1_v05.E500-TDR_ws.I250034.P4f_sze_l.eL.pR_sim_6835_1179.slcio': {'register': 1.390307903289795,
+                                                                                                                                                                                                           'replicate': 32.67833089828491}}}
+{'Failed': {},
+ 'Successful': {'/ilc/prod/ilc/mc-dbd/ild/sim/500-TDR_ws/4f_singleZee_leptonic/ILD_o1_v05/v01-14-01-p00/00006835/001/sv01-14-01-p00.mILD_o1_v05.E500-TDR_ws.I250034.P4f_sze_l.eL.pR_sim_6835_1180.slcio': {'register': 1.391084909439087,
+                                                                                                                                                                                                           'replicate': 28.67296290397644}}}
+{'Failed': {},
+ 'Successful': {'/ilc/prod/ilc/mc-dbd/ild/sim/500-TDR_ws/4f_singleZee_leptonic/ILD_o1_v05/v01-14-01-p00/00006835/001/sv01-14-01-p00.mILD_o1_v05.E500-TDR_ws.I250034.P4f_sze_l.eL.pR_sim_6835_1181.slcio': {'register': 1.3509459495544434,
+                                                                                                                                                                                                           'replicate': 29.921096801757812}}}
+{'Failed': {},
+ 'Successful': {'/ilc/prod/ilc/mc-dbd/ild/sim/500-TDR_ws/4f_singleZee_leptonic/ILD_o1_v05/v01-14-01-p00/00006835/001/sv01-14-01-p00.mILD_o1_v05.E500-TDR_ws.I250034.P4f_sze_l.eL.pR_sim_6835_1182.slcio': {'register': 1.3321480751037598,
+                                                                                                                                                                                                           'replicate': 48.848320960998535}}}
+{'Failed': {},
+ 'Successful': {'/ilc/prod/ilc/mc-dbd/ild/sim/500-TDR_ws/4f_singleZee_leptonic/ILD_o1_v05/v01-14-01-p00/00006835/001/sv01-14-01-p00.mILD_o1_v05.E500-TDR_ws.I250034.P4f_sze_l.eL.pR_sim_6835_1183.slcio': {'register': 1.3604800701141357,
+                                                                                                                                                                                                           'replicate': 30.614315032958984}}}
+{'Failed': {},
+ 'Successful': {'/ilc/prod/ilc/mc-dbd/ild/sim/500-TDR_ws/4f_singleZee_leptonic/ILD_o1_v05/v01-14-01-p00/00006835/001/sv01-14-01-p00.mILD_o1_v05.E500-TDR_ws.I250034.P4f_sze_l.eL.pR_sim_6835_1184.slcio': {'register': 1.4121119976043701,
+                                                                                                                                                                                                           'replicate': 33.63795304298401}}}
+{'Failed': {},
+ 'Successful': {'/ilc/prod/ilc/mc-dbd/ild/sim/500-TDR_ws/4f_singleZee_leptonic/ILD_o1_v05/v01-14-01-p00/00006835/001/sv01-14-01-p00.mILD_o1_v05.E500-TDR_ws.I250034.P4f_sze_l.eL.pR_sim_6835_1186.slcio': {'register': 1.3703298568725586,
+                                                                                                                                                                                                           'replicate': 28.5694100856781}}}
+{'Failed': {},
+ 'Successful': {'/ilc/prod/ilc/mc-dbd/ild/sim/500-TDR_ws/4f_singleZee_leptonic/ILD_o1_v05/v01-14-01-p00/00006835/001/sv01-14-01-p00.mILD_o1_v05.E500-TDR_ws.I250034.P4f_sze_l.eL.pR_sim_6835_1188.slcio': {'register': 1.5575840473175049,
+                                                                                                                                                                                                           'replicate': 61.945481061935425}}}
+{'Failed': {},
+ 'Successful': {'/ilc/prod/ilc/mc-dbd/ild/sim/500-TDR_ws/4f_singleZee_leptonic/ILD_o1_v05/v01-14-01-p00/00006835/001/sv01-14-01-p00.mILD_o1_v05.E500-TDR_ws.I250034.P4f_sze_l.eL.pR_sim_6835_1189.slcio': {'register': 1.3815419673919678,
+                                                                                                                                                                                                           'replicate': 28.78203320503235}}}
+{'Failed': {},
+ 'Successful': {'/ilc/prod/ilc/mc-dbd/ild/sim/500-TDR_ws/4f_singleZee_leptonic/ILD_o1_v05/v01-14-01-p00/00006835/001/sv01-14-01-p00.mILD_o1_v05.E500-TDR_ws.I250034.P4f_sze_l.eL.pR_sim_6835_1191.slcio': {'register': 2.0175280570983887,
+                                                                                                                                                                                                           'replicate': 41.64645981788635}}}
+{'Failed': {},
+ 'Successful': {'/ilc/prod/ilc/mc-dbd/ild/sim/500-TDR_ws/4f_singleZee_leptonic/ILD_o1_v05/v01-14-01-p00/00006835/001/sv01-14-01-p00.mILD_o1_v05.E500-TDR_ws.I250034.P4f_sze_l.eL.pR_sim_6835_1192.slcio': {'register': 1.6542689800262451,
+                                                                                                                                                                                                           'replicate': 44.13083004951477}}}
+{'Failed': {},
+ 'Successful': {'/ilc/prod/ilc/mc-dbd/ild/sim/500-TDR_ws/4f_singleZee_leptonic/ILD_o1_v05/v01-14-01-p00/00006835/001/sv01-14-01-p00.mILD_o1_v05.E500-TDR_ws.I250034.P4f_sze_l.eL.pR_sim_6835_1193.slcio': {'register': 1.3861970901489258,
+                                                                                                                                                                                                           'replicate': 29.500563859939575}}}
+{'Failed': {},
+ 'Successful': {'/ilc/prod/ilc/mc-dbd/ild/sim/500-TDR_ws/4f_singleZee_leptonic/ILD_o1_v05/v01-14-01-p00/00006835/001/sv01-14-01-p00.mILD_o1_v05.E500-TDR_ws.I250034.P4f_sze_l.eL.pR_sim_6835_1194.slcio': {'register': 1.7762701511383057,
+                                                                                                                                                                                                           'replicate': 31.711920022964478}}}
+{'Failed': {},
+ 'Successful': {'/ilc/prod/ilc/mc-dbd/ild/sim/500-TDR_ws/4f_singleZee_leptonic/ILD_o1_v05/v01-14-01-p00/00006835/001/sv01-14-01-p00.mILD_o1_v05.E500-TDR_ws.I250034.P4f_sze_l.eL.pR_sim_6835_1196.slcio': {'register': 1.3843472003936768,
+                                                                                                                                                                                                           'replicate': 28.79107689857483}}}
+{'Failed': {},
+ 'Successful': {'/ilc/prod/ilc/mc-dbd/ild/sim/500-TDR_ws/4f_singleZee_leptonic/ILD_o1_v05/v01-14-01-p00/00006835/001/sv01-14-01-p00.mILD_o1_v05.E500-TDR_ws.I250034.P4f_sze_l.eL.pR_sim_6835_1197.slcio': {'register': 1.3632051944732666,
+                                                                                                                                                                                                           'replicate': 28.412281036376953}}}
+{'Failed': {},
+ 'Successful': {'/ilc/prod/ilc/mc-dbd/ild/sim/500-TDR_ws/4f_singleZee_leptonic/ILD_o1_v05/v01-14-01-p00/00006835/001/sv01-14-01-p00.mILD_o1_v05.E500-TDR_ws.I250034.P4f_sze_l.eL.pR_sim_6835_1199.slcio': {'register': 1.3459138870239258,
+                                                                                                                                                                                                           'replicate': 29.15487813949585}}}
+{'Failed': {},
+ 'Successful': {'/ilc/prod/ilc/mc-dbd/ild/sim/500-TDR_ws/4f_singleZee_leptonic/ILD_o1_v05/v01-14-01-p00/00006835/001/sv01-14-01-p00.mILD_o1_v05.E500-TDR_ws.I250034.P4f_sze_l.eL.pR_sim_6835_1204.slcio': {'register': 1.4104809761047363,
+                                                                                                                                                                                                           'replicate': 34.75738215446472}}}
+{'Failed': {},
+ 'Successful': {'/ilc/prod/ilc/mc-dbd/ild/sim/500-TDR_ws/4f_singleZee_leptonic/ILD_o1_v05/v01-14-01-p00/00006835/001/sv01-14-01-p00.mILD_o1_v05.E500-TDR_ws.I250034.P4f_sze_l.eL.pR_sim_6835_1205.slcio': {'register': 1.4455339908599854,
+                                                                                                                                                                                                           'replicate': 30.737280130386353}}}
+{'Failed': {},
+ 'Successful': {'/ilc/prod/ilc/mc-dbd/ild/sim/500-TDR_ws/4f_singleZee_leptonic/ILD_o1_v05/v01-14-01-p00/00006835/001/sv01-14-01-p00.mILD_o1_v05.E500-TDR_ws.I250034.P4f_sze_l.eL.pR_sim_6835_1206.slcio': {'register': 1.3450219631195068,
+                                                                                                                                                                                                           'replicate': 32.098321199417114}}}
+{'Failed': {},
+ 'Successful': {'/ilc/prod/ilc/mc-dbd/ild/sim/500-TDR_ws/4f_singleZee_leptonic/ILD_o1_v05/v01-14-01-p00/00006835/001/sv01-14-01-p00.mILD_o1_v05.E500-TDR_ws.I250034.P4f_sze_l.eL.pR_sim_6835_1207.slcio': {'register': 1.746387004852295,
+                                                                                                                                                                                                           'replicate': 31.563769817352295}}}
+{'Failed': {},
+ 'Successful': {'/ilc/prod/ilc/mc-dbd/ild/sim/500-TDR_ws/4f_singleZee_leptonic/ILD_o1_v05/v01-14-01-p00/00006835/001/sv01-14-01-p00.mILD_o1_v05.E500-TDR_ws.I250034.P4f_sze_l.eL.pR_sim_6835_1208.slcio': {'register': 1.8084580898284912,
+                                                                                                                                                                                                           'replicate': 29.960618019104004}}}
+{'Failed': {},
+ 'Successful': {'/ilc/prod/ilc/mc-dbd/ild/sim/500-TDR_ws/4f_singleZee_leptonic/ILD_o1_v05/v01-14-01-p00/00006835/001/sv01-14-01-p00.mILD_o1_v05.E500-TDR_ws.I250034.P4f_sze_l.eL.pR_sim_6835_1210.slcio': {'register': 1.3604249954223633,
+                                                                                                                                                                                                           'replicate': 28.958849906921387}}}
+{'Failed': {},
+ 'Successful': {'/ilc/prod/ilc/mc-dbd/ild/sim/500-TDR_ws/4f_singleZee_leptonic/ILD_o1_v05/v01-14-01-p00/00006835/001/sv01-14-01-p00.mILD_o1_v05.E500-TDR_ws.I250034.P4f_sze_l.eL.pR_sim_6835_1211.slcio': {'register': 1.4185221195220947,
+                                                                                                                                                                                                           'replicate': 29.542139053344727}}}
+{'Failed': {},
+ 'Successful': {'/ilc/prod/ilc/mc-dbd/ild/sim/500-TDR_ws/4f_singleZee_leptonic/ILD_o1_v05/v01-14-01-p00/00006835/001/sv01-14-01-p00.mILD_o1_v05.E500-TDR_ws.I250034.P4f_sze_l.eL.pR_sim_6835_1212.slcio': {'register': 1.3710339069366455,
+                                                                                                                                                                                                           'replicate': 28.51588010787964}}}
+{'Failed': {},
+ 'Successful': {'/ilc/prod/ilc/mc-dbd/ild/sim/500-TDR_ws/4f_singleZee_leptonic/ILD_o1_v05/v01-14-01-p00/00006835/001/sv01-14-01-p00.mILD_o1_v05.E500-TDR_ws.I250034.P4f_sze_l.eL.pR_sim_6835_1213.slcio': {'register': 1.3433659076690674,
+                                                                                                                                                                                                           'replicate': 29.555104970932007}}}
+{'Failed': {},
+ 'Successful': {'/ilc/prod/ilc/mc-dbd/ild/sim/500-TDR_ws/4f_singleZee_leptonic/ILD_o1_v05/v01-14-01-p00/00006835/001/sv01-14-01-p00.mILD_o1_v05.E500-TDR_ws.I250034.P4f_sze_l.eL.pR_sim_6835_1214.slcio': {'register': 1.4648890495300293,
+                                                                                                                                                                                                           'replicate': 29.825382947921753}}}
+{'Failed': {},
+ 'Successful': {'/ilc/prod/ilc/mc-dbd/ild/sim/500-TDR_ws/4f_singleZee_leptonic/ILD_o1_v05/v01-14-01-p00/00006835/001/sv01-14-01-p00.mILD_o1_v05.E500-TDR_ws.I250034.P4f_sze_l.eL.pR_sim_6835_1216.slcio': {'register': 1.36480712890625,
+                                                                                                                                                                                                           'replicate': 76.55872797966003}}}
+{'Failed': {},
+ 'Successful': {'/ilc/prod/ilc/mc-dbd/ild/sim/500-TDR_ws/4f_singleZee_leptonic/ILD_o1_v05/v01-14-01-p00/00006835/001/sv01-14-01-p00.mILD_o1_v05.E500-TDR_ws.I250034.P4f_sze_l.eL.pR_sim_6835_1217.slcio': {'register': 1.367337942123413,
+                                                                                                                                                                                                           'replicate': 29.499285221099854}}}
+{'Failed': {},
+ 'Successful': {'/ilc/prod/ilc/mc-dbd/ild/sim/500-TDR_ws/4f_singleZee_leptonic/ILD_o1_v05/v01-14-01-p00/00006835/001/sv01-14-01-p00.mILD_o1_v05.E500-TDR_ws.I250034.P4f_sze_l.eL.pR_sim_6835_1218.slcio': {'register': 1.3355319499969482,
+                                                                                                                                                                                                           'replicate': 28.89920997619629}}}
+{'Failed': {},
+ 'Successful': {'/ilc/prod/ilc/mc-dbd/ild/sim/500-TDR_ws/4f_singleZee_leptonic/ILD_o1_v05/v01-14-01-p00/00006835/001/sv01-14-01-p00.mILD_o1_v05.E500-TDR_ws.I250034.P4f_sze_l.eL.pR_sim_6835_1221.slcio': {'register': 1.3462209701538086,
+                                                                                                                                                                                                           'replicate': 28.548471927642822}}}
+{'Failed': {},
+ 'Successful': {'/ilc/prod/ilc/mc-dbd/ild/sim/500-TDR_ws/4f_singleZee_leptonic/ILD_o1_v05/v01-14-01-p00/00006835/001/sv01-14-01-p00.mILD_o1_v05.E500-TDR_ws.I250034.P4f_sze_l.eL.pR_sim_6835_1222.slcio': {'register': 1.9593391418457031,
+                                                                                                                                                                                                           'replicate': 29.624645948410034}}}
+{'Failed': {},
+ 'Successful': {'/ilc/prod/ilc/mc-dbd/ild/sim/500-TDR_ws/4f_singleZee_leptonic/ILD_o1_v05/v01-14-01-p00/00006835/001/sv01-14-01-p00.mILD_o1_v05.E500-TDR_ws.I250034.P4f_sze_l.eL.pR_sim_6835_1223.slcio': {'register': 1.3398690223693848,
+                                                                                                                                                                                                           'replicate': 53.651702880859375}}}
+{'Failed': {},
+ 'Successful': {'/ilc/prod/ilc/mc-dbd/ild/sim/500-TDR_ws/4f_singleZee_leptonic/ILD_o1_v05/v01-14-01-p00/00006835/001/sv01-14-01-p00.mILD_o1_v05.E500-TDR_ws.I250034.P4f_sze_l.eL.pR_sim_6835_1224.slcio': {'register': 1.3862478733062744,
+                                                                                                                                                                                                           'replicate': 28.225106954574585}}}
+{'Failed': {},
+ 'Successful': {'/ilc/prod/ilc/mc-dbd/ild/sim/500-TDR_ws/4f_singleZee_leptonic/ILD_o1_v05/v01-14-01-p00/00006835/001/sv01-14-01-p00.mILD_o1_v05.E500-TDR_ws.I250034.P4f_sze_l.eL.pR_sim_6835_1229.slcio': {'register': 1.38493013381958,
+                                                                                                                                                                                                           'replicate': 28.080628871917725}}}
+{'Failed': {},
+ 'Successful': {'/ilc/prod/ilc/mc-dbd/ild/sim/500-TDR_ws/4f_singleZee_leptonic/ILD_o1_v05/v01-14-01-p00/00006835/001/sv01-14-01-p00.mILD_o1_v05.E500-TDR_ws.I250034.P4f_sze_l.eL.pR_sim_6835_1231.slcio': {'register': 1.7185139656066895,
+                                                                                                                                                                                                           'replicate': 29.05612802505493}}}
+{'Failed': {},
+ 'Successful': {'/ilc/prod/ilc/mc-dbd/ild/sim/500-TDR_ws/4f_singleZee_leptonic/ILD_o1_v05/v01-14-01-p00/00006835/001/sv01-14-01-p00.mILD_o1_v05.E500-TDR_ws.I250034.P4f_sze_l.eL.pR_sim_6835_1233.slcio': {'register': 1.3423409461975098,
+                                                                                                                                                                                                           'replicate': 29.967773914337158}}}
+{'Failed': {},
+ 'Successful': {'/ilc/prod/ilc/mc-dbd/ild/sim/500-TDR_ws/4f_singleZee_leptonic/ILD_o1_v05/v01-14-01-p00/00006835/001/sv01-14-01-p00.mILD_o1_v05.E500-TDR_ws.I250034.P4f_sze_l.eL.pR_sim_6835_1234.slcio': {'register': 1.4453330039978027,
+                                                                                                                                                                                                           'replicate': 29.765045881271362}}}
+{'Failed': {},
+ 'Successful': {'/ilc/prod/ilc/mc-dbd/ild/sim/500-TDR_ws/4f_singleZee_leptonic/ILD_o1_v05/v01-14-01-p00/00006835/001/sv01-14-01-p00.mILD_o1_v05.E500-TDR_ws.I250034.P4f_sze_l.eL.pR_sim_6835_1235.slcio': {'register': 1.347679853439331,
+                                                                                                                                                                                                           'replicate': 31.646931886672974}}}
+{'Failed': {},
+ 'Successful': {'/ilc/prod/ilc/mc-dbd/ild/sim/500-TDR_ws/4f_singleZee_leptonic/ILD_o1_v05/v01-14-01-p00/00006835/001/sv01-14-01-p00.mILD_o1_v05.E500-TDR_ws.I250034.P4f_sze_l.eL.pR_sim_6835_1255.slcio': {'register': 1.3973660469055176,
+                                                                                                                                                                                                           'replicate': 31.080859899520874}}}
+{'Failed': {},
+ 'Successful': {'/ilc/prod/ilc/mc-dbd/ild/sim/500-TDR_ws/4f_singleZee_leptonic/ILD_o1_v05/v01-14-01-p00/00006835/001/sv01-14-01-p00.mILD_o1_v05.E500-TDR_ws.I250034.P4f_sze_l.eL.pR_sim_6835_1256.slcio': {'register': 1.4352138042449951,
+                                                                                                                                                                                                           'replicate': 32.23762798309326}}}
+{'Failed': {},
+ 'Successful': {'/ilc/prod/ilc/mc-dbd/ild/sim/500-TDR_ws/4f_singleZee_leptonic/ILD_o1_v05/v01-14-01-p00/00006835/001/sv01-14-01-p00.mILD_o1_v05.E500-TDR_ws.I250034.P4f_sze_l.eL.pR_sim_6835_1258.slcio': {'register': 1.3647730350494385,
+                                                                                                                                                                                                           'replicate': 37.72779607772827}}}
+{'Failed': {},
+ 'Successful': {'/ilc/prod/ilc/mc-dbd/ild/sim/500-TDR_ws/4f_singleZee_leptonic/ILD_o1_v05/v01-14-01-p00/00006835/001/sv01-14-01-p00.mILD_o1_v05.E500-TDR_ws.I250034.P4f_sze_l.eL.pR_sim_6835_1259.slcio': {'register': 1.3518610000610352,
+                                                                                                                                                                                                           'replicate': 34.99405217170715}}}
+{'Failed': {},
+ 'Successful': {'/ilc/prod/ilc/mc-dbd/ild/sim/500-TDR_ws/4f_singleZee_leptonic/ILD_o1_v05/v01-14-01-p00/00006835/001/sv01-14-01-p00.mILD_o1_v05.E500-TDR_ws.I250034.P4f_sze_l.eL.pR_sim_6835_1260.slcio': {'register': 1.3348751068115234,
+                                                                                                                                                                                                           'replicate': 32.95268702507019}}}
+{'Failed': {},
+ 'Successful': {'/ilc/prod/ilc/mc-dbd/ild/sim/500-TDR_ws/4f_singleZee_leptonic/ILD_o1_v05/v01-14-01-p00/00006835/001/sv01-14-01-p00.mILD_o1_v05.E500-TDR_ws.I250034.P4f_sze_l.eL.pR_sim_6835_1261.slcio': {'register': 1.435837984085083,
+                                                                                                                                                                                                           'replicate': 30.71891212463379}}}
+{'Failed': {},
+ 'Successful': {'/ilc/prod/ilc/mc-dbd/ild/sim/500-TDR_ws/4f_singleZee_leptonic/ILD_o1_v05/v01-14-01-p00/00006835/001/sv01-14-01-p00.mILD_o1_v05.E500-TDR_ws.I250034.P4f_sze_l.eL.pR_sim_6835_1262.slcio': {'register': 1.7195038795471191,
+                                                                                                                                                                                                           'replicate': 29.576499938964844}}}
+{'Failed': {},
+ 'Successful': {'/ilc/prod/ilc/mc-dbd/ild/sim/500-TDR_ws/4f_singleZee_leptonic/ILD_o1_v05/v01-14-01-p00/00006835/001/sv01-14-01-p00.mILD_o1_v05.E500-TDR_ws.I250034.P4f_sze_l.eL.pR_sim_6835_1263.slcio': {'register': 1.6977970600128174,
+                                                                                                                                                                                                           'replicate': 30.446845054626465}}}
+{'Failed': {},
+ 'Successful': {'/ilc/prod/ilc/mc-dbd/ild/sim/500-TDR_ws/4f_singleZee_leptonic/ILD_o1_v05/v01-14-01-p00/00006835/001/sv01-14-01-p00.mILD_o1_v05.E500-TDR_ws.I250034.P4f_sze_l.eL.pR_sim_6835_1264.slcio': {'register': 1.333186149597168,
+                                                                                                                                                                                                           'replicate': 29.603206157684326}}}
+{'Failed': {},
+ 'Successful': {'/ilc/prod/ilc/mc-dbd/ild/sim/500-TDR_ws/4f_singleZee_leptonic/ILD_o1_v05/v01-14-01-p00/00006835/001/sv01-14-01-p00.mILD_o1_v05.E500-TDR_ws.I250034.P4f_sze_l.eL.pR_sim_6835_1265.slcio': {'register': 1.383620023727417,
+                                                                                                                                                                                                           'replicate': 28.62761402130127}}}
+{'Failed': {},
+ 'Successful': {'/ilc/prod/ilc/mc-dbd/ild/sim/500-TDR_ws/4f_singleZee_leptonic/ILD_o1_v05/v01-14-01-p00/00006835/001/sv01-14-01-p00.mILD_o1_v05.E500-TDR_ws.I250034.P4f_sze_l.eL.pR_sim_6835_1266.slcio': {'register': 1.3720619678497314,
+                                                                                                                                                                                                           'replicate': 78.62294220924377}}}
+{'Failed': {},
+ 'Successful': {'/ilc/prod/ilc/mc-dbd/ild/sim/500-TDR_ws/4f_singleZee_leptonic/ILD_o1_v05/v01-14-01-p00/00006835/001/sv01-14-01-p00.mILD_o1_v05.E500-TDR_ws.I250034.P4f_sze_l.eL.pR_sim_6835_1267.slcio': {'register': 1.3492329120635986,
+                                                                                                                                                                                                           'replicate': 48.459635972976685}}}
+{'Failed': {},
+ 'Successful': {'/ilc/prod/ilc/mc-dbd/ild/sim/500-TDR_ws/4f_singleZee_leptonic/ILD_o1_v05/v01-14-01-p00/00006835/001/sv01-14-01-p00.mILD_o1_v05.E500-TDR_ws.I250034.P4f_sze_l.eL.pR_sim_6835_1268.slcio': {'register': 1.3477721214294434,
+                                                                                                                                                                                                           'replicate': 28.696213960647583}}}
+{'Failed': {},
+ 'Successful': {'/ilc/prod/ilc/mc-dbd/ild/sim/500-TDR_ws/4f_singleZee_leptonic/ILD_o1_v05/v01-14-01-p00/00006835/001/sv01-14-01-p00.mILD_o1_v05.E500-TDR_ws.I250034.P4f_sze_l.eL.pR_sim_6835_1269.slcio': {'register': 2.084341049194336,
+                                                                                                                                                                                                           'replicate': 48.749961137771606}}}
+{'Failed': {},
+ 'Successful': {'/ilc/prod/ilc/mc-dbd/ild/sim/500-TDR_ws/4f_singleZee_leptonic/ILD_o1_v05/v01-14-01-p00/00006835/001/sv01-14-01-p00.mILD_o1_v05.E500-TDR_ws.I250034.P4f_sze_l.eL.pR_sim_6835_1270.slcio': {'register': 1.3736388683319092,
+                                                                                                                                                                                                           'replicate': 32.279919147491455}}}
+{'Failed': {},
+ 'Successful': {'/ilc/prod/ilc/mc-dbd/ild/sim/500-TDR_ws/4f_singleZee_leptonic/ILD_o1_v05/v01-14-01-p00/00006835/001/sv01-14-01-p00.mILD_o1_v05.E500-TDR_ws.I250034.P4f_sze_l.eL.pR_sim_6835_1272.slcio': {'register': 1.60487699508667,
+                                                                                                                                                                                                           'replicate': 28.57582187652588}}}
+{'Failed': {},
+ 'Successful': {'/ilc/prod/ilc/mc-dbd/ild/sim/500-TDR_ws/4f_singleZee_leptonic/ILD_o1_v05/v01-14-01-p00/00006835/001/sv01-14-01-p00.mILD_o1_v05.E500-TDR_ws.I250034.P4f_sze_l.eL.pR_sim_6835_1273.slcio': {'register': 1.3744611740112305,
+                                                                                                                                                                                                           'replicate': 28.613569021224976}}}
+{'Failed': {},
+ 'Successful': {'/ilc/prod/ilc/mc-dbd/ild/sim/500-TDR_ws/4f_singleZee_leptonic/ILD_o1_v05/v01-14-01-p00/00006835/001/sv01-14-01-p00.mILD_o1_v05.E500-TDR_ws.I250034.P4f_sze_l.eL.pR_sim_6835_1274.slcio': {'register': 1.3721749782562256,
+                                                                                                                                                                                                           'replicate': 28.647934913635254}}}
+{'Failed': {},
+ 'Successful': {'/ilc/prod/ilc/mc-dbd/ild/sim/500-TDR_ws/4f_singleZee_leptonic/ILD_o1_v05/v01-14-01-p00/00006835/001/sv01-14-01-p00.mILD_o1_v05.E500-TDR_ws.I250034.P4f_sze_l.eL.pR_sim_6835_1275.slcio': {'register': 1.389650821685791,
+                                                                                                                                                                                                           'replicate': 28.75830101966858}}}
+{'Failed': {},
+ 'Successful': {'/ilc/prod/ilc/mc-dbd/ild/sim/500-TDR_ws/4f_singleZee_leptonic/ILD_o1_v05/v01-14-01-p00/00006835/001/sv01-14-01-p00.mILD_o1_v05.E500-TDR_ws.I250034.P4f_sze_l.eL.pR_sim_6835_1277.slcio': {'register': 1.3284969329833984,
+                                                                                                                                                                                                           'replicate': 48.57573699951172}}}
+{'Failed': {},
+ 'Successful': {'/ilc/prod/ilc/mc-dbd/ild/sim/500-TDR_ws/4f_singleZee_leptonic/ILD_o1_v05/v01-14-01-p00/00006835/001/sv01-14-01-p00.mILD_o1_v05.E500-TDR_ws.I250034.P4f_sze_l.eL.pR_sim_6835_1279.slcio': {'register': 1.3680260181427002,
+                                                                                                                                                                                                           'replicate': 29.79991388320923}}}
+{'Failed': {},
+ 'Successful': {'/ilc/prod/ilc/mc-dbd/ild/sim/500-TDR_ws/4f_singleZee_leptonic/ILD_o1_v05/v01-14-01-p00/00006835/001/sv01-14-01-p00.mILD_o1_v05.E500-TDR_ws.I250034.P4f_sze_l.eL.pR_sim_6835_1280.slcio': {'register': 1.6963720321655273,
+                                                                                                                                                                                                           'replicate': 28.77264904975891}}}
+{'Failed': {},
+ 'Successful': {'/ilc/prod/ilc/mc-dbd/ild/sim/500-TDR_ws/4f_singleZee_leptonic/ILD_o1_v05/v01-14-01-p00/00006835/001/sv01-14-01-p00.mILD_o1_v05.E500-TDR_ws.I250034.P4f_sze_l.eL.pR_sim_6835_1284.slcio': {'register': 1.9436609745025635,
+                                                                                                                                                                                                           'replicate': 29.761619806289673}}}
+{'Failed': {},
+ 'Successful': {'/ilc/prod/ilc/mc-dbd/ild/sim/500-TDR_ws/4f_singleZee_leptonic/ILD_o1_v05/v01-14-01-p00/00006835/001/sv01-14-01-p00.mILD_o1_v05.E500-TDR_ws.I250034.P4f_sze_l.eL.pR_sim_6835_1285.slcio': {'register': 1.3846030235290527,
+                                                                                                                                                                                                           'replicate': 32.245651960372925}}}
+{'Failed': {},
+ 'Successful': {'/ilc/prod/ilc/mc-dbd/ild/sim/500-TDR_ws/4f_singleZee_leptonic/ILD_o1_v05/v01-14-01-p00/00006835/001/sv01-14-01-p00.mILD_o1_v05.E500-TDR_ws.I250034.P4f_sze_l.eL.pR_sim_6835_1287.slcio': {'register': 1.3543920516967773,
+                                                                                                                                                                                                           'replicate': 38.1375470161438}}}
+{'Failed': {},
+ 'Successful': {'/ilc/prod/ilc/mc-dbd/ild/sim/500-TDR_ws/4f_singleZee_leptonic/ILD_o1_v05/v01-14-01-p00/00006835/001/sv01-14-01-p00.mILD_o1_v05.E500-TDR_ws.I250034.P4f_sze_l.eL.pR_sim_6835_1288.slcio': {'register': 1.439781904220581,
+                                                                                                                                                                                                           'replicate': 30.296213150024414}}}
+{'Failed': {},
+ 'Successful': {'/ilc/prod/ilc/mc-dbd/ild/sim/500-TDR_ws/4f_singleZee_leptonic/ILD_o1_v05/v01-14-01-p00/00006835/001/sv01-14-01-p00.mILD_o1_v05.E500-TDR_ws.I250034.P4f_sze_l.eL.pR_sim_6835_1306.slcio': {'register': 1.3551831245422363,
+                                                                                                                                                                                                           'replicate': 32.43723702430725}}}
+{'Failed': {},
+ 'Successful': {'/ilc/prod/ilc/mc-dbd/ild/sim/500-TDR_ws/4f_singleZee_leptonic/ILD_o1_v05/v01-14-01-p00/00006835/001/sv01-14-01-p00.mILD_o1_v05.E500-TDR_ws.I250034.P4f_sze_l.eL.pR_sim_6835_1308.slcio': {'register': 1.475144863128662,
+                                                                                                                                                                                                           'replicate': 30.04908585548401}}}
+{'Failed': {},
+ 'Successful': {'/ilc/prod/ilc/mc-dbd/ild/sim/500-TDR_ws/4f_singleZee_leptonic/ILD_o1_v05/v01-14-01-p00/00006835/001/sv01-14-01-p00.mILD_o1_v05.E500-TDR_ws.I250034.P4f_sze_l.eL.pR_sim_6835_1309.slcio': {'register': 1.3691670894622803,
+                                                                                                                                                                                                           'replicate': 59.032509088516235}}}
+{'Failed': {},
+ 'Successful': {'/ilc/prod/ilc/mc-dbd/ild/sim/500-TDR_ws/4f_singleZee_leptonic/ILD_o1_v05/v01-14-01-p00/00006835/001/sv01-14-01-p00.mILD_o1_v05.E500-TDR_ws.I250034.P4f_sze_l.eL.pR_sim_6835_1310.slcio': {'register': 1.3822259902954102,
+                                                                                                                                                                                                           'replicate': 28.97336196899414}}}
+{'Failed': {},
+ 'Successful': {'/ilc/prod/ilc/mc-dbd/ild/sim/500-TDR_ws/4f_singleZee_leptonic/ILD_o1_v05/v01-14-01-p00/00006835/001/sv01-14-01-p00.mILD_o1_v05.E500-TDR_ws.I250034.P4f_sze_l.eL.pR_sim_6835_1311.slcio': {'register': 1.4369149208068848,
+                                                                                                                                                                                                           'replicate': 29.281433820724487}}}
+{'Failed': {},
+ 'Successful': {'/ilc/prod/ilc/mc-dbd/ild/sim/500-TDR_ws/4f_singleZee_leptonic/ILD_o1_v05/v01-14-01-p00/00006835/001/sv01-14-01-p00.mILD_o1_v05.E500-TDR_ws.I250034.P4f_sze_l.eL.pR_sim_6835_1312.slcio': {'register': 1.408463954925537,
+                                                                                                                                                                                                           'replicate': 96.27490401268005}}}
+{'Failed': {},
+ 'Successful': {'/ilc/prod/ilc/mc-dbd/ild/sim/500-TDR_ws/4f_singleZee_leptonic/ILD_o1_v05/v01-14-01-p00/00006835/001/sv01-14-01-p00.mILD_o1_v05.E500-TDR_ws.I250034.P4f_sze_l.eL.pR_sim_6835_1314.slcio': {'register': 1.73919677734375,
+                                                                                                                                                                                                           'replicate': 29.669250965118408}}}
+{'Failed': {},
+ 'Successful': {'/ilc/prod/ilc/mc-dbd/ild/sim/500-TDR_ws/4f_singleZee_leptonic/ILD_o1_v05/v01-14-01-p00/00006835/001/sv01-14-01-p00.mILD_o1_v05.E500-TDR_ws.I250034.P4f_sze_l.eL.pR_sim_6835_1316.slcio': {'register': 1.3400599956512451,
+                                                                                                                                                                                                           'replicate': 30.646432876586914}}}
+{'Failed': {},
+ 'Successful': {'/ilc/prod/ilc/mc-dbd/ild/sim/500-TDR_ws/4f_singleZee_leptonic/ILD_o1_v05/v01-14-01-p00/00006835/001/sv01-14-01-p00.mILD_o1_v05.E500-TDR_ws.I250034.P4f_sze_l.eL.pR_sim_6835_1317.slcio': {'register': 1.3745670318603516,
+                                                                                                                                                                                                           'replicate': 50.18867206573486}}}
+{'Failed': {},
+ 'Successful': {'/ilc/prod/ilc/mc-dbd/ild/sim/500-TDR_ws/4f_singleZee_leptonic/ILD_o1_v05/v01-14-01-p00/00006835/001/sv01-14-01-p00.mILD_o1_v05.E500-TDR_ws.I250034.P4f_sze_l.eL.pR_sim_6835_1318.slcio': {'register': 1.3807668685913086,
+                                                                                                                                                                                                           'replicate': 28.84656286239624}}}
+{'Failed': {},
+ 'Successful': {'/ilc/prod/ilc/mc-dbd/ild/sim/500-TDR_ws/4f_singleZee_leptonic/ILD_o1_v05/v01-14-01-p00/00006835/001/sv01-14-01-p00.mILD_o1_v05.E500-TDR_ws.I250034.P4f_sze_l.eL.pR_sim_6835_1320.slcio': {'register': 1.3894169330596924,
+                                                                                                                                                                                                           'replicate': 29.758198976516724}}}
+{'Failed': {},
+ 'Successful': {'/ilc/prod/ilc/mc-dbd/ild/sim/500-TDR_ws/4f_singleZee_leptonic/ILD_o1_v05/v01-14-01-p00/00006835/001/sv01-14-01-p00.mILD_o1_v05.E500-TDR_ws.I250034.P4f_sze_l.eL.pR_sim_6835_1323.slcio': {'register': 1.400054931640625,
+                                                                                                                                                                                                           'replicate': 30.302707195281982}}}
+{'Failed': {},
+ 'Successful': {'/ilc/prod/ilc/mc-dbd/ild/sim/500-TDR_ws/4f_singleZee_leptonic/ILD_o1_v05/v01-14-01-p00/00006835/001/sv01-14-01-p00.mILD_o1_v05.E500-TDR_ws.I250034.P4f_sze_l.eL.pR_sim_6835_1324.slcio': {'register': 1.7736611366271973,
+                                                                                                                                                                                                           'replicate': 29.01671814918518}}}
+{'Failed': {},
+ 'Successful': {'/ilc/prod/ilc/mc-dbd/ild/sim/500-TDR_ws/4f_singleZee_leptonic/ILD_o1_v05/v01-14-01-p00/00006835/001/sv01-14-01-p00.mILD_o1_v05.E500-TDR_ws.I250034.P4f_sze_l.eL.pR_sim_6835_1325.slcio': {'register': 1.4366397857666016,
+                                                                                                                                                                                                           'replicate': 37.85156607627869}}}
+{'Failed': {},
+ 'Successful': {'/ilc/prod/ilc/mc-dbd/ild/sim/500-TDR_ws/4f_singleZee_leptonic/ILD_o1_v05/v01-14-01-p00/00006835/001/sv01-14-01-p00.mILD_o1_v05.E500-TDR_ws.I250034.P4f_sze_l.eL.pR_sim_6835_1326.slcio': {'register': 1.3636510372161865,
+                                                                                                                                                                                                           'replicate': 28.183093786239624}}}
+{'Failed': {},
+ 'Successful': {'/ilc/prod/ilc/mc-dbd/ild/sim/500-TDR_ws/4f_singleZee_leptonic/ILD_o1_v05/v01-14-01-p00/00006835/001/sv01-14-01-p00.mILD_o1_v05.E500-TDR_ws.I250034.P4f_sze_l.eL.pR_sim_6835_1327.slcio': {'register': 1.638538122177124,
+                                                                                                                                                                                                           'replicate': 29.85807204246521}}}
+{'Failed': {},
+ 'Successful': {'/ilc/prod/ilc/mc-dbd/ild/sim/500-TDR_ws/4f_singleZee_leptonic/ILD_o1_v05/v01-14-01-p00/00006835/001/sv01-14-01-p00.mILD_o1_v05.E500-TDR_ws.I250034.P4f_sze_l.eL.pR_sim_6835_1329.slcio': {'register': 1.4409658908843994,
+                                                                                                                                                                                                           'replicate': 30.11694097518921}}}
+{'Failed': {},
+ 'Successful': {'/ilc/prod/ilc/mc-dbd/ild/sim/500-TDR_ws/4f_singleZee_leptonic/ILD_o1_v05/v01-14-01-p00/00006835/001/sv01-14-01-p00.mILD_o1_v05.E500-TDR_ws.I250034.P4f_sze_l.eL.pR_sim_6835_1331.slcio': {'register': 1.330610990524292,
+                                                                                                                                                                                                           'replicate': 29.646984100341797}}}
+{'Failed': {},
+ 'Successful': {'/ilc/prod/ilc/mc-dbd/ild/sim/500-TDR_ws/4f_singleZee_leptonic/ILD_o1_v05/v01-14-01-p00/00006835/001/sv01-14-01-p00.mILD_o1_v05.E500-TDR_ws.I250034.P4f_sze_l.eL.pR_sim_6835_1332.slcio': {'register': 1.3913259506225586,
+                                                                                                                                                                                                           'replicate': 31.432342767715454}}}
+{'Failed': {},
+ 'Successful': {'/ilc/prod/ilc/mc-dbd/ild/sim/500-TDR_ws/4f_singleZee_leptonic/ILD_o1_v05/v01-14-01-p00/00006835/001/sv01-14-01-p00.mILD_o1_v05.E500-TDR_ws.I250034.P4f_sze_l.eL.pR_sim_6835_1340.slcio': {'register': 1.3341281414031982,
+                                                                                                                                                                                                           'replicate': 28.876837968826294}}}
+{'Failed': {},
+ 'Successful': {'/ilc/prod/ilc/mc-dbd/ild/sim/500-TDR_ws/4f_singleZee_leptonic/ILD_o1_v05/v01-14-01-p00/00006835/001/sv01-14-01-p00.mILD_o1_v05.E500-TDR_ws.I250034.P4f_sze_l.eL.pR_sim_6835_1342.slcio': {'register': 1.725944995880127,
+                                                                                                                                                                                                           'replicate': 29.117624044418335}}}
+{'Failed': {},
+ 'Successful': {'/ilc/prod/ilc/mc-dbd/ild/sim/500-TDR_ws/4f_singleZee_leptonic/ILD_o1_v05/v01-14-01-p00/00006835/001/sv01-14-01-p00.mILD_o1_v05.E500-TDR_ws.I250034.P4f_sze_l.eL.pR_sim_6835_1348.slcio': {'register': 1.3372387886047363,
+                                                                                                                                                                                                           'replicate': 31.7602219581604}}}
+{'Failed': {},
+ 'Successful': {'/ilc/prod/ilc/mc-dbd/ild/sim/500-TDR_ws/4f_singleZee_leptonic/ILD_o1_v05/v01-14-01-p00/00006835/001/sv01-14-01-p00.mILD_o1_v05.E500-TDR_ws.I250034.P4f_sze_l.eL.pR_sim_6835_1350.slcio': {'register': 1.404926061630249,
+                                                                                                                                                                                                           'replicate': 31.679249048233032}}}
+{'Failed': {},
+ 'Successful': {'/ilc/prod/ilc/mc-dbd/ild/sim/500-TDR_ws/4f_singleZee_leptonic/ILD_o1_v05/v01-14-01-p00/00006835/001/sv01-14-01-p00.mILD_o1_v05.E500-TDR_ws.I250034.P4f_sze_l.eL.pR_sim_6835_1352.slcio': {'register': 1.3489410877227783,
+                                                                                                                                                                                                           'replicate': 29.878289937973022}}}
+{'Failed': {},
+ 'Successful': {'/ilc/prod/ilc/mc-dbd/ild/sim/500-TDR_ws/4f_singleZee_leptonic/ILD_o1_v05/v01-14-01-p00/00006835/001/sv01-14-01-p00.mILD_o1_v05.E500-TDR_ws.I250034.P4f_sze_l.eL.pR_sim_6835_1353.slcio': {'register': 1.42952299118042,
+                                                                                                                                                                                                           'replicate': 42.45481586456299}}}

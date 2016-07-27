@@ -1,0 +1,821 @@
+### lcio_merge.sh started : 2016年  7月 15日 金曜日 17:01:03 JST 
+arg1=xaaa
+arg2=rv01-16-p05_500.sv01-14-01-p00.mILD_o1_v05.E500-TDR_ws.I250035.P4f_sze_l.eR.pR_dst_6840_01-DST.slcio
+##################################
+<!-- Loading shared library : /gpfs/fs01/ilc/soft/gcc481/root/5.28.00h/lib/libTreePlayer.so (libTreePlayer.so)-->
+<!-- Loading shared library : /gpfs/fs01/ilc/soft/gcc481/root/5.28.00h/lib/libGui.so (libGui.so)-->
+<!-- Loading shared library : /gpfs/fs01/ilc/soft/gcc481/root/5.28.00h/lib/libGed.so (libGed.so)-->
+<!-- Loading shared library : /gpfs/fs01/ilc/soft/ilcsoft/x86_64_gcc481/v01-16-02/MarlinReco/v01-06/lib/libMarlinReco.so.1.6.0 (libMarlinReco.so)-->
+<!-- Loading shared library : /gpfs/fs01/ilc/soft/ilcsoft/x86_64_gcc481/v01-16-02/PandoraAnalysis/v00-04/lib/libPandoraAnalysis.so.0.3.0 (libPandoraAnalysis.so)-->
+<!-- Loading shared library : /gpfs/fs01/ilc/soft/ilcsoft/x86_64_gcc481/v01-16-02/MarlinPandora/v00-09-02/lib/libMarlinPandora.so.0.9.2 (libMarlinPandora.so)-->
+<!-- Loading shared library : /gpfs/fs01/ilc/soft/ilcsoft/x86_64_gcc481/v01-16-02/LCFIVertex/v00-06-01/lib/libLCFIVertex.so.0.6.1 (libLCFIVertex.so)-->
+<!-- Loading shared library : /gpfs/fs01/ilc/soft/ilcsoft/x86_64_gcc481/v01-16-02/CEDViewer/v01-06-01/lib/libCEDViewer.so.1.6.1 (libCEDViewer.so)-->
+<!-- Loading shared library : /gpfs/fs01/ilc/soft/ilcsoft/x86_64_gcc481/v01-16-02/Overlay/v00-13/lib/libOverlay.so.0.13.0 (libOverlay.so)-->
+<!-- Loading shared library : /gpfs/fs01/ilc/soft/ilcsoft/x86_64_gcc481/v01-16-02/FastJetClustering/v00-02/lib/libFastJetClustering.so.0.2.0 (libFastJetClustering.so)-->
+<!-- Loading shared library : /gpfs/fs01/ilc/soft/ilcsoft/x86_64_gcc481/v01-16-02/MarlinFastJet/v00-01/lib/libMarlinFastJet.so.0.1.0 (libMarlinFastJet.so)-->
+<!-- Loading shared library : /gpfs/fs01/ilc/soft/ilcsoft/x86_64_gcc481/v01-16-02/LCTuple/v01-01/lib/libLCTuple.so.1.1.0 (libLCTuple.so)-->
+<!-- Loading shared library : /gpfs/fs01/ilc/soft/ilcsoft/x86_64_gcc481/v01-16-02/MarlinKinfit/v00-01-02/lib/libMarlinKinfit.so.0.1.2 (libMarlinKinfit.so)-->
+<!-- Loading shared library : /gpfs/fs01/ilc/soft/ilcsoft/x86_64_gcc481/v01-16-02/MarlinTrkProcessors/v01-09/lib/libMarlinTrkProcessors.so.1.9.0 (libMarlinTrkProcessors.so)-->
+<!-- Loading shared library : /gpfs/fs01/ilc/soft/ilcsoft/x86_64_gcc481/v01-16-02/Clupatra/v00-09-01/lib/libClupatra.so.0.9.1 (libClupatra.so)-->
+<!-- Loading shared library : /gpfs/fs01/ilc/soft/ilcsoft/x86_64_gcc481/v01-16-02/LCFIPlus/v00-05-02/lib/libLCFIPlus.so.0.5.2 (libLCFIPlus.so)-->
+<!-- Loading shared library : /gpfs/fs01/ilc/soft/ilcsoft/x86_64_gcc481/v01-16-02/ForwardTracking/v01-07/lib/libForwardTracking.so.1.7.0 (libForwardTracking.so)-->
+
+  SimpleMaterialXML::fromXML( VXDSupportMaterial ... ) 
+[ MESSAGE "Marlin"]  ---- instantiated  GEAR from file  GearOutput.xml
+[ MESSAGE "Marlin"]  ----------------------------------------------------- 
+[ MESSAGE "Marlin"]               GearMgr :                                
+[ MESSAGE "Marlin"]  ----------------------------------------------------- 
+[ MESSAGE "Marlin"]    ----  DetectorName   ----   
+[ MESSAGE "Marlin"] 
+[ MESSAGE "Marlin"]          ILD_o1_v05
+[ MESSAGE "Marlin"] 
+[ MESSAGE "Marlin"] 
+[ MESSAGE "Marlin"]    -----------   BField   ------- 
+[ MESSAGE "Marlin"] 
+[ MESSAGE "Marlin"]        field vector at origin :   Bx = 0 , By = 0 , Bz = 3.5 [Tesla] 
+[ MESSAGE "Marlin"] 
+[ MESSAGE "Marlin"]    ----  VXD    ---- 
+[ MESSAGE "Marlin"]      --- ZPlanarParameters: 
+[ MESSAGE "Marlin"] 
+[ MESSAGE "Marlin"]   type :  HYBRID 
+[ MESSAGE "Marlin"]  Shell innerR : 65 outerR : 65.4939
+[ MESSAGE "Marlin"]        length : 145 gap 0
+[ MESSAGE "Marlin"]  Layers : 6
+[ MESSAGE "Marlin"] 
+[ MESSAGE "Marlin"]  layer parameters (note: ladder length (l) are half lengths ! )
+[ MESSAGE "Marlin"]   |------------------------------------------------------------------------------------|
+[ MESSAGE "Marlin"]   |      |       ladder:                        |       sensitive part:                |
+[ MESSAGE "Marlin"]   |  #   |    d    |    w    |    l    |   t    |    d    |    w    |    l    |    t   | 
+[ MESSAGE "Marlin"]   |------------------------------------------------------------------------------------|
+[ MESSAGE "Marlin"]   |  10  |  16.00  |  11.50  |  62.50  |  1.00  |  15.95  |  11.00  |  62.50  |  0.05  |
+[ MESSAGE "Marlin"]   |  10  |  17.00  |  11.50  |  62.50  |  1.00  |  18.00  |  11.00  |  62.50  |  0.05  |
+[ MESSAGE "Marlin"]   |  11  |  37.00  |  22.50  |  125.00  |  1.00  |  36.95  |  22.00  |  125.00  |  0.05  |
+[ MESSAGE "Marlin"]   |  11  |  38.00  |  22.50  |  125.00  |  1.00  |  39.00  |  22.00  |  125.00  |  0.05  |
+[ MESSAGE "Marlin"]   |  17  |  58.00  |  22.50  |  125.00  |  1.00  |  57.95  |  22.00  |  125.00  |  0.05  |
+[ MESSAGE "Marlin"]   |  17  |  59.00  |  22.50  |  125.00  |  1.00  |  60.00  |  22.00  |  125.00  |  0.05  |
+[ MESSAGE "Marlin"]   |------------------------------------------------------------------------------------|
+[ MESSAGE "Marlin"] 
+[ MESSAGE "Marlin"] 
+[ MESSAGE "Marlin"]    -----------   FTDParameters  ------- 
+[ MESSAGE "Marlin"] 
+[ MESSAGE "Marlin"]     [double]    strip_angle_deg 	 5
+[ MESSAGE "Marlin"] 
+[ MESSAGE "Marlin"]     [double]    strip_length_mm 	 250
+[ MESSAGE "Marlin"] 
+[ MESSAGE "Marlin"]     [double]    strip_pitch_mm 	 0.01
+[ MESSAGE "Marlin"] 
+[ MESSAGE "Marlin"]     [double]    strip_width_mm 	 0.001
+[ MESSAGE "Marlin"]  Layers : 7
+[ MESSAGE "Marlin"] 
+[ MESSAGE "Marlin"]  layer parameters (note: ladder length (l) are half lengths ! )
+[ MESSAGE "Marlin"]   |------------------------------------------------------------------------------------|
+[ MESSAGE "Marlin"]   |      |         support:                      |       sensitive part:                |
+[ MESSAGE "Marlin"]   |  #   |    x    |    X    |    y    |   t    |    x    |    X    |    y    |    t   | 
+[ MESSAGE "Marlin"]   |------------------------------------------------------------------------------------|
+[ MESSAGE "Marlin"]   |  16  |  29.21  |  72.00  |  107.57  |  1.00  |  29.21  |  72.00  |  107.57  |  0.02  |
+[ MESSAGE "Marlin"]   |  16  |  33.45  |  72.00  |  96.90  |  1.00  |  33.45  |  72.00  |  96.90  |  0.02  |
+[ MESSAGE "Marlin"]   |  16  |  34.39  |  122.49  |  221.45  |  2.00  |  34.39  |  122.49  |  221.45  |  0.20  |
+[ MESSAGE "Marlin"]   |  16  |  42.18  |  122.49  |  201.88  |  2.00  |  42.18  |  122.49  |  201.88  |  0.20  |
+[ MESSAGE "Marlin"]   |  16  |  54.07  |  122.49  |  171.99  |  2.00  |  54.07  |  122.49  |  171.99  |  0.20  |
+[ MESSAGE "Marlin"]   |  16  |  65.96  |  122.49  |  142.11  |  2.00  |  65.96  |  122.49  |  142.11  |  0.20  |
+[ MESSAGE "Marlin"]   |  16  |  77.85  |  122.49  |  112.20  |  2.00  |  77.85  |  122.49  |  112.20  |  0.20  |
+[ MESSAGE "Marlin"]   |------------------------------------------------------------------------------------|
+[ MESSAGE "Marlin"] 
+[ MESSAGE "Marlin"]    ----  SIT    ---- 
+[ MESSAGE "Marlin"]      --- ZPlanarParameters: 
+[ MESSAGE "Marlin"] 
+[ MESSAGE "Marlin"]     [double]    sensor_length_mm 	 92
+[ MESSAGE "Marlin"] 
+[ MESSAGE "Marlin"]     [double]    strip_angle_deg 	 7
+[ MESSAGE "Marlin"] 
+[ MESSAGE "Marlin"]     [double]    strip_length_mm 	 92
+[ MESSAGE "Marlin"] 
+[ MESSAGE "Marlin"]     [double]    strip_pitch_mm 	 0.05
+[ MESSAGE "Marlin"] 
+[ MESSAGE "Marlin"]     [double]    strip_width_mm 	 0.0125
+[ MESSAGE "Marlin"] 
+[ MESSAGE "Marlin"]     [IntVec]    n_sensors_per_ladder 	 8 , 8 , 14 , 14 , 
+[ MESSAGE "Marlin"] 
+[ MESSAGE "Marlin"]   type :  CCD 
+[ MESSAGE "Marlin"]  Shell innerR : 0 outerR : 0
+[ MESSAGE "Marlin"]        length : 0 gap 0
+[ MESSAGE "Marlin"]  Layers : 4
+[ MESSAGE "Marlin"] 
+[ MESSAGE "Marlin"]  layer parameters (note: ladder length (l) are half lengths ! )
+[ MESSAGE "Marlin"]   |------------------------------------------------------------------------------------|
+[ MESSAGE "Marlin"]   |      |       ladder:                        |       sensitive part:                |
+[ MESSAGE "Marlin"]   |  #   |    d    |    w    |    l    |   t    |    d    |    w    |    l    |    t   | 
+[ MESSAGE "Marlin"]   |------------------------------------------------------------------------------------|
+[ MESSAGE "Marlin"]   |  10  |  153.10  |  99.16  |  368.00  |  1.00  |  152.90  |  99.16  |  368.00  |  0.20  |
+[ MESSAGE "Marlin"]   |  10  |  154.40  |  100.14  |  368.00  |  1.00  |  155.40  |  100.14  |  368.00  |  0.20  |
+[ MESSAGE "Marlin"]   |  19  |  300.10  |  99.89  |  644.00  |  1.00  |  299.90  |  99.89  |  644.00  |  0.20  |
+[ MESSAGE "Marlin"]   |  19  |  301.40  |  100.39  |  644.00  |  1.00  |  302.40  |  100.39  |  644.00  |  0.20  |
+[ MESSAGE "Marlin"]   |------------------------------------------------------------------------------------|
+[ MESSAGE "Marlin"] 
+[ MESSAGE "Marlin"]    ----  SET    ---- 
+[ MESSAGE "Marlin"]      --- ZPlanarParameters: 
+[ MESSAGE "Marlin"] 
+[ MESSAGE "Marlin"]     [double]    sensor_length_mm 	 92
+[ MESSAGE "Marlin"] 
+[ MESSAGE "Marlin"]     [double]    strip_angle_deg 	 7
+[ MESSAGE "Marlin"] 
+[ MESSAGE "Marlin"]     [double]    strip_length_mm 	 92
+[ MESSAGE "Marlin"] 
+[ MESSAGE "Marlin"]     [double]    strip_pitch_mm 	 0.05
+[ MESSAGE "Marlin"] 
+[ MESSAGE "Marlin"]     [double]    strip_width_mm 	 0.0125
+[ MESSAGE "Marlin"] 
+[ MESSAGE "Marlin"]     [IntVec]    n_sensors_per_ladder 	 50 , 50 , 
+[ MESSAGE "Marlin"] 
+[ MESSAGE "Marlin"]   type :  CCD 
+[ MESSAGE "Marlin"]  Shell innerR : 0 outerR : 0
+[ MESSAGE "Marlin"]        length : 0 gap 0
+[ MESSAGE "Marlin"]  Layers : 2
+[ MESSAGE "Marlin"] 
+[ MESSAGE "Marlin"]  layer parameters (note: ladder length (l) are half lengths ! )
+[ MESSAGE "Marlin"]   |------------------------------------------------------------------------------------|
+[ MESSAGE "Marlin"]   |      |       ladder:                        |       sensitive part:                |
+[ MESSAGE "Marlin"]   |  #   |    d    |    w    |    l    |   t    |    d    |    w    |    l    |    t   | 
+[ MESSAGE "Marlin"]   |------------------------------------------------------------------------------------|
+[ MESSAGE "Marlin"]   |  24  |  1811.10  |  476.62  |  2300.00  |  1.00  |  1810.90  |  476.62  |  2300.00  |  0.20  |
+[ MESSAGE "Marlin"]   |  24  |  1812.40  |  477.01  |  2300.00  |  1.00  |  1813.40  |  477.01  |  2300.00  |  0.20  |
+[ MESSAGE "Marlin"]   |------------------------------------------------------------------------------------|
+[ MESSAGE "Marlin"] 
+[ MESSAGE "Marlin"]      --- ZPlanarParameters: 
+[ MESSAGE "Marlin"] 
+[ MESSAGE "Marlin"]     [double]    sensor_length_mm 	 92
+[ MESSAGE "Marlin"] 
+[ MESSAGE "Marlin"]     [double]    strip_angle_deg 	 7
+[ MESSAGE "Marlin"] 
+[ MESSAGE "Marlin"]     [double]    strip_length_mm 	 92
+[ MESSAGE "Marlin"] 
+[ MESSAGE "Marlin"]     [double]    strip_pitch_mm 	 0.05
+[ MESSAGE "Marlin"] 
+[ MESSAGE "Marlin"]     [double]    strip_width_mm 	 0.0125
+[ MESSAGE "Marlin"] 
+[ MESSAGE "Marlin"]     [IntVec]    n_sensors_per_ladder 	 8 , 8 , 14 , 14 , 
+[ MESSAGE "Marlin"] 
+[ MESSAGE "Marlin"]   type :  CCD 
+[ MESSAGE "Marlin"]  Shell innerR : 0 outerR : 0
+[ MESSAGE "Marlin"]        length : 0 gap 0
+[ MESSAGE "Marlin"]  Layers : 4
+[ MESSAGE "Marlin"] 
+[ MESSAGE "Marlin"]  layer parameters (note: ladder length (l) are half lengths ! )
+[ MESSAGE "Marlin"]   |------------------------------------------------------------------------------------|
+[ MESSAGE "Marlin"]   |      |       ladder:                        |       sensitive part:                |
+[ MESSAGE "Marlin"]   |  #   |    d    |    w    |    l    |   t    |    d    |    w    |    l    |    t   | 
+[ MESSAGE "Marlin"]   |------------------------------------------------------------------------------------|
+[ MESSAGE "Marlin"]   |  10  |  153.10  |  99.16  |  368.00  |  1.00  |  152.90  |  99.16  |  368.00  |  0.20  |
+[ MESSAGE "Marlin"]   |  10  |  154.40  |  100.14  |  368.00  |  1.00  |  155.40  |  100.14  |  368.00  |  0.20  |
+[ MESSAGE "Marlin"]   |  19  |  300.10  |  99.89  |  644.00  |  1.00  |  299.90  |  99.89  |  644.00  |  0.20  |
+[ MESSAGE "Marlin"]   |  19  |  301.40  |  100.39  |  644.00  |  1.00  |  302.40  |  100.39  |  644.00  |  0.20  |
+[ MESSAGE "Marlin"]   |------------------------------------------------------------------------------------|
+[ MESSAGE "Marlin"] 
+[ MESSAGE "Marlin"]      --- ZPlanarParameters: 
+[ MESSAGE "Marlin"] 
+[ MESSAGE "Marlin"]     [double]    sensor_length_mm 	 92
+[ MESSAGE "Marlin"] 
+[ MESSAGE "Marlin"]     [double]    strip_angle_deg 	 7
+[ MESSAGE "Marlin"] 
+[ MESSAGE "Marlin"]     [double]    strip_length_mm 	 92
+[ MESSAGE "Marlin"] 
+[ MESSAGE "Marlin"]     [double]    strip_pitch_mm 	 0.05
+[ MESSAGE "Marlin"] 
+[ MESSAGE "Marlin"]     [double]    strip_width_mm 	 0.0125
+[ MESSAGE "Marlin"] 
+[ MESSAGE "Marlin"]     [IntVec]    n_sensors_per_ladder 	 50 , 50 , 
+[ MESSAGE "Marlin"] 
+[ MESSAGE "Marlin"]   type :  CCD 
+[ MESSAGE "Marlin"]  Shell innerR : 0 outerR : 0
+[ MESSAGE "Marlin"]        length : 0 gap 0
+[ MESSAGE "Marlin"]  Layers : 2
+[ MESSAGE "Marlin"] 
+[ MESSAGE "Marlin"]  layer parameters (note: ladder length (l) are half lengths ! )
+[ MESSAGE "Marlin"]   |------------------------------------------------------------------------------------|
+[ MESSAGE "Marlin"]   |      |       ladder:                        |       sensitive part:                |
+[ MESSAGE "Marlin"]   |  #   |    d    |    w    |    l    |   t    |    d    |    w    |    l    |    t   | 
+[ MESSAGE "Marlin"]   |------------------------------------------------------------------------------------|
+[ MESSAGE "Marlin"]   |  24  |  1811.10  |  476.62  |  2300.00  |  1.00  |  1810.90  |  476.62  |  2300.00  |  0.20  |
+[ MESSAGE "Marlin"]   |  24  |  1812.40  |  477.01  |  2300.00  |  1.00  |  1813.40  |  477.01  |  2300.00  |  0.20  |
+[ MESSAGE "Marlin"]   |------------------------------------------------------------------------------------|
+[ MESSAGE "Marlin"] 
+[ MESSAGE "Marlin"] 
+[ MESSAGE "Marlin"]    -----------   TPCParameters  ------- 
+[ MESSAGE "Marlin"] 
+[ MESSAGE "Marlin"]     [double]    TPCGasProperties_RadLen 	 115521
+[ MESSAGE "Marlin"] 
+[ MESSAGE "Marlin"]     [double]    TPCGasProperties_dEdx 	 2.66818e-07
+[ MESSAGE "Marlin"] 
+[ MESSAGE "Marlin"]     [double]    TPCInnerWallProperties_RadLen 	 4897.36
+[ MESSAGE "Marlin"] 
+[ MESSAGE "Marlin"]     [double]    TPCInnerWallProperties_dEdx 	 1.33702e-05
+[ MESSAGE "Marlin"] 
+[ MESSAGE "Marlin"]     [double]    TPCOuterWallProperties_RadLen 	 11577.1
+[ MESSAGE "Marlin"] 
+[ MESSAGE "Marlin"]     [double]    TPCOuterWallProperties_dEdx 	 5.70058e-06
+[ MESSAGE "Marlin"] 
+[ MESSAGE "Marlin"]     [double]    TPCWallProperties_RadLen 	 4897.36
+[ MESSAGE "Marlin"] 
+[ MESSAGE "Marlin"]     [double]    TPCWallProperties_dEdx 	 1.33702e-05
+[ MESSAGE "Marlin"] 
+[ MESSAGE "Marlin"]     [double]    tpcInnerRadius 	 329
+[ MESSAGE "Marlin"] 
+[ MESSAGE "Marlin"]     [double]    tpcInnerWallThickness 	 25
+[ MESSAGE "Marlin"] 
+[ MESSAGE "Marlin"]     [double]    tpcOuterRadius 	 1808
+[ MESSAGE "Marlin"] 
+[ MESSAGE "Marlin"]     [double]    tpcOuterWallThickness 	 60
+[ MESSAGE "Marlin"] 
+[ MESSAGE "Marlin"]     [double]    tpcZAnode 	 4600
+[ MESSAGE "Marlin"] 
+[ MESSAGE "Marlin"]   maxDriftLength :      2225
+[ MESSAGE "Marlin"]   coordinateType :      polar
+[ MESSAGE "Marlin"]   Number of modules :   1
+[ MESSAGE "Marlin"] 
+[ MESSAGE "Marlin"]      -----------   TPCModule  ------- 
+[ MESSAGE "Marlin"] 
+[ MESSAGE "Marlin"]   Readout frequency :   0
+[ MESSAGE "Marlin"]   Type :                 polar
+[ MESSAGE "Marlin"]   Number of pads :      1464499
+[ MESSAGE "Marlin"]   Number of Rows :      222
+[ MESSAGE "Marlin"]   Offset :              0  ;  0 no z Position set 
+[ MESSAGE "Marlin"]   Angle :               0
+[ MESSAGE "Marlin"]          extent (global):    [384,1716,0,6.28319]
+[ MESSAGE "Marlin"] 
+[ MESSAGE "Marlin"] 
+[ MESSAGE "Marlin"] 
+[ MESSAGE "Marlin"] 
+[ MESSAGE "Marlin"] 
+[ MESSAGE "Marlin"]    ----  Ecal barrel    ---- 
+[ MESSAGE "Marlin"] 
+[ MESSAGE "Marlin"]   calorimeter type:  barrel  
+[ MESSAGE "Marlin"]    symmetry order:  8
+[ MESSAGE "Marlin"]    phi0:            0
+[ MESSAGE "Marlin"] 
+[ MESSAGE "Marlin"]    dimensions :  
+[ MESSAGE "Marlin"]          rMin:      1847.42
+[ MESSAGE "Marlin"]          rMax:      2019.62
+[ MESSAGE "Marlin"]          zMin:      0
+[ MESSAGE "Marlin"]          zMax:      2350
+[ MESSAGE "Marlin"] 
+[ MESSAGE "Marlin"] 
+[ MESSAGE "Marlin"]    layers    :    #total 29
+[ MESSAGE "Marlin"]        id: 0 thickness: 5.25 absorber thickness: 2.1 distance: 1847.42 cellsize-0: 5.08333 cellsize-1: 5.08333
+[ MESSAGE "Marlin"]        id: 19 thickness: 6.3 absorber thickness: 2.1 distance: 1947.17 cellsize-0: 5.08333 cellsize-1: 5.08333
+[ MESSAGE "Marlin"]        id: 20 thickness: 7.35 absorber thickness: 4.2 distance: 1953.47 cellsize-0: 5.08333 cellsize-1: 5.08333
+[ MESSAGE "Marlin"]        id: 28 thickness: 7.35 absorber thickness: 4.2 distance: 2012.27 cellsize-0: 5.08333 cellsize-1: 5.08333
+[ MESSAGE "Marlin"] 
+[ MESSAGE "Marlin"]    ----  Ecal endcap   ---- 
+[ MESSAGE "Marlin"] 
+[ MESSAGE "Marlin"]   calorimeter type:  endcap  
+[ MESSAGE "Marlin"]    symmetry order:  2
+[ MESSAGE "Marlin"]    phi0:            0
+[ MESSAGE "Marlin"] 
+[ MESSAGE "Marlin"]    dimensions :  
+[ MESSAGE "Marlin"]          rMin:      400
+[ MESSAGE "Marlin"]          rMax:      2088.8
+[ MESSAGE "Marlin"]          zMin:      2450
+[ MESSAGE "Marlin"]          zMax:      2622.2
+[ MESSAGE "Marlin"] 
+[ MESSAGE "Marlin"] 
+[ MESSAGE "Marlin"]    layers    :    #total 29
+[ MESSAGE "Marlin"]        id: 0 thickness: 5.25 absorber thickness: 2.1 distance: 2450 cellsize-0: 5.08333 cellsize-1: 5.08333
+[ MESSAGE "Marlin"]        id: 19 thickness: 6.3 absorber thickness: 2.1 distance: 2549.75 cellsize-0: 5.08333 cellsize-1: 5.08333
+[ MESSAGE "Marlin"]        id: 20 thickness: 7.35 absorber thickness: 4.2 distance: 2556.05 cellsize-0: 5.08333 cellsize-1: 5.08333
+[ MESSAGE "Marlin"]        id: 28 thickness: 7.35 absorber thickness: 4.2 distance: 2614.85 cellsize-0: 5.08333 cellsize-1: 5.08333
+[ MESSAGE "Marlin"] 
+[ MESSAGE "Marlin"]    ----  Ecal plug   ---- 
+[ MESSAGE "Marlin"] 
+[ MESSAGE "Marlin"]   calorimeter type:  endcap  
+[ MESSAGE "Marlin"]    symmetry order:  2
+[ MESSAGE "Marlin"]    phi0:            0
+[ MESSAGE "Marlin"] 
+[ MESSAGE "Marlin"]    dimensions :  
+[ MESSAGE "Marlin"]          rMin:      250
+[ MESSAGE "Marlin"]          rMax:      400
+[ MESSAGE "Marlin"]          zMin:      2450
+[ MESSAGE "Marlin"]          zMax:      2622.2
+[ MESSAGE "Marlin"] 
+[ MESSAGE "Marlin"] 
+[ MESSAGE "Marlin"]    layers    :    #total 29
+[ MESSAGE "Marlin"]        id: 0 thickness: 5.25 absorber thickness: 2.1 distance: 2450 cellsize-0: 5.08333 cellsize-1: 5.08333
+[ MESSAGE "Marlin"]        id: 19 thickness: 6.3 absorber thickness: 2.1 distance: 2549.75 cellsize-0: 5.08333 cellsize-1: 5.08333
+[ MESSAGE "Marlin"]        id: 20 thickness: 7.35 absorber thickness: 4.2 distance: 2556.05 cellsize-0: 5.08333 cellsize-1: 5.08333
+[ MESSAGE "Marlin"]        id: 28 thickness: 7.35 absorber thickness: 4.2 distance: 2614.85 cellsize-0: 5.08333 cellsize-1: 5.08333
+[ MESSAGE "Marlin"] 
+[ MESSAGE "Marlin"]    ----  Yoke barrel    ---- 
+[ MESSAGE "Marlin"] 
+[ MESSAGE "Marlin"]   calorimeter type:  barrel  
+[ MESSAGE "Marlin"]    symmetry order:  12
+[ MESSAGE "Marlin"]    phi0:            0
+[ MESSAGE "Marlin"] 
+[ MESSAGE "Marlin"]    dimensions :  
+[ MESSAGE "Marlin"]          rMin:      4424.96
+[ MESSAGE "Marlin"]          rMax:      7664.96
+[ MESSAGE "Marlin"]          zMin:      0
+[ MESSAGE "Marlin"]          zMax:      4072
+[ MESSAGE "Marlin"] 
+[ MESSAGE "Marlin"] 
+[ MESSAGE "Marlin"]    layers    :    #total 14
+[ MESSAGE "Marlin"]        id: 0 thickness: 40 absorber thickness: 0 distance: 4424.96 cellsize-0: 30 cellsize-1: 30
+[ MESSAGE "Marlin"]        id: 1 thickness: 140 absorber thickness: 100 distance: 4464.96 cellsize-0: 30 cellsize-1: 30
+[ MESSAGE "Marlin"]        id: 11 thickness: 600 absorber thickness: 560 distance: 5864.96 cellsize-0: 30 cellsize-1: 30
+[ MESSAGE "Marlin"]        id: 13 thickness: 600 absorber thickness: 560 distance: 7064.96 cellsize-0: 30 cellsize-1: 30
+[ MESSAGE "Marlin"] 
+[ MESSAGE "Marlin"]    ----  Yoke endcap   ---- 
+[ MESSAGE "Marlin"] 
+[ MESSAGE "Marlin"]   calorimeter type:  endcap  
+[ MESSAGE "Marlin"]    symmetry order:  2
+[ MESSAGE "Marlin"]    phi0:            0
+[ MESSAGE "Marlin"] 
+[ MESSAGE "Marlin"]    dimensions :  
+[ MESSAGE "Marlin"]          rMin:      300
+[ MESSAGE "Marlin"]          rMax:      7665.96
+[ MESSAGE "Marlin"]          zMin:      4072
+[ MESSAGE "Marlin"]          zMax:      6672
+[ MESSAGE "Marlin"] 
+[ MESSAGE "Marlin"] 
+[ MESSAGE "Marlin"]    layers    :    #total 12
+[ MESSAGE "Marlin"]        id: 0 thickness: 140 absorber thickness: 100 distance: 4072 cellsize-0: 30 cellsize-1: 30
+[ MESSAGE "Marlin"]        id: 10 thickness: 600 absorber thickness: 560 distance: 5472 cellsize-0: 30 cellsize-1: 30
+[ MESSAGE "Marlin"]        id: 11 thickness: 600 absorber thickness: 560 distance: 6072 cellsize-0: 30 cellsize-1: 30
+[ MESSAGE "Marlin"] 
+[ MESSAGE "Marlin"]    ----  Yoke plug   ---- 
+[ MESSAGE "Marlin"] 
+[ MESSAGE "Marlin"]     [double]    YokePlugThickness 	 90
+[ MESSAGE "Marlin"] 
+[ MESSAGE "Marlin"]   calorimeter type:  endcap  
+[ MESSAGE "Marlin"]    symmetry order:  2
+[ MESSAGE "Marlin"]    phi0:            0
+[ MESSAGE "Marlin"] 
+[ MESSAGE "Marlin"]    dimensions :  
+[ MESSAGE "Marlin"]          rMin:      300
+[ MESSAGE "Marlin"]          rMax:      3076.72
+[ MESSAGE "Marlin"]          zMin:      3982
+[ MESSAGE "Marlin"]          zMax:      3982
+[ MESSAGE "Marlin"] 
+[ MESSAGE "Marlin"] 
+[ MESSAGE "Marlin"]    layers    :    #total 0
+[ MESSAGE "Marlin"] 
+[ MESSAGE "Marlin"]    ----  Hcal barrel    ---- 
+[ MESSAGE "Marlin"] 
+[ MESSAGE "Marlin"]     [int]       Hcal_barrel_end_module_type 	 1
+[ MESSAGE "Marlin"] 
+[ MESSAGE "Marlin"]     [int]       Hcal_outer_polygon_order 	 16
+[ MESSAGE "Marlin"] 
+[ MESSAGE "Marlin"]     [int]       Hcal_outer_polygon_phi0 	 0
+[ MESSAGE "Marlin"] 
+[ MESSAGE "Marlin"]     [double]    Hcal_Cu_thickness 	 0.1
+[ MESSAGE "Marlin"] 
+[ MESSAGE "Marlin"]     [double]    Hcal_PCB_thickness 	 0.7
+[ MESSAGE "Marlin"] 
+[ MESSAGE "Marlin"]     [double]    Hcal_back_plate_thickness 	 15
+[ MESSAGE "Marlin"] 
+[ MESSAGE "Marlin"]     [double]    Hcal_lateral_structure_thickness 	 15
+[ MESSAGE "Marlin"] 
+[ MESSAGE "Marlin"]     [double]    Hcal_layer_air_gap 	 2
+[ MESSAGE "Marlin"] 
+[ MESSAGE "Marlin"]     [double]    Hcal_middle_stave_gaps 	 10
+[ MESSAGE "Marlin"] 
+[ MESSAGE "Marlin"]     [double]    Hcal_modules_gap 	 0
+[ MESSAGE "Marlin"] 
+[ MESSAGE "Marlin"]     [double]    Hcal_scintillator_thickness 	 3
+[ MESSAGE "Marlin"] 
+[ MESSAGE "Marlin"]     [double]    Hcal_stave_gaps 	 10
+[ MESSAGE "Marlin"] 
+[ MESSAGE "Marlin"]     [double]    Hcal_virtual_cell_size 	 30
+[ MESSAGE "Marlin"] 
+[ MESSAGE "Marlin"]     [double]    TPC_Ecal_Hcal_barrel_halfZ 	 2350
+[ MESSAGE "Marlin"] 
+[ MESSAGE "Marlin"]   calorimeter type:  barrel  
+[ MESSAGE "Marlin"]    symmetry order:  8
+[ MESSAGE "Marlin"]    phi0:            0
+[ MESSAGE "Marlin"] 
+[ MESSAGE "Marlin"]    dimensions :  
+[ MESSAGE "Marlin"]          rMin:      2058
+[ MESSAGE "Marlin"]          rMax:      3330
+[ MESSAGE "Marlin"]          zMin:      0
+[ MESSAGE "Marlin"]          zMax:      2350
+[ MESSAGE "Marlin"] 
+[ MESSAGE "Marlin"] 
+[ MESSAGE "Marlin"]    layers    :    #total 48
+[ MESSAGE "Marlin"]        id: 0 thickness: 26.5 absorber thickness: 20 distance: 2058 cellsize-0: 30.3247 cellsize-1: 30
+[ MESSAGE "Marlin"]        id: 47 thickness: 26.5 absorber thickness: 20 distance: 3303.5 cellsize-0: 30.3247 cellsize-1: 30
+[ MESSAGE "Marlin"] 
+[ MESSAGE "Marlin"]    ----  Hcal endcap    ---- 
+[ MESSAGE "Marlin"] 
+[ MESSAGE "Marlin"]     [double]    Hcal_Cu_thickness 	 0.1
+[ MESSAGE "Marlin"] 
+[ MESSAGE "Marlin"]     [double]    Hcal_PCB_thickness 	 0.7
+[ MESSAGE "Marlin"] 
+[ MESSAGE "Marlin"]     [double]    Hcal_endcap_lateral_structure_thickness 	 5
+[ MESSAGE "Marlin"] 
+[ MESSAGE "Marlin"]     [double]    Hcal_endcap_layer_air_gap 	 2.5
+[ MESSAGE "Marlin"] 
+[ MESSAGE "Marlin"]     [double]    Hcal_endcap_module_width 	 375
+[ MESSAGE "Marlin"] 
+[ MESSAGE "Marlin"]     [double]    Hcal_endcap_sensitive_center_box 	 0
+[ MESSAGE "Marlin"] 
+[ MESSAGE "Marlin"]     [double]    Hcal_scintillator_thickness 	 3
+[ MESSAGE "Marlin"] 
+[ MESSAGE "Marlin"]     [double]    Hcal_stave_gaps 	 10
+[ MESSAGE "Marlin"] 
+[ MESSAGE "Marlin"]     [double]    Hcal_steel_cassette_thickness 	 0.5
+[ MESSAGE "Marlin"] 
+[ MESSAGE "Marlin"]     [double]    Hcal_virtual_cell_size 	 30
+[ MESSAGE "Marlin"] 
+[ MESSAGE "Marlin"]   calorimeter type:  endcap  
+[ MESSAGE "Marlin"]    symmetry order:  2
+[ MESSAGE "Marlin"]    phi0:            0
+[ MESSAGE "Marlin"] 
+[ MESSAGE "Marlin"]    dimensions :  
+[ MESSAGE "Marlin"]          rMin:      350
+[ MESSAGE "Marlin"]          rMax:      3246.93
+[ MESSAGE "Marlin"]          zMin:      2650
+[ MESSAGE "Marlin"]          zMax:      3922
+[ MESSAGE "Marlin"] 
+[ MESSAGE "Marlin"] 
+[ MESSAGE "Marlin"]    layers    :    #total 48
+[ MESSAGE "Marlin"]        id: 0 thickness: 26.5 absorber thickness: 20 distance: 2650 cellsize-0: 30 cellsize-1: 30
+[ MESSAGE "Marlin"]        id: 47 thickness: 26.5 absorber thickness: 20 distance: 3895.5 cellsize-0: 30 cellsize-1: 30
+[ MESSAGE "Marlin"] 
+[ MESSAGE "Marlin"]    ----  Hcal ring    ---- 
+[ MESSAGE "Marlin"] 
+[ MESSAGE "Marlin"]     [double]    Hcal_Cu_thickness 	 0.1
+[ MESSAGE "Marlin"] 
+[ MESSAGE "Marlin"]     [double]    Hcal_PCB_thickness 	 0.7
+[ MESSAGE "Marlin"] 
+[ MESSAGE "Marlin"]     [double]    Hcal_lateral_structure_thickness 	 15
+[ MESSAGE "Marlin"] 
+[ MESSAGE "Marlin"]     [double]    Hcal_scintillator_thickness 	 3
+[ MESSAGE "Marlin"] 
+[ MESSAGE "Marlin"]     [double]    Hcal_stave_gaps 	 10
+[ MESSAGE "Marlin"] 
+[ MESSAGE "Marlin"]     [double]    Hcal_steel_cassette_thickness 	 0.5
+[ MESSAGE "Marlin"] 
+[ MESSAGE "Marlin"]     [double]    Hcal_virtual_cell_size 	 30
+[ MESSAGE "Marlin"] 
+[ MESSAGE "Marlin"]   calorimeter type:  endcap  
+[ MESSAGE "Marlin"]    symmetry order:  2
+[ MESSAGE "Marlin"]    phi0:            0
+[ MESSAGE "Marlin"] 
+[ MESSAGE "Marlin"]    dimensions :  
+[ MESSAGE "Marlin"]          rMin:      2138.8
+[ MESSAGE "Marlin"]          rMax:      3137
+[ MESSAGE "Marlin"]          zMin:      2450
+[ MESSAGE "Marlin"]          zMax:      2609
+[ MESSAGE "Marlin"] 
+[ MESSAGE "Marlin"] 
+[ MESSAGE "Marlin"]    layers    :    #total 6
+[ MESSAGE "Marlin"]        id: 0 thickness: 26.5 absorber thickness: 22.2 distance: 2450 cellsize-0: 30 cellsize-1: 30
+[ MESSAGE "Marlin"]        id: 5 thickness: 26.5 absorber thickness: 22.2 distance: 2582.5 cellsize-0: 30 cellsize-1: 30
+[ MESSAGE "Marlin"] 
+[ MESSAGE "Marlin"]    ----  Lcal   ---- 
+[ MESSAGE "Marlin"] 
+[ MESSAGE "Marlin"]     [double]    beam_crossing_angle 	 14
+[ MESSAGE "Marlin"] 
+[ MESSAGE "Marlin"]   calorimeter type:  endcap  
+[ MESSAGE "Marlin"]    symmetry order:  1
+[ MESSAGE "Marlin"]    phi0:            0
+[ MESSAGE "Marlin"] 
+[ MESSAGE "Marlin"]    dimensions :  
+[ MESSAGE "Marlin"]          rMin:      84.0221
+[ MESSAGE "Marlin"]          rMax:      194
+[ MESSAGE "Marlin"]          zMin:      2506.9
+[ MESSAGE "Marlin"]          zMax:      2635.6
+[ MESSAGE "Marlin"] 
+[ MESSAGE "Marlin"] 
+[ MESSAGE "Marlin"]    layers    :    #total 30
+[ MESSAGE "Marlin"]        id: 0 thickness: 4.29 absorber thickness: 3.5 distance: 2506.9 cellsize-0: 1.7184 cellsize-1: 0.1309
+[ MESSAGE "Marlin"]        id: 29 thickness: 4.29 absorber thickness: 3.5 distance: 2631.31 cellsize-0: 1.7184 cellsize-1: 0.1309
+[ MESSAGE "Marlin"] 
+[ MESSAGE "Marlin"]    ----  LHcal   ---- 
+[ MESSAGE "Marlin"] 
+[ MESSAGE "Marlin"]     [double]    beam_crossing_angle 	 14
+[ MESSAGE "Marlin"] 
+[ MESSAGE "Marlin"]   calorimeter type:  endcap  
+[ MESSAGE "Marlin"]    symmetry order:  2
+[ MESSAGE "Marlin"]    phi0:            0
+[ MESSAGE "Marlin"] 
+[ MESSAGE "Marlin"]    dimensions :  
+[ MESSAGE "Marlin"]          rMin:      93
+[ MESSAGE "Marlin"]          rMax:      330.6
+[ MESSAGE "Marlin"]          zMin:      2680
+[ MESSAGE "Marlin"]          zMax:      3205
+[ MESSAGE "Marlin"] 
+[ MESSAGE "Marlin"] 
+[ MESSAGE "Marlin"]    layers    :    #total 40
+[ MESSAGE "Marlin"]        id: 0 thickness: 13.125 absorber thickness: 10 distance: 2680 cellsize-0: 10 cellsize-1: 10
+[ MESSAGE "Marlin"]        id: 39 thickness: 13.125 absorber thickness: 10 distance: 3191.88 cellsize-0: 10 cellsize-1: 10
+[ MESSAGE "Marlin"] 
+[ MESSAGE "Marlin"]    ----  BeamCal   ---- 
+[ MESSAGE "Marlin"] 
+[ MESSAGE "Marlin"]     [double]    beam_crossing_angle 	 14
+[ MESSAGE "Marlin"] 
+[ MESSAGE "Marlin"]     [double]    cylinder_spanning_phi 	 5.58505
+[ MESSAGE "Marlin"] 
+[ MESSAGE "Marlin"]     [double]    cylinder_starting_phi 	 3.49066
+[ MESSAGE "Marlin"] 
+[ MESSAGE "Marlin"]     [double]    dead_area_outer_r 	 65.8888
+[ MESSAGE "Marlin"] 
+[ MESSAGE "Marlin"]     [double]    pairsMonitorZ 	 3485.85
+[ MESSAGE "Marlin"] 
+[ MESSAGE "Marlin"]     [DoubleVec] phi_segmentation 	 0.232711 , 0.232711 , 0.174533 , 0.139626 , 0.139626 , 0.116355 , 0.0997331 , 0.0872665 , 0.0872665 , 0.0775702 , 0.0698132 , 0.0698132 , 0.0634665 , 0.0581776 , 0.0581776 , 0.0537024 , 0.0498666 , 
+[ MESSAGE "Marlin"] 
+[ MESSAGE "Marlin"]   calorimeter type:  endcap  
+[ MESSAGE "Marlin"]    symmetry order:  2
+[ MESSAGE "Marlin"]    phi0:            0
+[ MESSAGE "Marlin"] 
+[ MESSAGE "Marlin"]    dimensions :  
+[ MESSAGE "Marlin"]          rMin:      20.01
+[ MESSAGE "Marlin"]          rMax:      150
+[ MESSAGE "Marlin"]          zMin:      3485.7
+[ MESSAGE "Marlin"]          zMax:      3605.72
+[ MESSAGE "Marlin"] 
+[ MESSAGE "Marlin"] 
+[ MESSAGE "Marlin"]    layers    :    #total 30
+[ MESSAGE "Marlin"]        id: 0 thickness: 4.0008 absorber thickness: 3.5 distance: 3485.7 cellsize-0: 7.64647 cellsize-1: 1
+[ MESSAGE "Marlin"]        id: 29 thickness: 4.0008 absorber thickness: 3.5 distance: 3601.72 cellsize-0: 7.64647 cellsize-1: 1
+[ MESSAGE "Marlin"] 
+[ MESSAGE "Marlin"] 
+[ MESSAGE "Marlin"]    parameter sections (detectors) :  
+[ MESSAGE "Marlin"] 
+[ MESSAGE "Marlin"]    ------  name : BeamPipe ------- 
+[ MESSAGE "Marlin"] 
+[ MESSAGE "Marlin"]     [double]    BeamPipeHalfZ 	 1360.5
+[ MESSAGE "Marlin"] 
+[ MESSAGE "Marlin"]     [double]    BeamPipeProperties_RadLen 	 352.76
+[ MESSAGE "Marlin"] 
+[ MESSAGE "Marlin"]     [double]    BeamPipeProperties_dEdx 	 0.00029418
+[ MESSAGE "Marlin"] 
+[ MESSAGE "Marlin"]     [double]    BeamPipeRadius 	 14.5
+[ MESSAGE "Marlin"] 
+[ MESSAGE "Marlin"]     [double]    BeamPipeThickness 	 0.5
+[ MESSAGE "Marlin"] 
+[ MESSAGE "Marlin"]     [DoubleVec] RInner 	 14.5 , 14.5 , 23 , 23 , 23 , 23 , 34.476 , 56.706 , 89.274 , 121.843 , 154.452 , 183 , 
+[ MESSAGE "Marlin"] 
+[ MESSAGE "Marlin"]     [DoubleVec] ROuter 	 15 , 15 , 24 , 23.67 , 25 , 25.007 , 36.483 , 59.475 , 91.461 , 123.388 , 155.676 , 183.993 , 
+[ MESSAGE "Marlin"] 
+[ MESSAGE "Marlin"]     [DoubleVec] Z 	 0 , 80 , 150 , 175 , 220 , 230 , 535.8 , 809.5 , 1210.5 , 1611.5 , 2013 , 2364.5 , 
+[ MESSAGE "Marlin"] 
+[ MESSAGE "Marlin"] 
+[ MESSAGE "Marlin"]    ------  name : CoilParameters ------- 
+[ MESSAGE "Marlin"] 
+[ MESSAGE "Marlin"]     [double]    Coil_cryostat_c_modules_half_z 	 1224
+[ MESSAGE "Marlin"] 
+[ MESSAGE "Marlin"]     [double]    Coil_cryostat_c_modules_inner_radius 	 3599.96
+[ MESSAGE "Marlin"] 
+[ MESSAGE "Marlin"]     [double]    Coil_cryostat_c_modules_outer_radius 	 3984.96
+[ MESSAGE "Marlin"] 
+[ MESSAGE "Marlin"]     [double]    Coil_cryostat_half_z 	 3872
+[ MESSAGE "Marlin"] 
+[ MESSAGE "Marlin"]     [double]    Coil_cryostat_inner_cyl_half_z 	 3872
+[ MESSAGE "Marlin"] 
+[ MESSAGE "Marlin"]     [double]    Coil_cryostat_inner_cyl_inner_radius 	 3424.96
+[ MESSAGE "Marlin"] 
+[ MESSAGE "Marlin"]     [double]    Coil_cryostat_inner_cyl_outer_radius 	 4214.96
+[ MESSAGE "Marlin"] 
+[ MESSAGE "Marlin"]     [double]    Coil_cryostat_inner_radius 	 3424.96
+[ MESSAGE "Marlin"] 
+[ MESSAGE "Marlin"]     [double]    Coil_cryostat_mandrel_half_z 	 3675
+[ MESSAGE "Marlin"] 
+[ MESSAGE "Marlin"]     [double]    Coil_cryostat_mandrel_inner_radius 	 3984.96
+[ MESSAGE "Marlin"] 
+[ MESSAGE "Marlin"]     [double]    Coil_cryostat_mandrel_outer_radius 	 4059.96
+[ MESSAGE "Marlin"] 
+[ MESSAGE "Marlin"]     [double]    Coil_cryostat_modules_half_z 	 796
+[ MESSAGE "Marlin"] 
+[ MESSAGE "Marlin"]     [double]    Coil_cryostat_modules_inner_radius 	 3599.96
+[ MESSAGE "Marlin"] 
+[ MESSAGE "Marlin"]     [double]    Coil_cryostat_modules_outer_radius 	 3984.96
+[ MESSAGE "Marlin"] 
+[ MESSAGE "Marlin"]     [double]    Coil_cryostat_outer_cyl_half_z 	 3872
+[ MESSAGE "Marlin"] 
+[ MESSAGE "Marlin"]     [double]    Coil_cryostat_outer_cyl_inner_radius 	 4144.96
+[ MESSAGE "Marlin"] 
+[ MESSAGE "Marlin"]     [double]    Coil_cryostat_outer_cyl_outer_radius 	 4174.96
+[ MESSAGE "Marlin"] 
+[ MESSAGE "Marlin"]     [double]    Coil_cryostat_outer_radius 	 4174.96
+[ MESSAGE "Marlin"] 
+[ MESSAGE "Marlin"]     [double]    Coil_cryostat_scint1_inner_radius 	 3514.96
+[ MESSAGE "Marlin"] 
+[ MESSAGE "Marlin"]     [double]    Coil_cryostat_scint1_outer_radius 	 3524.96
+[ MESSAGE "Marlin"] 
+[ MESSAGE "Marlin"]     [double]    Coil_cryostat_scint1_zposend 	 3972
+[ MESSAGE "Marlin"] 
+[ MESSAGE "Marlin"]     [double]    Coil_cryostat_scint1_zposin 	 3772
+[ MESSAGE "Marlin"] 
+[ MESSAGE "Marlin"]     [double]    Coil_cryostat_scint2_inner_radius 	 3529.96
+[ MESSAGE "Marlin"] 
+[ MESSAGE "Marlin"]     [double]    Coil_cryostat_scint2_outer_radius 	 3539.96
+[ MESSAGE "Marlin"] 
+[ MESSAGE "Marlin"]     [double]    Coil_cryostat_scint2_zposend 	 3972
+[ MESSAGE "Marlin"] 
+[ MESSAGE "Marlin"]     [double]    Coil_cryostat_scint2_zposin 	 3772
+[ MESSAGE "Marlin"] 
+[ MESSAGE "Marlin"]     [double]    Coil_cryostat_scint3_inner_radius 	 4084.96
+[ MESSAGE "Marlin"] 
+[ MESSAGE "Marlin"]     [double]    Coil_cryostat_scint3_outer_radius 	 4094.96
+[ MESSAGE "Marlin"] 
+[ MESSAGE "Marlin"]     [double]    Coil_cryostat_scint3_zposend 	 3972
+[ MESSAGE "Marlin"] 
+[ MESSAGE "Marlin"]     [double]    Coil_cryostat_scint3_zposin 	 3772
+[ MESSAGE "Marlin"] 
+[ MESSAGE "Marlin"]     [double]    Coil_cryostat_scint4_inner_radius 	 4069.96
+[ MESSAGE "Marlin"] 
+[ MESSAGE "Marlin"]     [double]    Coil_cryostat_scint4_outer_radius 	 4079.96
+[ MESSAGE "Marlin"] 
+[ MESSAGE "Marlin"]     [double]    Coil_cryostat_scint4_zposend 	 3972
+[ MESSAGE "Marlin"] 
+[ MESSAGE "Marlin"]     [double]    Coil_cryostat_scint4_zposin 	 3772
+[ MESSAGE "Marlin"] 
+[ MESSAGE "Marlin"]     [double]    Coil_cryostat_side_l_half_z 	 25
+[ MESSAGE "Marlin"] 
+[ MESSAGE "Marlin"]     [double]    Coil_cryostat_side_l_inner_radius 	 3464.96
+[ MESSAGE "Marlin"] 
+[ MESSAGE "Marlin"]     [double]    Coil_cryostat_side_l_outer_radius 	 4144.96
+[ MESSAGE "Marlin"] 
+[ MESSAGE "Marlin"]     [double]    Coil_cryostat_side_r_half_z 	 25
+[ MESSAGE "Marlin"] 
+[ MESSAGE "Marlin"]     [double]    Coil_cryostat_side_r_inner_radius 	 3464.96
+[ MESSAGE "Marlin"] 
+[ MESSAGE "Marlin"]     [double]    Coil_cryostat_side_r_outer_radius 	 4144.96
+[ MESSAGE "Marlin"] 
+[ MESSAGE "Marlin"]     [string]    Coil_material_c_modules 	 aluminium
+[ MESSAGE "Marlin"] 
+[ MESSAGE "Marlin"]     [string]    Coil_material_inner_cyl 	 aluminium
+[ MESSAGE "Marlin"] 
+[ MESSAGE "Marlin"]     [string]    Coil_material_mandrel 	 aluminium
+[ MESSAGE "Marlin"] 
+[ MESSAGE "Marlin"]     [string]    Coil_material_modules 	 aluminium
+[ MESSAGE "Marlin"] 
+[ MESSAGE "Marlin"]     [string]    Coil_material_outer_cyl 	 aluminium
+[ MESSAGE "Marlin"] 
+[ MESSAGE "Marlin"]     [string]    Coil_material_scint1 	 polystyrene
+[ MESSAGE "Marlin"] 
+[ MESSAGE "Marlin"]     [string]    Coil_material_scint2 	 polystyrene
+[ MESSAGE "Marlin"] 
+[ MESSAGE "Marlin"]     [string]    Coil_material_scint3 	 polystyrene
+[ MESSAGE "Marlin"] 
+[ MESSAGE "Marlin"]     [string]    Coil_material_scint4 	 polystyrene
+[ MESSAGE "Marlin"] 
+[ MESSAGE "Marlin"]     [string]    Coil_material_side_l 	 aluminium
+[ MESSAGE "Marlin"] 
+[ MESSAGE "Marlin"]     [string]    Coil_material_side_r 	 aluminium
+[ MESSAGE "Marlin"] 
+[ MESSAGE "Marlin"] 
+[ MESSAGE "Marlin"]    ------  name : MokkaParameters ------- 
+[ MESSAGE "Marlin"] 
+[ MESSAGE "Marlin"]     [string]    Ecal_endcap_outer_radius 	 2088.8
+[ MESSAGE "Marlin"] 
+[ MESSAGE "Marlin"]     [string]    Ecal_endcap_plug_rmin 	 250
+[ MESSAGE "Marlin"] 
+[ MESSAGE "Marlin"]     [string]    Ecal_endcap_zmax 	 2635
+[ MESSAGE "Marlin"] 
+[ MESSAGE "Marlin"]     [string]    Ecal_endcap_zmin 	 2450
+[ MESSAGE "Marlin"] 
+[ MESSAGE "Marlin"]     [string]    Ecal_outer_radius 	 2028
+[ MESSAGE "Marlin"] 
+[ MESSAGE "Marlin"]     [string]    Hcal_R_max 	 3395.46
+[ MESSAGE "Marlin"] 
+[ MESSAGE "Marlin"]     [string]    Hcal_endcap_zmin 	 2650
+[ MESSAGE "Marlin"] 
+[ MESSAGE "Marlin"]     [string]    LHcal_zend 	 3205
+[ MESSAGE "Marlin"] 
+[ MESSAGE "Marlin"]     [string]    Lcal_z_begin 	 2506.9
+[ MESSAGE "Marlin"] 
+[ MESSAGE "Marlin"]     [string]    Lcal_z_thickness 	 128.1
+[ MESSAGE "Marlin"] 
+[ MESSAGE "Marlin"]     [string]    MokkaModel 	 ILD_o1_v05
+[ MESSAGE "Marlin"] 
+[ MESSAGE "Marlin"]     [string]    MokkaVersion 	 tag
+[ MESSAGE "Marlin"] 
+[ MESSAGE "Marlin"]     [string]    SIT1_Half_Length_Z 	 368
+[ MESSAGE "Marlin"] 
+[ MESSAGE "Marlin"]     [string]    SIT1_Radius 	 152.9
+[ MESSAGE "Marlin"] 
+[ MESSAGE "Marlin"]     [string]    SIT2_Half_Length_Z 	 644
+[ MESSAGE "Marlin"] 
+[ MESSAGE "Marlin"]     [string]    SIT2_Radius 	 299.9
+[ MESSAGE "Marlin"] 
+[ MESSAGE "Marlin"]     [string]    TPC_Ecal_Hcal_barrel_halfZ 	 2350
+[ MESSAGE "Marlin"] 
+[ MESSAGE "Marlin"]     [string]    TUBE_IPOuterBulge_end_radius 	 183.993
+[ MESSAGE "Marlin"] 
+[ MESSAGE "Marlin"]     [string]    TUBE_IPOuterBulge_end_z 	 2364.5
+[ MESSAGE "Marlin"] 
+[ MESSAGE "Marlin"]     [string]    TUBE_IPOuterTube_end_radius 	 25
+[ MESSAGE "Marlin"] 
+[ MESSAGE "Marlin"]     [string]    TUBE_IPOuterTube_end_z 	 230
+[ MESSAGE "Marlin"] 
+[ MESSAGE "Marlin"]     [string]    TUBE_IPOuterTube_start_radius 	 25
+[ MESSAGE "Marlin"] 
+[ MESSAGE "Marlin"]     [string]    TUBE_IPOuterTube_start_z 	 220
+[ MESSAGE "Marlin"] 
+[ MESSAGE "Marlin"]     [string]    Yoke_Z_start_endcaps 	 4072
+[ MESSAGE "Marlin"] 
+[ MESSAGE "Marlin"]     [string]    Yoke_barrel_inner_radius 	 4424.9599609375
+[ MESSAGE "Marlin"] 
+[ MESSAGE "Marlin"]     [string]    calorimeter_region_rmax 	 3395.46
+[ MESSAGE "Marlin"] 
+[ MESSAGE "Marlin"]     [string]    calorimeter_region_zmax 	 3937
+[ MESSAGE "Marlin"] 
+[ MESSAGE "Marlin"]     [string]    tracker_region_rmax 	 1842.9
+[ MESSAGE "Marlin"] 
+[ MESSAGE "Marlin"]     [string]    tracker_region_zmax 	 2350
+[ MESSAGE "Marlin"] 
+[ MESSAGE "Marlin"] 
+[ MESSAGE "Marlin"]    ------  name : VXDInfra ------- 
+[ MESSAGE "Marlin"] 
+[ MESSAGE "Marlin"]     [double]    ActiveLayerProperties_dEdx 	 0.000387016
+[ MESSAGE "Marlin"] 
+[ MESSAGE "Marlin"]     [double]    BeSupportEndplateThickness 	 2
+[ MESSAGE "Marlin"] 
+[ MESSAGE "Marlin"]     [double]    BeSupport_dEdx 	 0.00029418
+[ MESSAGE "Marlin"] 
+[ MESSAGE "Marlin"]     [double]    CryostatAlHalfZ 	 176.6
+[ MESSAGE "Marlin"] 
+[ MESSAGE "Marlin"]     [double]    CryostatAlInnerR 	 24.2
+[ MESSAGE "Marlin"] 
+[ MESSAGE "Marlin"]     [double]    CryostatAlRadius 	 100
+[ MESSAGE "Marlin"] 
+[ MESSAGE "Marlin"]     [double]    CryostatAlThickness 	 0.5
+[ MESSAGE "Marlin"] 
+[ MESSAGE "Marlin"]     [double]    CryostatAlZEndCap 	 176.85
+[ MESSAGE "Marlin"] 
+[ MESSAGE "Marlin"]     [double]    Cryostat_RadLen 	 88.9632
+[ MESSAGE "Marlin"] 
+[ MESSAGE "Marlin"]     [double]    Cryostat_dEdx 	 0.000435019
+[ MESSAGE "Marlin"] 
+[ MESSAGE "Marlin"]     [double]    ElectronicEndLength 	 10
+[ MESSAGE "Marlin"] 
+[ MESSAGE "Marlin"]     [double]    ElectronicEndThickness 	 0.1
+[ MESSAGE "Marlin"] 
+[ MESSAGE "Marlin"]     [double]    StripLineBeamPipeRadius 	 24.3
+[ MESSAGE "Marlin"] 
+[ MESSAGE "Marlin"]     [double]    VXDEndPlateInnerRadius 	 30
+[ MESSAGE "Marlin"] 
+[ MESSAGE "Marlin"]     [double]    VXDSupport_dEdx 	 4.81863e-05
+[ MESSAGE "Marlin"] 
+[ MESSAGE "Marlin"]     [DoubleVec] LadderGaps 	 0 , 0 , 0 , 0 , 0 , 0 , 
+[ MESSAGE "Marlin"] 
+[ MESSAGE "Marlin"]     [DoubleVec] StripLineFinalZ 	 150 , 150 , 150 , 150 , 150 , 150 , 
+[ MESSAGE "Marlin"] 
+[ MESSAGE "Marlin"]  ------------------------------------------------------------------ 
+[ MESSAGE "Marlin"]    materials :  
+[ MESSAGE "Marlin"]     VXDSupportMaterial, A= +2.07586516e+01, Z= +1.03938312e+01, density [kg/m3]= +2.76590000e+02, radiation length [mm]= +1.01426242e+03, interaction length [mm]= +3.34138806e+03
+[ MESSAGE "Marlin"] 
+[ MESSAGE "Marlin"]  ------------------------------------------------------------------ 
+[ MESSAGE "Marlin"] 
+[ MESSAGE "MyLCIOOutputProcessor"] 
+[ MESSAGE "MyLCIOOutputProcessor"] ---- MyLCIOOutputProcessor -  parameters: 
+[ MESSAGE "MyLCIOOutputProcessor"] 	LCIOOutputFile:  rv01-16-p05_500.sv01-14-01-p00.mILD_o1_v05.E500-TDR_ws.I250035.P4f_sze_l.eR.pR_dst_6840_01-DST.slcio
+[ MESSAGE "MyLCIOOutputProcessor"] 	LCIOWriteMode:  None
+[ MESSAGE "MyLCIOOutputProcessor"] -------------------------------------------------
+[ MESSAGE4 "MyLCIOOutputProcessor"] 
+[ MESSAGE4 "MyLCIOOutputProcessor"] LCIOOutputProcessor::end()  MyLCIOOutputProcessor: 62000 events in 62 runs written to file  rv01-16-p05_500.sv01-14-01-p00.mILD_o1_v05.E500-TDR_ws.I250035.P4f_sze_l.eR.pR_dst_6840_01-DST.slcio
+[ MESSAGE4 "MyLCIOOutputProcessor"] 
+[ MESSAGE "Marlin"]  --------------------------------------------------------- 
+[ MESSAGE "Marlin"]   Events skipped by processors : 
+[ MESSAGE "Marlin"]   Total: 0
+[ MESSAGE "Marlin"]  --------------------------------------------------------- 
+[ MESSAGE "Marlin"] 
+[ MESSAGE "Marlin"]  --------------------------------------------------------- 
+[ MESSAGE "Marlin"]       Time used by processors ( in processEvent() ) :      
+[ MESSAGE "Marlin"] 
+[ MESSAGE "Marlin"] MyLCIOOutputProcessor                6.325000e+01 s in        62000 events  ==> 1.020161e-03 [ s/evt.] 
+[ MESSAGE "Marlin"]             Total:                   6.325000e+01 s in        62000 events  ==> 1.020161e-03 [ s/evt.] 
+[ MESSAGE "Marlin"]  --------------------------------------------------------- 
+### Marlin completed with ret=0 : 2016年  7月 15日 金曜日 17:02:36 JST 
+Sender: LSF System <lsfadmin@ccb0259.cc.kek.jp>
+Subject: Job 37212514: <merge6840> in cluster <centralcluster> Done
+
+Job <merge6840> was submitted from host <ccw16.cc.kek.jp> by user <miyamoto> in cluster <centralcluster>.
+Job was executed on host(s) <ccb0259.cc.kek.jp>, in queue <s>, as user <miyamoto> in cluster <centralcluster>.
+</home/ilc/miyamoto> was used as the home directory.
+</home/ilc/miyamoto/DiracProd/mctest/20160709-4f_singleZee_leptonic/mergedst/6840/merge-000-01> was used as the working directory.
+Started at Fri Jul 15 17:01:02 2016
+Results reported on Fri Jul 15 17:02:36 2016
+
+Your job looked like:
+
+------------------------------------------------------------
+# LSBATCH: User input
+( /home/ilc/miyamoto/DiracProd/bin/lcio_merge.sh xaaa rv01-16-p05_500.sv01-14-01-p00.mILD_o1_v05.E500-TDR_ws.I250035.P4f_sze_l.eR.pR_dst_6840_01-DST.slcio > merge-01.log 2>&1 )
+------------------------------------------------------------
+
+Successfully completed.
+
+Resource usage summary:
+
+    CPU time :                                   88.44 sec.
+    Max Memory :                                 63.42 MB
+    Average Memory :                             60.73 MB
+    Total Requested Memory :                     3500.00 MB
+    Delta Memory :                               3436.58 MB
+    Max Swap :                                   670 MB
+    Max Processes :                              4
+    Max Threads :                                5
+
+The output (if any) follows:
+

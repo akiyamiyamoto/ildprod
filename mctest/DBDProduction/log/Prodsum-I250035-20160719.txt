@@ -1,0 +1,84 @@
+Detail information about files for the production of 4f_singleZee_leptonic, I250035
+
+[Simulation Jobs]
+ProdID=6836
+
+- Input stdhep files:
+-- E500-TDR_ws.P4f_sze_l.Gwhizard-1_95.eR.pR.I250035.002.stdhep ( evt. 64084 to 134908)
+-- E500-TDR_ws.P4f_sze_l.Gwhizard-1_95.eR.pR.I250035.003.stdhep
+-- E500-TDR_ws.P4f_sze_l.Gwhizard-1_95.eR.pR.I250035.004.stdhep
+-- E500-TDR_ws.P4f_sze_l.Gwhizard-1_95.eR.pR.I250035.005.stdhep
+-- E500-TDR_ws.P4f_sze_l.Gwhizard-1_95.eR.pR.I250035.006.stdhep
+-- E500-TDR_ws.P4f_sze_l.Gwhizard-1_95.eR.pR.I250035.007.stdhep
+-- E500-TDR_ws.P4f_sze_l.Gwhizard-1_95.eR.pR.I250035.008.stdhep
+-- E500-TDR_ws.P4f_sze_l.Gwhizard-1_95.eR.pR.I250035.009.stdhep
+-- E500-TDR_ws.P4f_sze_l.Gwhizard-1_95.eR.pR.I250035.010.stdhep
+
+
+- Simulated data:
+--Directory LFN:/ilc/prod/ilc/mc-dbd/ild/sim/500-TDR_ws/4f_singleZee_leptonic/ILD_o1_v05/v01-14-01-p00/00006836/000
+            LFN:/ilc/prod/ilc/mc-dbd/ild/sim/500-TDR_ws/4f_singleZee_leptonic/ILD_o1_v05/v01-14-01-p00/00006836/001
+--Filenames sv01-14-01-p00.mILD_o1_v05.E500-TDR_ws.I250035.P4f_sze_l.eR.pR_sim_6836_[k].slcio, 
+
+- Log files:
+- Directory LFC:/ilc/prod/ilc/mc-dbd.log/ild/sim/500-TDR_ws/4f_singleZee_leptonic/ILD_o1_v05/v01-14-01-p00
+- Files sv01-14-01-p00.mILD_o1_v05.E500-TDR_ws.I250035.P4f_sze_l.eR.pR_sim_6836-000.tar.gz
+        sv01-14-01-p00.mILD_o1_v05.E500-TDR_ws.I250035.P4f_sze_l.eR.pR_sim_6836-001.tar.gz
+
+[Reconstruction Jobs]
+ProdID=6840
+
+- REC files:
+-- Directory LFN:/ilc/prod/ilc/mc-dbd/ild/rec/500-TDR_ws/4f_singleZee_leptonic/ILD_o1_v05/v01-16-p05_500/00006840/000
+             LFN:/ilc/prod/ilc/mc-dbd/ild/rec/500-TDR_ws/4f_singleZee_leptonic/ILD_o1_v05/v01-16-p05_500/00006840/001
+-- Filenames rv01-16-p05_500.sv01-14-01-p00.mILD_o1_v05.E500-TDR_ws.I250035.P4f_sze_l.eR.pR_rec_6840_[k].slcio
+
+- DST files:
+-- Directory LFN:/ilc/prod/ilc/mc-dbd/ild/dst/500-TDR_ws/4f_singleZee_leptonic/ILD_o1_v05/v01-16-p05_500/00006840/000
+             LFN:/ilc/prod/ilc/mc-dbd/ild/dst/500-TDR_ws/4f_singleZee_leptonic/ILD_o1_v05/v01-16-p05_500/00006840/001
+-- Filenames rv01-16-p05_500.sv01-14-01-p00.mILD_o1_v05.E500-TDR_ws.I250035.P4f_sze_l.eR.pR_dst_6840_[k].slcio
+
+- DST-merged files:
+--Directory LFN:/ilc/prod/ilc/mc-dbd/ild/dst-merged/500-TDR_ws/4f_singleZee_leptonic/ILD_o1_v05/v01-16-p05_500/
+--Filenames 
+rv01-16-p05_500.sv01-14-01-p00.mILD_o1_v05.E500-TDR_ws.I250035.P4f_sze_l.eR.pR_dst_6840_01-DST.slcio (62000 evts)
+rv01-16-p05_500.sv01-14-01-p00.mILD_o1_v05.E500-TDR_ws.I250035.P4f_sze_l.eR.pR_dst_6840_02-DST.slcio (62000 evts)
+rv01-16-p05_500.sv01-14-01-p00.mILD_o1_v05.E500-TDR_ws.I250035.P4f_sze_l.eR.pR_dst_6840_03-DST.slcio (62000 evts)
+rv01-16-p05_500.sv01-14-01-p00.mILD_o1_v05.E500-TDR_ws.I250035.P4f_sze_l.eR.pR_dst_6840_04-DST.slcio (62000 evts)
+rv01-16-p05_500.sv01-14-01-p00.mILD_o1_v05.E500-TDR_ws.I250035.P4f_sze_l.eR.pR_dst_6840_05-DST.slcio (62000 evts)
+rv01-16-p05_500.sv01-14-01-p00.mILD_o1_v05.E500-TDR_ws.I250035.P4f_sze_l.eR.pR_dst_6840_06-DST.slcio (62000 evts)
+rv01-16-p05_500.sv01-14-01-p00.mILD_o1_v05.E500-TDR_ws.I250035.P4f_sze_l.eR.pR_dst_6840_07-DST.slcio (62000 evts)
+rv01-16-p05_500.sv01-14-01-p00.mILD_o1_v05.E500-TDR_ws.I250035.P4f_sze_l.eR.pR_dst_6840_08-DST.slcio (62000 evts)
+rv01-16-p05_500.sv01-14-01-p00.mILD_o1_v05.E500-TDR_ws.I250035.P4f_sze_l.eR.pR_dst_6840_09-DST.slcio (62000 evts)
+rv01-16-p05_500.sv01-14-01-p00.mILD_o1_v05.E500-TDR_ws.I250035.P4f_sze_l.eR.pR_dst_6840_10-DST.slcio (62000 evts)
+rv01-16-p05_500.sv01-14-01-p00.mILD_o1_v05.E500-TDR_ws.I250035.P4f_sze_l.eR.pR_dst_6840_11-DST.slcio (62000 evts)
+rv01-16-p05_500.sv01-14-01-p00.mILD_o1_v05.E500-TDR_ws.I250035.P4f_sze_l.eR.pR_dst_6840_12-DST.slcio (62000 evts)
+rv01-16-p05_500.sv01-14-01-p00.mILD_o1_v05.E500-TDR_ws.I250035.P4f_sze_l.eR.pR_dst_6840_13-DST.slcio (62000 evts)
+rv01-16-p05_500.sv01-14-01-p00.mILD_o1_v05.E500-TDR_ws.I250035.P4f_sze_l.eR.pR_dst_6840_14-DST.slcio (62000 evts)
+rv01-16-p05_500.sv01-14-01-p00.mILD_o1_v05.E500-TDR_ws.I250035.P4f_sze_l.eR.pR_dst_6840_15-DST.slcio (62000 evts)
+rv01-16-p05_500.sv01-14-01-p00.mILD_o1_v05.E500-TDR_ws.I250035.P4f_sze_l.eR.pR_dst_6840_16-DST.slcio (58000 evts)
+rv01-16-p05_500.sv01-14-01-p00.mILD_o1_v05.E500-TDR_ws.I250035.P4f_sze_l.eR.pR_dst_6840_17-DST.slcio (54000 evts)
+rv01-16-p05_500.sv01-14-01-p00.mILD_o1_v05.E500-TDR_ws.I250035.P4f_sze_l.eR.pR_dst_6840_18-DST.slcio (54000 evts)
+rv01-16-p05_500.sv01-14-01-p00.mILD_o1_v05.E500-TDR_ws.I250035.P4f_sze_l.eR.pR_dst_6840_19-DST.slcio (53000 evts)
+Total: 1149000 events
+
+These files could be used together with 
+rv01-16-p05_500.sv01-14-01-p00.mILD_o1_v05.E500-TDR_ws.I250035.P4f_sze_l.eR.pR-00001-DST.slcio
+rv01-16-p05_500.sv01-14-01-p00.mILD_o1_v05.E500-TDR_ws.I250035.P4f_sze_l.eR.pR-00002-DST.slcio
+rv01-16-p05_500.sv01-14-01-p00.mILD_o1_v05.E500-TDR_ws.I250035.P4f_sze_l.eR.pR-00003-DST.slcio
+rv01-16-p05_500.sv01-14-01-p00.mILD_o1_v05.E500-TDR_ws.I250035.P4f_sze_l.eR.pR-00004-DST.slcio
+rv01-16-p05_500.sv01-14-01-p00.mILD_o1_v05.E500-TDR_ws.I250035.P4f_sze_l.eR.pR-00005-DST.slcio
+rv01-16-p05_500.sv01-14-01-p00.mILD_o1_v05.E500-TDR_ws.I250035.P4f_sze_l.eR.pR-00006-DST.slcio
+rv01-16-p05_500.sv01-14-01-p00.mILD_o1_v05.E500-TDR_ws.I250035.P4f_sze_l.eR.pR-00007-DST.slcio
+rv01-16-p05_500.sv01-14-01-p00.mILD_o1_v05.E500-TDR_ws.I250035.P4f_sze_l.eR.pR-00008-DST.slcio
+rv01-16-p05_500.sv01-14-01-p00.mILD_o1_v05.E500-TDR_ws.I250035.P4f_sze_l.eR.pR-00009-DST.slcio
+rv01-16-p05_500.sv01-14-01-p00.mILD_o1_v05.E500-TDR_ws.I250035.P4f_sze_l.eR.pR-00010-DST.slcio
+rv01-16-p05_500.sv01-14-01-p00.mILD_o1_v05.E500-TDR_ws.I250035.P4f_sze_l.eR.pR-00011-DST.slcio
+in the same directory, because there are no events overlapped.
+
+- Log files:
+- Directory LFC:/ilc/prod/ilc/mc-dbd.log/ild/rec/500-TDR_ws/4f_singleZee_leptonic/ILD_o1_v05/v01-16-p05_500
+- Files     rv01-16-p05_500.sv01-14-01-p00.mILD_o1_v05.E500-TDR_ws.I250035.P4f_sze_l.eR.pR_rec_6840-000.tar.gz
+            rv01-16-p05_500.sv01-14-01-p00.mILD_o1_v05.E500-TDR_ws.I250035.P4f_sze_l.eR.pR_rec_6840-001.tar.gz
+
+
