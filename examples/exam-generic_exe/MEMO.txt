@@ -1,0 +1,9 @@
+(1) Run Dirac job on local machine
+  d=ILCDirac(...)
+  j=UserJob(...)
+ 
+  ....
+
+  j.submit(d, mode="local")
+
+
