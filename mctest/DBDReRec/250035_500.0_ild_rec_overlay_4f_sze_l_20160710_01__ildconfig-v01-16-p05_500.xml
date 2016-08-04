@@ -1,0 +1,257 @@
+<Workflow>
+<origin></origin>
+<description><![CDATA[]]></description>
+<descr_short></descr_short>
+<version>0.0</version>
+<type></type>
+<name>250035_500.0_ild_rec_overlay_4f_sze_l_20160710_01__ildconfig-v01-16-p05_500</name>
+<Parameter name="JobType" type="JDL" linked_module="" linked_parameter="" in="True" out="False" description="User specified type"><value><![CDATA[MCReconstruction_Overlay]]></value></Parameter>
+<Parameter name="Priority" type="JDL" linked_module="" linked_parameter="" in="True" out="False" description="Priority"><value><![CDATA[1]]></value></Parameter>
+<Parameter name="JobGroup" type="JDL" linked_module="" linked_parameter="" in="True" out="False" description="User specified job group"><value><![CDATA[@{PRODUCTION_ID}]]></value></Parameter>
+<Parameter name="JobName" type="JDL" linked_module="" linked_parameter="" in="True" out="False" description="Name of Job"><value><![CDATA[Name]]></value></Parameter>
+<Parameter name="Site" type="JDL" linked_module="" linked_parameter="" in="True" out="False" description="Site Requirement"><value><![CDATA[ANY]]></value></Parameter>
+<Parameter name="Origin" type="JDL" linked_module="" linked_parameter="" in="True" out="False" description="Origin of client"><value><![CDATA[DIRAC]]></value></Parameter>
+<Parameter name="StdOutput" type="JDL" linked_module="" linked_parameter="" in="True" out="False" description="Standard output file"><value><![CDATA[std.out]]></value></Parameter>
+<Parameter name="StdError" type="JDL" linked_module="" linked_parameter="" in="True" out="False" description="Standard error file"><value><![CDATA[std.err]]></value></Parameter>
+<Parameter name="InputData" type="JDL" linked_module="" linked_parameter="" in="True" out="False" description="Default null input data value"><value><![CDATA[]]></value></Parameter>
+<Parameter name="LogLevel" type="JDL" linked_module="" linked_parameter="" in="True" out="False" description="User specified logging level"><value><![CDATA[verbose]]></value></Parameter>
+<Parameter name="ParametricInputData" type="string" linked_module="" linked_parameter="" in="True" out="False" description="Default null parametric input data value"><value><![CDATA[]]></value></Parameter>
+<Parameter name="ParametricInputSandbox" type="string" linked_module="" linked_parameter="" in="True" out="False" description="Default null parametric input sandbox value"><value><![CDATA[]]></value></Parameter>
+<Parameter name="ParametricParameters" type="string" linked_module="" linked_parameter="" in="True" out="False" description="Default null parametric input parameters value"><value><![CDATA[]]></value></Parameter>
+<Parameter name="Platform" type="JDL" linked_module="" linked_parameter="" in="True" out="False" description="Platform ( Operating System )"><value><![CDATA[x86_64-slc5-gcc43-opt]]></value></Parameter>
+<Parameter name="IS_PROD" type="JDL" linked_module="" linked_parameter="" in="True" out="False" description="This job is a production job"><value><![CDATA[True]]></value></Parameter>
+<Parameter name="MaxCPUTime" type="JDL" linked_module="" linked_parameter="" in="True" out="False" description="CPU time in secs"><value><![CDATA[300000]]></value></Parameter>
+<Parameter name="CPUTime" type="JDL" linked_module="" linked_parameter="" in="True" out="False" description="CPU time in secs"><value><![CDATA[300000]]></value></Parameter>
+<Parameter name="productionVersion" type="string" linked_module="" linked_parameter="" in="True" out="False" description="ProdAPIVersion"><value><![CDATA[$Id$]]></value></Parameter>
+<Parameter name="PRODUCTION_ID" type="string" linked_module="" linked_parameter="" in="True" out="False" description="ProductionID"><value><![CDATA[00012345]]></value></Parameter>
+<Parameter name="JOB_ID" type="string" linked_module="" linked_parameter="" in="True" out="False" description="ProductionJobID"><value><![CDATA[00012345]]></value></Parameter>
+<Parameter name="emailAddress" type="string" linked_module="" linked_parameter="" in="True" out="False" description="CrashEmailAddress"><value><![CDATA[ilcdirac-support@cern.ch]]></value></Parameter>
+<Parameter name="SoftwarePackages" type="JDL" linked_module="" linked_parameter="" in="True" out="False" description="ILC Software Packages to be installed"><value><![CDATA[ildconfig.v01-16-p05_500;overlayinput.1;marlin.v01-16-02]]></value></Parameter>
+<Parameter name="ILDConfigPackage" type="JDL" linked_module="" linked_parameter="" in="True" out="False" description="ILDConfig package"><value><![CDATA[ILDConfigv01-16-p05_500]]></value></Parameter>
+<Parameter name="BannedSites" type="JDL" linked_module="" linked_parameter="" in="True" out="False" description="List of sites excluded by user"><value><![CDATA[]]></value></Parameter>
+<Parameter name="Energy" type="float" linked_module="" linked_parameter="" in="True" out="False" description="Energy used"><value><![CDATA[500.0]]></value></Parameter>
+<Parameter name="TotalSteps" type="String" linked_module="" linked_parameter="" in="True" out="False" description="Total number of steps"><value><![CDATA[2]]></value></Parameter>
+<ModuleDefinition>
+<body><![CDATA[from ILCDIRAC.Workflow.Modules.UploadOutputData import UploadOutputData]]></body>
+<origin></origin>
+<description><![CDATA[Uploads the output data]]></description>
+<descr_short></descr_short>
+<required></required>
+<version>0.0</version>
+<type>UploadOutputData</type>
+<Parameter name="enable" type="bool" linked_module="" linked_parameter="" in="True" out="False" description="EnableFlag"><value><![CDATA[False]]></value></Parameter>
+</ModuleDefinition>
+<ModuleDefinition>
+<body><![CDATA[from ILCDIRAC.Workflow.Modules.UploadLogFile import UploadLogFile]]></body>
+<origin></origin>
+<description><![CDATA[Uploads the output log files]]></description>
+<descr_short></descr_short>
+<required></required>
+<version>0.0</version>
+<type>UploadLogFile</type>
+<Parameter name="enable" type="bool" linked_module="" linked_parameter="" in="True" out="False" description="EnableFlag"><value><![CDATA[False]]></value></Parameter>
+</ModuleDefinition>
+<ModuleDefinition>
+<body><![CDATA[from ILCDIRAC.Workflow.Modules.ComputeOutputDataList import ComputeOutputDataList
+]]></body>
+<origin></origin>
+<description><![CDATA[Compute the output data list to be treated by the last finalization]]></description>
+<descr_short></descr_short>
+<required></required>
+<version>0.0</version>
+<type>ComputeOutputDataList</type>
+</ModuleDefinition>
+<ModuleDefinition>
+<body><![CDATA[from ILCDIRAC.Workflow.Modules.ILDRegisterOutputData import ILDRegisterOutputData]]></body>
+<origin></origin>
+<description><![CDATA[Module to add in the metadata catalog the relevant info about the files]]></description>
+<descr_short></descr_short>
+<required></required>
+<version>0.0</version>
+<type>ILDRegisterOutputData</type>
+<Parameter name="enable" type="bool" linked_module="" linked_parameter="" in="True" out="False" description="EnableFlag"><value><![CDATA[False]]></value></Parameter>
+</ModuleDefinition>
+<ModuleDefinition>
+<body><![CDATA[from ILCDIRAC.Workflow.Modules.OverlayInput import OverlayInput
+]]></body>
+<origin></origin>
+<description><![CDATA[Helper call to define Overlay processor/driver inputs]]></description>
+<descr_short></descr_short>
+<required></required>
+<version>0.0</version>
+<type>OverlayInput</type>
+<Parameter name="BXOverlay" type="float" linked_module="" linked_parameter="" in="False" out="False" description="Bunch crossings to overlay"><value><![CDATA[0.0]]></value></Parameter>
+<Parameter name="ggtohadint" type="float" linked_module="" linked_parameter="" in="False" out="False" description="Optional number of gamma gamma -> hadrons interactions per bunch crossing, default is 3.2"><value><![CDATA[0.0]]></value></Parameter>
+<Parameter name="NbSigEvtsPerJob" type="int" linked_module="" linked_parameter="" in="False" out="False" description="Number of signal events per job"><value><![CDATA[0]]></value></Parameter>
+<Parameter name="prodid" type="int" linked_module="" linked_parameter="" in="False" out="False" description="ProdID to use"><value><![CDATA[0]]></value></Parameter>
+<Parameter name="BkgEvtType" type="string" linked_module="" linked_parameter="" in="False" out="False" description="Background type."><value><![CDATA[]]></value></Parameter>
+<Parameter name="detectormodel" type="string" linked_module="" linked_parameter="" in="False" out="False" description="Detector type."><value><![CDATA[]]></value></Parameter>
+<Parameter name="machine" type="string" linked_module="" linked_parameter="" in="False" out="False" description="machine: clic_cdr or ilc_dbd"><value><![CDATA[]]></value></Parameter>
+<Parameter name="useEnergyForFileLookup" type="bool" linked_module="" linked_parameter="" in="False" out="False" description="useEnergy to look for background files: True or False"><value><![CDATA[True]]></value></Parameter>
+<Parameter name="pathToOverlayFiles" type="string" linked_module="" linked_parameter="" in="False" out="False" description="use overlay files from this path"><value><![CDATA[]]></value></Parameter>
+<Parameter name="debug" type="bool" linked_module="" linked_parameter="" in="False" out="False" description="debug mode"><value><![CDATA[False]]></value></Parameter>
+</ModuleDefinition>
+<ModuleDefinition>
+<body><![CDATA[from ILCDIRAC.Workflow.Modules.MarlinAnalysis import MarlinAnalysis
+]]></body>
+<origin></origin>
+<description><![CDATA[Module to run MARLIN]]></description>
+<descr_short></descr_short>
+<required></required>
+<version>0.0</version>
+<type>MarlinAnalysis</type>
+<Parameter name="inputGEAR" type="string" linked_module="" linked_parameter="" in="False" out="False" description="Input GEAR file"><value><![CDATA[]]></value></Parameter>
+<Parameter name="ProcessorListToUse" type="list" linked_module="" linked_parameter="" in="False" out="False" description="List of processors to use"><value><![CDATA[[]]]></value></Parameter>
+<Parameter name="ProcessorListToExclude" type="list" linked_module="" linked_parameter="" in="False" out="False" description="List of processors to exclude"><value><![CDATA[[]]]></value></Parameter>
+<Parameter name="debug" type="bool" linked_module="" linked_parameter="" in="False" out="False" description="debug mode"><value><![CDATA[False]]></value></Parameter>
+</ModuleDefinition>
+<ModuleDefinition>
+<body><![CDATA[from ILCDIRAC.Workflow.Modules.FailoverRequest import FailoverRequest]]></body>
+<origin></origin>
+<description><![CDATA[Sends any failover requests]]></description>
+<descr_short></descr_short>
+<required></required>
+<version>0.0</version>
+<type>FailoverRequest</type>
+<Parameter name="enable" type="bool" linked_module="" linked_parameter="" in="True" out="False" description="EnableFlag"><value><![CDATA[False]]></value></Parameter>
+</ModuleDefinition>
+<StepDefinition>
+<origin></origin>
+<version>0.0</version>
+<type>Job_Finalization</type>
+<description><![CDATA[]]></description>
+<descr_short></descr_short>
+<ModuleInstance>
+<type>UploadOutputData</type>
+<name>dataUpload</name>
+<descr_short></descr_short>
+<Parameter name="enable" type="bool" linked_module="" linked_parameter="" in="True" out="False" description="EnableFlag"><value><![CDATA[True]]></value></Parameter>
+</ModuleInstance>
+<ModuleInstance>
+<type>ILDRegisterOutputData</type>
+<name>ILDRegisterOutputData</name>
+<descr_short></descr_short>
+<Parameter name="enable" type="bool" linked_module="" linked_parameter="" in="True" out="False" description="EnableFlag"><value><![CDATA[True]]></value></Parameter>
+</ModuleInstance>
+<ModuleInstance>
+<type>UploadLogFile</type>
+<name>logUpload</name>
+<descr_short></descr_short>
+<Parameter name="enable" type="bool" linked_module="" linked_parameter="" in="True" out="False" description="EnableFlag"><value><![CDATA[True]]></value></Parameter>
+</ModuleInstance>
+<ModuleInstance>
+<type>FailoverRequest</type>
+<name>failoverRequest</name>
+<descr_short></descr_short>
+<Parameter name="enable" type="bool" linked_module="" linked_parameter="" in="True" out="False" description="EnableFlag"><value><![CDATA[True]]></value></Parameter>
+</ModuleInstance>
+</StepDefinition>
+<StepDefinition>
+<origin></origin>
+<version>0.0</version>
+<type>marlin_step_2</type>
+<description><![CDATA[]]></description>
+<descr_short></descr_short>
+<Parameter name="applicationName" type="string" linked_module="" linked_parameter="" in="False" out="False" description="Application Name"><value><![CDATA[]]></value></Parameter>
+<Parameter name="applicationVersion" type="string" linked_module="" linked_parameter="" in="False" out="False" description="Application Version"><value><![CDATA[]]></value></Parameter>
+<Parameter name="SteeringFile" type="string" linked_module="" linked_parameter="" in="False" out="False" description="Steering File"><value><![CDATA[]]></value></Parameter>
+<Parameter name="applicationLog" type="string" linked_module="" linked_parameter="" in="False" out="False" description="Log File"><value><![CDATA[]]></value></Parameter>
+<Parameter name="ExtraCLIArguments" type="string" linked_module="" linked_parameter="" in="False" out="False" description="Extra CLI arguments"><value><![CDATA[]]></value></Parameter>
+<Parameter name="InputFile" type="string" linked_module="" linked_parameter="" in="True" out="False" description="Input File"><value><![CDATA[]]></value></Parameter>
+<Parameter name="outputDST" type="string" linked_module="" linked_parameter="" in="False" out="False" description="Output DST File"><value><![CDATA[]]></value></Parameter>
+<Parameter name="outputREC" type="string" linked_module="" linked_parameter="" in="False" out="False" description="Output REC File"><value><![CDATA[]]></value></Parameter>
+<Parameter name="OutputPath" type="string" linked_module="" linked_parameter="" in="True" out="False" description="Output File path on the grid"><value><![CDATA[]]></value></Parameter>
+<Parameter name="outputPathREC" type="string" linked_module="" linked_parameter="" in="True" out="False" description="Output REC File path on the grid"><value><![CDATA[]]></value></Parameter>
+<Parameter name="outputPathDST" type="string" linked_module="" linked_parameter="" in="True" out="False" description="Output DST File path on the grid"><value><![CDATA[]]></value></Parameter>
+<Parameter name="OutputSE" type="string" linked_module="" linked_parameter="" in="True" out="False" description="Output File storage element"><value><![CDATA[]]></value></Parameter>
+<Parameter name="listoutput" type="list" linked_module="" linked_parameter="" in="False" out="False" description="list of output file name"><value><![CDATA[[]]]></value></Parameter>
+<Parameter name="ForgetInput" type="boolean" linked_module="" linked_parameter="" in="False" out="False" description="Do not overwrite input steering"><value><![CDATA[False]]></value></Parameter>
+<ModuleInstance>
+<type>MarlinAnalysis</type>
+<name>marlin_step_2</name>
+<descr_short></descr_short>
+<Parameter name="inputGEAR" type="string" linked_module="" linked_parameter="" in="False" out="False" description="Input GEAR file"><value><![CDATA[GearOutput.xml]]></value></Parameter>
+<Parameter name="ProcessorListToUse" type="list" linked_module="" linked_parameter="" in="False" out="False" description="List of processors to use"><value><![CDATA[[]]]></value></Parameter>
+<Parameter name="ProcessorListToExclude" type="list" linked_module="" linked_parameter="" in="False" out="False" description="List of processors to exclude"><value><![CDATA[[]]]></value></Parameter>
+<Parameter name="debug" type="bool" linked_module="" linked_parameter="" in="False" out="False" description="debug mode"><value><![CDATA[True]]></value></Parameter>
+</ModuleInstance>
+<ModuleInstance>
+<type>ComputeOutputDataList</type>
+<name>marlin_step_2</name>
+<descr_short></descr_short>
+</ModuleInstance>
+</StepDefinition>
+<StepDefinition>
+<origin></origin>
+<version>0.0</version>
+<type>OverlayInput_step_1</type>
+<description><![CDATA[]]></description>
+<descr_short></descr_short>
+<Parameter name="applicationName" type="string" linked_module="" linked_parameter="" in="False" out="False" description="Application Name"><value><![CDATA[]]></value></Parameter>
+<Parameter name="applicationVersion" type="string" linked_module="" linked_parameter="" in="False" out="False" description="Application Version"><value><![CDATA[]]></value></Parameter>
+<Parameter name="SteeringFile" type="string" linked_module="" linked_parameter="" in="False" out="False" description="Steering File"><value><![CDATA[]]></value></Parameter>
+<Parameter name="applicationLog" type="string" linked_module="" linked_parameter="" in="False" out="False" description="Log File"><value><![CDATA[]]></value></Parameter>
+<Parameter name="ExtraCLIArguments" type="string" linked_module="" linked_parameter="" in="False" out="False" description="Extra CLI arguments"><value><![CDATA[]]></value></Parameter>
+<Parameter name="InputFile" type="string" linked_module="" linked_parameter="" in="True" out="False" description="Input File"><value><![CDATA[]]></value></Parameter>
+<Parameter name="OutputPath" type="string" linked_module="" linked_parameter="" in="True" out="False" description="Output File path on the grid"><value><![CDATA[]]></value></Parameter>
+<Parameter name="outputPathREC" type="string" linked_module="" linked_parameter="" in="True" out="False" description="Output REC File path on the grid"><value><![CDATA[]]></value></Parameter>
+<Parameter name="outputPathDST" type="string" linked_module="" linked_parameter="" in="True" out="False" description="Output DST File path on the grid"><value><![CDATA[]]></value></Parameter>
+<Parameter name="OutputSE" type="string" linked_module="" linked_parameter="" in="True" out="False" description="Output File storage element"><value><![CDATA[]]></value></Parameter>
+<Parameter name="listoutput" type="list" linked_module="" linked_parameter="" in="False" out="False" description="list of output file name"><value><![CDATA[[]]]></value></Parameter>
+<ModuleInstance>
+<type>OverlayInput</type>
+<name>OverlayInput_step_1</name>
+<descr_short></descr_short>
+<Parameter name="BXOverlay" type="float" linked_module="" linked_parameter="" in="False" out="False" description="Bunch crossings to overlay"><value><![CDATA[1.0]]></value></Parameter>
+<Parameter name="ggtohadint" type="float" linked_module="" linked_parameter="" in="False" out="False" description="Optional number of gamma gamma -> hadrons interactions per bunch crossing, default is 3.2"><value><![CDATA[1.7]]></value></Parameter>
+<Parameter name="NbSigEvtsPerJob" type="int" linked_module="" linked_parameter="" in="False" out="False" description="Number of signal events per job"><value><![CDATA[0]]></value></Parameter>
+<Parameter name="prodid" type="int" linked_module="" linked_parameter="" in="False" out="False" description="ProdID to use"><value><![CDATA[0]]></value></Parameter>
+<Parameter name="BkgEvtType" type="string" linked_module="" linked_parameter="" in="False" out="False" description="Background type."><value><![CDATA[aa_lowpt]]></value></Parameter>
+<Parameter name="detectormodel" type="string" linked_module="" linked_parameter="" in="False" out="False" description="Detector type."><value><![CDATA[ILD_o1_v05]]></value></Parameter>
+<Parameter name="machine" type="string" linked_module="" linked_parameter="" in="False" out="False" description="machine: clic_cdr or ilc_dbd"><value><![CDATA[ilc_dbd]]></value></Parameter>
+<Parameter name="useEnergyForFileLookup" type="bool" linked_module="" linked_parameter="" in="False" out="False" description="useEnergy to look for background files: True or False"><value><![CDATA[True]]></value></Parameter>
+<Parameter name="pathToOverlayFiles" type="string" linked_module="" linked_parameter="" in="False" out="False" description="use overlay files from this path"><value><![CDATA[]]></value></Parameter>
+<Parameter name="debug" type="bool" linked_module="" linked_parameter="" in="False" out="False" description="debug mode"><value><![CDATA[False]]></value></Parameter>
+</ModuleInstance>
+</StepDefinition>
+<StepInstance>
+<type>OverlayInput_step_1</type>
+<name>OverlayInput_step_1</name>
+<descr_short></descr_short>
+<Parameter name="applicationName" type="string" linked_module="" linked_parameter="" in="False" out="False" description="Application Name"><value><![CDATA[OverlayInput]]></value></Parameter>
+<Parameter name="applicationVersion" type="string" linked_module="" linked_parameter="" in="False" out="False" description="Application Version"><value><![CDATA[1]]></value></Parameter>
+<Parameter name="SteeringFile" type="string" linked_module="" linked_parameter="" in="False" out="False" description="Steering File"><value><![CDATA[]]></value></Parameter>
+<Parameter name="applicationLog" type="string" linked_module="" linked_parameter="" in="False" out="False" description="Log File"><value><![CDATA[OverlayInput_1_@{STEP_ID}.log]]></value></Parameter>
+<Parameter name="ExtraCLIArguments" type="string" linked_module="" linked_parameter="" in="False" out="False" description="Extra CLI arguments"><value><![CDATA[]]></value></Parameter>
+<Parameter name="InputFile" type="string" linked_module="" linked_parameter="" in="True" out="False" description="Input File"><value><![CDATA[]]></value></Parameter>
+<Parameter name="OutputPath" type="string" linked_module="" linked_parameter="" in="True" out="False" description="Output File path on the grid"><value><![CDATA[]]></value></Parameter>
+<Parameter name="outputPathREC" type="string" linked_module="" linked_parameter="" in="True" out="False" description="Output REC File path on the grid"><value><![CDATA[]]></value></Parameter>
+<Parameter name="outputPathDST" type="string" linked_module="" linked_parameter="" in="True" out="False" description="Output DST File path on the grid"><value><![CDATA[]]></value></Parameter>
+<Parameter name="OutputSE" type="string" linked_module="" linked_parameter="" in="True" out="False" description="Output File storage element"><value><![CDATA[]]></value></Parameter>
+<Parameter name="listoutput" type="list" linked_module="" linked_parameter="" in="False" out="False" description="list of output file name"><value><![CDATA[[]]]></value></Parameter>
+</StepInstance>
+<StepInstance>
+<type>marlin_step_2</type>
+<name>marlin_step_2</name>
+<descr_short></descr_short>
+<Parameter name="applicationName" type="string" linked_module="" linked_parameter="" in="False" out="False" description="Application Name"><value><![CDATA[marlin]]></value></Parameter>
+<Parameter name="applicationVersion" type="string" linked_module="" linked_parameter="" in="False" out="False" description="Application Version"><value><![CDATA[v01-16-02]]></value></Parameter>
+<Parameter name="SteeringFile" type="string" linked_module="" linked_parameter="" in="False" out="False" description="Steering File"><value><![CDATA[bbudsc_3evt_stdreco.xml]]></value></Parameter>
+<Parameter name="applicationLog" type="string" linked_module="" linked_parameter="" in="False" out="False" description="Log File"><value><![CDATA[marlin_v01-16-02_@{STEP_ID}.log]]></value></Parameter>
+<Parameter name="ExtraCLIArguments" type="string" linked_module="" linked_parameter="" in="False" out="False" description="Extra CLI arguments"><value><![CDATA[]]></value></Parameter>
+<Parameter name="InputFile" type="string" linked_module="" linked_parameter="" in="True" out="False" description="Input File"><value><![CDATA[]]></value></Parameter>
+<Parameter name="outputDST" type="string" linked_module="" linked_parameter="" in="False" out="False" description="Output DST File"><value><![CDATA[rv01-16-p05_500.sv01-14-01-p00.mILD_o1_v05.E500-TDR_ws.I250035.P4f_sze_l.eR.pR_dst.slcio]]></value></Parameter>
+<Parameter name="outputREC" type="string" linked_module="" linked_parameter="" in="False" out="False" description="Output REC File"><value><![CDATA[rv01-16-p05_500.sv01-14-01-p00.mILD_o1_v05.E500-TDR_ws.I250035.P4f_sze_l.eR.pR_rec.slcio]]></value></Parameter>
+<Parameter name="OutputPath" type="string" linked_module="" linked_parameter="" in="True" out="False" description="Output File path on the grid"><value><![CDATA[]]></value></Parameter>
+<Parameter name="outputPathREC" type="string" linked_module="" linked_parameter="" in="True" out="False" description="Output REC File path on the grid"><value><![CDATA[/ilc/prod/ilc/mc-dbd/ild/rec/500-TDR_ws/4f_singleZee_leptonic/ILD_o1_v05/v01-16-p05_500/]]></value></Parameter>
+<Parameter name="outputPathDST" type="string" linked_module="" linked_parameter="" in="True" out="False" description="Output DST File path on the grid"><value><![CDATA[/ilc/prod/ilc/mc-dbd/ild/dst/500-TDR_ws/4f_singleZee_leptonic/ILD_o1_v05/v01-16-p05_500/]]></value></Parameter>
+<Parameter name="OutputSE" type="string" linked_module="" linked_parameter="" in="True" out="False" description="Output File storage element"><value><![CDATA[PNNL-SRM]]></value></Parameter>
+<Parameter name="listoutput" type="list" linked_module="" linked_parameter="" in="False" out="False" description="list of output file name"><value><![CDATA[[{'outputPath': '@{outputPathREC}', 'outputDataSE': '@{OutputSE}', 'outputFile': '@{outputREC}'}, {'outputPath': '@{outputPathDST}', 'outputDataSE': '@{OutputSE}', 'outputFile': '@{outputDST}'}]]]></value></Parameter>
+<Parameter name="ForgetInput" type="boolean" linked_module="" linked_parameter="" in="False" out="False" description="Do not overwrite input steering"><value><![CDATA[False]]></value></Parameter>
+</StepInstance>
+<StepInstance>
+<type>Job_Finalization</type>
+<name>finalization</name>
+<descr_short></descr_short>
+</StepInstance>
+</Workflow>
