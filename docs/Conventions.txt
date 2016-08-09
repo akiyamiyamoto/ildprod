@@ -1,0 +1,131 @@
+Directory and filename conventions for ILD-Optimization study. 
+This will be also used for re-reconstruction of DBD samples.
+
+Date:
+
+Directory:
+
+/ilc/prod/ilc/[mctype]/[DetectorType]/[Datatype]/[Energy-params]/[EvtClass]/[DetectorModel]/[ILDConfig]/[ProdID]/[Sequence]/
+
+where
+[mctype] : Description: Monte Calro type. 
+           Typical value: "mc-dbd", "test", "mc-dbd.log", etc
+           Directory metakey name : none
+
+[DetectorType] : Description : Detector type
+                 Typical value : "ild", "sid", "ild-opt", etc
+                 Directory metakey name: Datatype
+                 metakey value examples: "ILD", "SID", "ILD-OPT", ...
+
+[Datatype] : Description : Data type
+             Typical value: "sim", "rec", "dst", "dst-merged", "ddsim", ...
+             Directory metakey name: Datatype
+             metakey value examples: "SIM", "REC", "DST", "DST-MERGED", "DDSIM", ...
+ 
+[Energy-params] : Description: machine CM energy and machine parameters
+                  Typiecal value: "250-TDR_ws", "350-TDR_ws", "500-TDR_ws", "1000-B1b_ws"
+                  Directory metakey1 name : Energy  (INT)
+                  metakey1 value examples : 250, 350, 500, 1000
+                  Directory metakey2 name : MachineParams
+                  metakey2 value examples : "TDR_ws", "B1b_ws"
+
+[EvtClass] : Description : Generator's event class
+             Typical value : "6f_ttbar", ""
+             Metakey name : EvtClass
+             Metakey values : "6f_ttbar", "" 
+
+[DetectorModel] : Description : detector model name
+                  Typical value : "ILD_o1_v05", "ILD_o2_v01", ...
+                  Metakey name : DetectorModel
+                  Metakey values : same as directory name 
+
+[ILDConfig] : Description : ILDConfig version
+              Typical value : "v01-17-10-p00_500", etc.
+              Metakey name: ILDConfig
+              Metakey value : "v01-17-10-p00_500", etc.
+
+[ProdID] : Description : Production Job ID
+           Typical value : "00005821", etc
+           Metakey1 name : ProdID
+           Metakey1 value example : 5821 (INT) ....
+           Metakey2 name : ILCSoftVersion
+           Metakey2 value : v01-17-10
+
+[Sequence] : Desciption : directory sequence number
+             Typical value: 000, 001, 002, ...
+             Metakey name : DirSequence
+
+
+Files:
+
+File name follows the convention introduced for DBD generator files, which is described at
+https://svnweb.cern.ch/trac/lcgentools/browser/trunk/ILC/documents/generator-conventions.pdf
+It is repeated below, additional key for ILD.
+
+Namely, file name consistes of several tokens separated by ".", each token 
+consistes of one character of description key and its value.
+The value should not include "."
+
+Following keys have been used.
+G: generator program ID and version number 
+E: center of mass energy in GeV and machine parameter name, separated by '-'.
+P: generator process description string
+e: electron polarization or photon nature
+p: positron polarization or photon nature.
+   Key values would be, L, Lxx, R, Rxx, B, W
+   L: Fully left handd.
+   Lxx: negatively polarized. xx is polarization value in %
+   R: Fully right handed.
+   Rxx: positively polarized. xx is polarization value in %
+   B: beam strahlung photon
+   W: Weizacker-Williams photon
+   Examples:
+     eR80.pL30 (+80%,-30%), eL.pR (both beam 100% polarized.)
+     eB.pR : beamstrahlung photon from electron and fully polarized positron
+I: generator process ID
+
+In the case of stdhep generator file, 
+000 to 999 is used as a file sequence number.
+
+For ILD only, 
+r: ILDConfig version used for reconstruction
+   Ex. rv01-17-10-p00_500
+s: ILDConfig version used for simulation
+   Ex. sv01-14-01
+m: detector model
+   Ex. mILD_o1_v05
+D: data type 
+   Ex. REC, SIM, DST, DST-MERGED, DDSIM, GEN, GENSPLIT
+t: production number (assigned by Dirac when transformation is created.)
+f: File sequence number
+   Omit first 0 except stdhep file in order to minimize file name length.
+   If original file is splitted, key values would be 
+   <file_number_of_original>_<file_number_of_splitted_file>.
+   See example below.   
+j: Sub-directory and job number (assigned by Dirac job)
+
+
+Typical file name
+
+STDHEP
+E1000-B1b_ws.Ptth-lnqq-hnobb.eL.pR.Gp01-01.I106032.004.stdhep
+
+slcio generator file.
+E1000-B1b_ws.Ptth-lnqq-hnobb.eL.pR.Gp01-01.I106032.f4.DGEN.slcio
+
+Splitted stdhep file.
+E1000-B1b_ws.Ptth-lnqq-hnobb.eL.pR.Gp01-01.I106032.f4_25.DGENSPLIT.stdhep
+E1000-B1b_ws.Ptth-lnqq-hnobb.eL.pR.Gp01-01.I106032.f4_25.DGENSPLIT.slcio
+
+Mokka sim
+sv01-14-01-p00.mILD_o1_v05.E500-TDR_ws.I386873.P6f_yyveev.eL.pL.DSIM.t6710.f4_25.j0_992.slcio 
+
+REC file
+rv01-17-01-p01_500.sv01-14-01-p00.mILD_o1_v05.E500-TDR_ws.I386873.P6f_yyveev.eL.pL.DREC.t6710.f4_25.j0_992.slcio 
+
+DST file
+rv01-17-01-p01_500.sv01-14-01-p00.mILD_o1_v05.E500-TDR_ws.I386873.P6f_yyveev.eL.pL.DDST.t6710.f4_25.j0_992.slcio 
+
+DST-merged
+rv01-17-01-p01_500.sv01-14-01-p00.mILD_o1_v05.E500-TDR_ws.I386873.P6f_yyveev.eL.pL.DDST-MERGED.t6710.f2.j0_992.slcio 
+
