@@ -8,11 +8,11 @@
 do_merge()
 {
   export MARLIN_DLL=
-  . /group/ilc/soft/gcc481/gcc481.setup
-  . /group/ilc/soft/ilcsoft/x86_64_gcc481/v01-16-02/init_ilcsoft.sh 
+#  . /group/ilc/soft/gcc481/gcc481.setup
+  . /cvmfs/ilc.desy.de/sw/x86_64_gcc44_sl6/v01-16-02-p1/init_ilcsoft.sh 
   export MARLIN_DLL=${ROOTSYS}/lib/libTreePlayer.so:${ROOTSYS}/lib/libGui.so:${ROOTSYS}/lib/libGed.so:${MARLIN_DLL}
 
-  geardir=/group/ilc/soft/ilcsoft/x86_64_gcc44/ILDConfig/v01-16-p05_500/StandardConfig/current
+  geardir=/cvmfs/ilc.desy.de/sw/x86_64_gcc44_sl6/ILDConfig/v01-16-p05_500/StandardConfig/current
   configdir=${MCPROD_TOP}/config
 
   filelist=$1

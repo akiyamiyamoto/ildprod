@@ -1,7 +1,8 @@
 #!/bin/bash
 
 if [ "x$1" == "x" ] ; then 
-  echo "Usage: ./postprod.sh [prodid]"
+  echo "This command download production job logs."
+  echo "Usage: postprod.sh [prodid]"
   exit
 fi
 
