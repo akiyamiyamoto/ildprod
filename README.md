@@ -1,5 +1,8 @@
-# ildprod
+# ildprod : Collection of tools for ILDProduction
 
-A repository for ILD MC production
+## File name conventions
 
-27-July-2016, Akiya Miyamoto, KEK, Japan
+### ILD Convention ( https://gitlab.cern.ch/amiyamot/ildprod/tree/master/docs/Conventions.txt )
+
+## Calibration samples
+
